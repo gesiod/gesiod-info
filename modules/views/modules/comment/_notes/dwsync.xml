@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="views_handler_argument_comment_user_uid.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_comment.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_comment_depth.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_comment_link.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_comment_link_delete.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_comment_link_edit.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_comment_link_reply.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_comment_node_link.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_comment_username.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_ncs_last_comment_name.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_ncs_last_updated.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_node_comment.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_node_new_comments.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_filter_comment_user_uid.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_filter_ncs_last_updated.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_filter_node_comment.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_sort_comment_thread.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_sort_ncs_last_comment_name.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_sort_ncs_last_updated.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_plugin_row_comment_rss.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_plugin_row_comment_view.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+</dwsync>

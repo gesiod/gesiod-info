@@ -1,0 +1,2050 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from files:
+#  system.install,v 1.238.2.14 2009/04/27 12:50:13 goba
+#  system.module,v 1.585.2.34 2009/04/30 00:13:31 goba
+#  system.admin.inc,v 1.63.2.7 2009/02/25 11:38:41 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2009-05-04 16:37+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/system/system.install:20
+msgid "Drupal"
+msgstr "Drupal"
+
+#: modules/system/system.module:235
+msgid "Content management"
+msgstr "Содержание"
+
+#: modules/system/system.module:236
+msgid "Manage your site's content."
+msgstr "Управление содержанием сайта."
+
+#: modules/system/system.module:62
+msgid ""
+"Welcome to the administration section. Here you may control how your site "
+"functions."
+msgstr ""
+"Приветствуем вас в административном разделе. Здесь вы можете настроить "
+"работу сайта."
+
+#: modules/system/system.module:64
+msgid "This page shows you all available administration tasks for each module."
+msgstr ""
+"Эта страница показывает все возможные административные настройки для каждого "
+"модуля."
+
+#: modules/system/system.module:74
+msgid ""
+"These options control the default display settings for your entire site, "
+"across all themes. Unless they have been overridden by a specific theme, "
+"these settings will be used."
+msgstr ""
+"Эти параметры определяют настройки по умолчанию для сайта и всех тем "
+"оформления. Они будут использоваться, пока вы не переопределите эти "
+"настройки для какой-либо темы."
+
+#: modules/system/system.module:72
+msgid ""
+"These options control the display settings for the <code>%template</code> "
+"theme. When your site is displayed using this theme, these settings will be "
+"used. By clicking \"Reset to defaults,\" you can choose to use the <a href="
+"\"@global\">global settings</a> for this theme."
+msgstr ""
+"Эти параметры контролируют отображение темы <code>%template</code>. Данные "
+"настройки будут использоваться, когда ваш сайт использует эту тему "
+"оформления. Нажатие кнопки \"Вернуться к исходным\", приведет к "
+"использованию  для этой темы <a href=\"%global\">глобальных настроек</a>."
+
+#: modules/system/system.module:86
+msgid ""
+"The uninstall process removes all data related to a module. To uninstall a "
+"module, you must first disable it. Not all modules support this feature."
+msgstr ""
+"Процедура удаления модуля очищает все данные принадлежавшие ему. Чтобы "
+"удалить модуль, необходимо его предварительно отключить. Не все модули "
+"поддерживают эту возможность."
+
+#: modules/system/system.module:200
+msgid "File download"
+msgstr "Загрузка файла"
+
+#: modules/system/system.module:206
+msgid "Administer"
+msgstr "Администрирование"
+
+#: modules/system/system.module:213
+msgid "Compact mode"
+msgstr "Сокращенный режим"
+
+#: modules/system/system.module:220
+msgid "By task"
+msgstr "По задачам"
+
+#: modules/system/system.module:227
+msgid "By module"
+msgstr "По модулям"
+
+#: modules/system/system.module:246
+msgid "Site configuration"
+msgstr "Настройка сайта"
+
+#: modules/system/system.module:247
+msgid "Adjust basic site configuration options."
+msgstr "Изменение основных настроек сайта."
+
+#: modules/system/system.module:255
+msgid "Site building"
+msgstr "Конструкция сайта"
+
+#: modules/system/system.module:256
+msgid "Control how your site looks and feels."
+msgstr "Контроль над структурой и внешним видом вашего сайта."
+
+#: modules/system/system.module:265
+msgid "Settings for how your administrative pages should look."
+msgstr "Настройки оформления страниц администратора."
+
+#: modules/system/system.module:276
+msgid "Change which theme your site uses or allows users to set."
+msgstr ""
+"Выбор темы оформления для использования на сайте или тем оформления, которые "
+"смогут выбирать пользователи."
+
+#: modules/system/system.module:284
+msgid "Select the default theme."
+msgstr "Выбор основной темы оформления."
+
+#: modules/system/system.module:296
+msgid "Global settings"
+msgstr "Общие настройки"
+
+#: modules/system/system.module:314
+msgid "Enable or disable add-on modules for your site."
+msgstr "Включение/выключение дополнительных модулей сайта."
+
+#: modules/system/system.module:380
+msgid ""
+"Change basic site information, such as the site name, slogan, e-mail "
+"address, mission, front page and more."
+msgstr ""
+"Изменение основной информации о сайте, такой как название сайта, слоган, "
+"адрес электронной почты, миссия, главная страница и прочее."
+
+#: modules/system/system.module:388
+msgid ""
+"Control how Drupal deals with errors including 403/404 errors as well as PHP "
+"error reporting."
+msgstr ""
+"Настройка обработки ошибок сервера 403/404 и ошибок интерпретатора PHP."
+
+#: modules/system/system.module:402
+msgid "Performance"
+msgstr "Производительность"
+
+#: modules/system/system.module:411
+msgid "Tell Drupal where to store uploaded files and how they are accessed."
+msgstr ""
+"Каталог размещения загруженных файлов и настройка последующего к ним доступа."
+
+#: modules/system/system.module:418
+msgid "Image toolkit"
+msgstr "Средство обработки изображений"
+
+#: modules/system/system.module:419
+msgid ""
+"Choose which image toolkit to use if you have installed optional toolkits."
+msgstr "Выбор средств обработки изображений, если используются дополнительные."
+
+#: modules/system/system.module:426
+msgid "RSS publishing"
+msgstr "Публикация RSS"
+
+#: modules/system/system.module:427
+msgid ""
+"Configure the number of items per feed and whether feeds should be titles/"
+"teasers/full-text."
+msgstr ""
+"Настройка количества пунктов в  RSS-ленте и их характер (заголовки, анонсы, "
+"полный текст)."
+
+#: modules/system/system.module:434
+msgid "Date and time"
+msgstr "Дата и время"
+
+#: modules/system/system.module:435
+msgid ""
+"Settings for how Drupal displays date and time, as well as the system's "
+"default timezone."
+msgstr ""
+"Выбор способа отображения даты и времени, а также системного часового пояса "
+"по умолчанию."
+
+#: modules/system/system.module:449
+msgid "Site maintenance"
+msgstr "Сайт на обслуживании"
+
+#: modules/system/system.module:450
+msgid "Take the site off-line for maintenance or bring it back online."
+msgstr ""
+"Выключение сайта на техническое обслуживание или его включение в рабочий "
+"режим."
+
+#: modules/system/system.module:458
+msgid "Enable or disable clean URLs for your site."
+msgstr "Включение/отключение чистых ссылок на сайте."
+
+#: modules/system/system.module:483
+msgid "Status report"
+msgstr "Отчет о состоянии"
+
+#: modules/system/system.module:484
+msgid ""
+"Get a status report about your site's operation and any detected problems."
+msgstr "Просмотр отчета о работе сайта и обнаруженных проблемах."
+
+#: modules/system/system.module:491
+msgid "Run cron"
+msgstr "Запустить выполнение регулярных процедур"
+
+#: modules/system/system.module:505
+msgid "SQL"
+msgstr "SQL"
+
+#: modules/system/system.module:552
+msgid "Selecting a different theme will change the look and feel of the site."
+msgstr "Выбор другой темы изменит внешний вид сайта."
+
+#: modules/system/system.module:564
+msgid "Time zone"
+msgstr "Часовой пояс"
+
+#: modules/system/system.module:567
+msgid ""
+"Select your current local time. Dates and times throughout this site will be "
+"displayed using this time zone."
+msgstr ""
+"Выберите ваше текущее локальное время. Даты и время на всём сайте будут "
+"использовать эту временную зону."
+
+#: modules/system/system.admin.inc:22
+msgid ""
+"One or more problems were detected with your Drupal installation. Check the "
+"<a href=\"@status\">status report</a> for more information."
+msgstr ""
+"При установке Drupal возникли проблемы. Смотрите подробности в <a href="
+"\"@status\">отчете о состоянии</a>."
+
+#: modules/system/system.admin.inc:158
+msgid "System default"
+msgstr "Общесистемная"
+
+#: modules/system/system.admin.inc:167
+msgid ""
+"Choose which theme the administration pages should display in. If you choose "
+"\"System default\" the administration pages will use the same theme as the "
+"rest of the site."
+msgstr ""
+"Выбрать, какую тему показывать на административных страницах. Если выбрать "
+"\"Общесистемная\", то административные страницы будут использовать ту же "
+"тему оформления, что и весь сайт."
+
+#: modules/system/system.module:692
+msgid "Theme configuration"
+msgstr "Настройки темы оформления"
+
+#: modules/system/system.module:715
+msgid "(site default theme)"
+msgstr "(тема сайта по умолчанию)"
+
+#: modules/system/system.admin.inc:2149,2207
+msgid "Screenshot"
+msgstr "Снимок экрана"
+
+#: modules/system/system.admin.inc:1143
+msgid "Slogan"
+msgstr "Слоган"
+
+#: modules/system/system.admin.inc:1149
+msgid "Mission"
+msgstr "Миссия"
+
+#: modules/system/system.admin.inc:1155
+msgid "Footer message"
+msgstr "Сообщение внизу страницы"
+
+#: modules/system/system.admin.inc:1157
+msgid ""
+"This text will be displayed at the bottom of each page. Useful for adding a "
+"copyright notice to your pages."
+msgstr ""
+"Этот текст отображается внизу каждой страницы. Удобен для размещения "
+"замечания об авторских правах."
+
+#: modules/system/system.admin.inc:1161
+msgid "Anonymous user"
+msgstr "Анонимный пользователь"
+
+#: modules/system/system.admin.inc:1163
+msgid "The name used to indicate anonymous users."
+msgstr "Это имя присваивается анонимным пользователям."
+
+#: modules/system/system.admin.inc:1168
+msgid "Default front page"
+msgstr "Главная страница по умолчанию"
+
+#: modules/system/system.admin.inc:1171
+msgid ""
+"The home page displays content from this relative URL. If unsure, specify "
+"\"node\"."
+msgstr ""
+"Главная страница показывает содержимое, расположенное по этому адресу. Если "
+"затрудняетесь, укажите \"node\"."
+
+#: modules/system/system.admin.inc:1210
+msgid "Default 403 (access denied) page"
+msgstr "Страница по умолчанию для ошибки 403 (доступ закрыт)"
+
+#: modules/system/system.admin.inc:1213
+msgid ""
+"This page is displayed when the requested document is denied to the current "
+"user. If unsure, specify nothing."
+msgstr ""
+"Эта страница показывается тогда, когда пользователю не разрешено "
+"просматривать запрашиваемую страницу. Оставьте поле пустым, если не знаете, "
+"что написать здесь."
+
+#: modules/system/system.admin.inc:1219
+msgid "Default 404 (not found) page"
+msgstr "Страница по умолчанию для ошибки 404 (не найдено)"
+
+#: modules/system/system.admin.inc:1222
+msgid ""
+"This page is displayed when no other content matches the requested document. "
+"If unsure, specify nothing."
+msgstr ""
+"Эта страница показывается тогда, когда запрашиваемая страница не существует. "
+"Оставьте поле пустым, если не знаете, что написать здесь."
+
+#: modules/system/system.admin.inc:1228
+msgid "Write errors to the log"
+msgstr "Записывать ошибки в системный журнал"
+
+#: modules/system/system.admin.inc:1228
+msgid "Write errors to the log and to the screen"
+msgstr "Записывать ошибки в журнал и выводить на экран"
+
+#: modules/system/system.admin.inc:1264
+msgid ""
+"<strong class=\"ok\">Currently, all enabled modules are compatible with the "
+"aggressive caching policy.</strong> Please note, if you use aggressive "
+"caching and enable new modules, you will need to check this page again to "
+"ensure compatibility."
+msgstr ""
+"<strong class=\"ok\">В данный момент все включенные модули поддерживают "
+"агрессивное кеширование.</strong> Имейте в виду, что после включения новых "
+"модулей, вам следует посетить эту страницу для проверки совместимости."
+
+#: modules/system/system.admin.inc:1268
+msgid "Page cache"
+msgstr "Кеширование страницы"
+
+#: modules/system/system.admin.inc:1274
+msgid "Caching mode"
+msgstr "Режим кеширования"
+
+#: modules/system/system.admin.inc:1276
+msgid "Aggressive (experts only, possible side effects)"
+msgstr "Агрессивный (только для профессионалов, возможны побочные эффекты)"
+
+#: modules/system/system.admin.inc:1284
+msgid "Minimum cache lifetime"
+msgstr "Минимальное время жизни кеша"
+
+#: modules/system/system.admin.inc:1314
+msgid "Bandwidth optimizations"
+msgstr "Оптимизация пропускной способности"
+
+#: modules/system/system.admin.inc:1375
+msgid "File system path"
+msgstr "Путь файловой системы"
+
+#: modules/system/system.admin.inc:1384
+msgid "Temporary directory"
+msgstr "Временная папка"
+
+#: modules/system/system.admin.inc:1393
+msgid "Download method"
+msgstr "Метод загрузки"
+
+#: modules/system/system.admin.inc:1395
+msgid "Public - files are available using HTTP directly."
+msgstr "Публичный - файлы доступны напрямую по протоколу HTTP."
+
+#: modules/system/system.admin.inc:1395
+msgid "Private - files are transferred by Drupal."
+msgstr "Приватный - файлы передаются через Drupal."
+
+#: modules/system/system.admin.inc:1413
+msgid "Select an image processing toolkit"
+msgstr "Выбрать набор инструментов для обработки изображений"
+
+#: modules/system/system.admin.inc:1446
+msgid "Titles only"
+msgstr "Только заголовки"
+
+#: modules/system/system.admin.inc:1446
+msgid "Titles plus teaser"
+msgstr "Заголовок и анонс"
+
+#: modules/system/system.admin.inc:1446
+msgid "Full text"
+msgstr "Полный текст"
+
+#: modules/system/system.admin.inc:1502
+msgid "Select the default site time zone."
+msgstr "Выберите часовой пояс по умолчанию."
+
+#: modules/system/system.admin.inc:1531
+msgid "Short date format"
+msgstr "Краткий формат даты"
+
+#: modules/system/system.admin.inc:1535
+msgid "The short format of date display."
+msgstr "Отображение краткого формата даты."
+
+#: modules/system/system.admin.inc:1554
+msgid "Medium date format"
+msgstr "Средний формат даты"
+
+#: modules/system/system.admin.inc:1558
+msgid "The medium sized date display."
+msgstr "Отображение среднего формата даты."
+
+#: modules/system/system.admin.inc:1577
+msgid "Long date format"
+msgstr "Полный формат даты"
+
+#: modules/system/system.admin.inc:1581
+msgid "Longer date format used for detailed display."
+msgstr "Полный формат даты со всеми подробностями."
+
+#: modules/system/system.admin.inc:1515
+msgid "First day of week"
+msgstr "Первый день недели"
+
+#: modules/system/system.admin.inc:1518
+msgid "The first day of the week for calendar views."
+msgstr "Первый день недели при показе календаря."
+
+#: modules/system/system.admin.inc:1636
+msgid "Site status"
+msgstr "Состояние сайта"
+
+#: modules/system/system.admin.inc:1638
+msgid "Online"
+msgstr "Онлайн"
+
+#: modules/system/system.admin.inc:1638
+msgid "Off-line"
+msgstr "Обслуживание"
+
+#: modules/system/system.admin.inc:1639
+msgid ""
+"When set to \"Online\", all visitors will be able to browse your site "
+"normally. When set to \"Off-line\", only users with the \"administer site "
+"configuration\" permission will be able to access your site to perform "
+"maintenance; all other visitors will see the site off-line message "
+"configured below. Authorized users can log in during \"Off-line\" mode "
+"directly via the <a href=\"@user-login\">user login</a> page."
+msgstr ""
+"Когда сайт находится в состоянии \"Работа\", все посетители могут "
+"просматривать страницы сайта как обычно. В состоянии \"Обслуживание\" доступ "
+"к сайту имеют только пользователи с правами \"Управление настройками сайта"
+"\"; все остальные посетители увидят сообщение о перерыве в работе сайта, "
+"которое можно настроить ниже. Зарегистрированные пользователи могут входить "
+"на отключенный сайт через страницу <a href=\"@user-login\">входа на сайт</a>."
+
+#: modules/system/system.admin.inc:1644
+msgid "Site off-line message"
+msgstr "Сообщение о перерыве в работе сайта"
+
+#: modules/system/system.admin.inc:1646
+msgid "Message to show visitors when the site is in off-line mode."
+msgstr "Сообщение для пользователей в период обслуживания сайта."
+
+#: modules/system/system.module:1028
+msgid "The settings have not been saved because of the errors."
+msgstr "Настройки не были сохранены из-за возникших ошибок."
+
+#: modules/system/system.admin.inc:288
+msgid ""
+"Please note that the <a href=\"!admin_theme_page\">administration theme</a> "
+"is still set to the %admin_theme theme; consequently, the theme on this page "
+"remains unchanged. All non-administrative sections of the site, however, "
+"will show the selected %selected_theme theme by default."
+msgstr ""
+"Обратите внимание, что для <a href=\"!admin_theme_page\">страниц управления "
+"сайтом</a> используется тема оформления %admin_theme; таким образом "
+"оформление этой страницы не изменится. Все остальные разделы сайта, тем "
+"временем, будут оформлены в согласно выбранной теме %selected_theme."
+
+#: modules/system/system.admin.inc:699
+msgid "Depends on: !dependencies"
+msgstr "Зависит от: !dependencies"
+
+#: modules/system/system.admin.inc:722
+msgid "Required by: !required"
+msgstr "Требуется для: !required"
+
+#: modules/system/system.admin.inc:841
+msgid "Some required modules must be enabled"
+msgstr "Некоторые необходимые модули должны быть включены."
+
+#: modules/system/system.admin.inc:843
+msgid "Would you like to continue with enabling the above?"
+msgstr "Желаете включить перечисленные ниже модули и продолжить?"
+
+#: modules/system/system.admin.inc:844
+msgid "Continue"
+msgstr "Продолжить"
+
+#: modules/system/system.admin.inc:2023,2207
+msgid "Version"
+msgstr "Версия"
+
+#: modules/system/system.admin.inc:2030
+msgid "Other"
+msgstr "Другой"
+
+#: modules/system/system.admin.inc:1075
+msgid ""
+"The following modules will be completely uninstalled from your site, and "
+"<em>all data from these modules will be lost</em>!"
+msgstr ""
+"Следующие модули будут полностью удалены с сайта и <em>все данные, "
+"используемые ими, будут утеряны</em>!"
+
+#: modules/system/system.admin.inc:1078
+msgid "Confirm uninstall"
+msgstr "Подтвердить удаление"
+
+#: modules/system/system.admin.inc:1080
+msgid "Would you like to continue with uninstalling the above?"
+msgstr "Желаете продолжить удаление?"
+
+#: modules/system/system.admin.inc:2123
+msgid "No modules are available to uninstall."
+msgstr "Нет модулей доступных для удаления."
+
+#: modules/system/system.admin.inc:1093
+msgid "No modules selected."
+msgstr "Ни один модуль не выбран."
+
+#: modules/system/system.admin.inc:1110
+msgid "The selected modules have been uninstalled."
+msgstr "Выбранные модули были удалены."
+
+#: modules/system/system.admin.inc:1751
+msgid "Variable"
+msgstr "Переменный"
+
+#: modules/system/system.admin.inc:1751
+msgid "Value"
+msgstr "Значение"
+
+#: modules/system/system.admin.inc:1766
+msgid "Command counters"
+msgstr "Счетчики команд"
+
+#: modules/system/system.admin.inc:1768
+msgid "The number of <code>SELECT</code>-statements."
+msgstr "Количество инструкций <code>SELECT</code>."
+
+#: modules/system/system.admin.inc:1769
+msgid "The number of <code>INSERT</code>-statements."
+msgstr "Количество инструкций <code>INSERT</code>."
+
+#: modules/system/system.admin.inc:1770
+msgid "The number of <code>UPDATE</code>-statements."
+msgstr "Количество инструкций <code>UPDATE</code>."
+
+#: modules/system/system.admin.inc:1771
+msgid "The number of <code>DELETE</code>-statements."
+msgstr "Количество инструкций <code>DELETE</code>."
+
+#: modules/system/system.admin.inc:1772
+msgid "The number of table locks."
+msgstr "Количество блокировок таблиц."
+
+#: modules/system/system.admin.inc:1773
+msgid "The number of table unlocks."
+msgstr "Количество разблокировок таблиц."
+
+#: modules/system/system.admin.inc:1776
+msgid "Query performance"
+msgstr "Производительность запросов"
+
+#: modules/system/system.admin.inc:1778
+msgid "The number of joins without an index; should be zero."
+msgstr ""
+"Количество присоединений, выполненных без использования индекса; должно быть "
+"нулем."
+
+#: modules/system/system.admin.inc:1780
+msgid "The number of sorts done without using an index; should be zero."
+msgstr ""
+"Количество сортировок, выполненных без использования индекса; должно быть "
+"нулем."
+
+#: modules/system/system.admin.inc:1781
+msgid "The number of times a lock could be acquired immediately."
+msgstr "Количество раз, когда блокировка была нужна немедленно."
+
+#: modules/system/system.admin.inc:1782
+msgid "The number of times the server had to wait for a lock."
+msgstr "Количество раз, когда серверу приходилось ожидать блокировку."
+
+#: modules/system/system.admin.inc:1785
+msgid "Query cache information"
+msgstr "Информация о кеше запросов"
+
+#: modules/system/system.admin.inc:1788
+msgid "The number of queries in the query cache."
+msgstr "Количество обращений в кеш запросов."
+
+#: modules/system/system.admin.inc:377
+msgid "Logo"
+msgstr "Логотип"
+
+#: modules/system/system.admin.inc:379
+msgid "Site slogan"
+msgstr "Слоган сайта"
+
+#: modules/system/system.admin.inc:380
+msgid "Mission statement"
+msgstr "Миссия"
+
+#: modules/system/system.admin.inc:381
+msgid "User pictures in posts"
+msgstr "Аватары в сообщениях"
+
+#: modules/system/system.admin.inc:382
+msgid "User pictures in comments"
+msgstr "Аватары в комментариях"
+
+#: modules/system/system.admin.inc:383
+msgid "Search box"
+msgstr "Строка поиска"
+
+#: modules/system/system.admin.inc:384
+msgid "Shortcut icon"
+msgstr "Иконка"
+
+#: modules/system/system.admin.inc:401
+msgid "Toggle display"
+msgstr "Показывать"
+
+#: modules/system/system.admin.inc:402
+msgid "Enable or disable the display of certain page elements."
+msgstr "Включить или выключить отображение определенных элементов страницы."
+
+#: modules/system/system.admin.inc:427
+msgid "Display post information on"
+msgstr "Отображать информацию о сообщении"
+
+#: modules/system/system.admin.inc:428
+msgid ""
+"Enable or disable the <em>submitted by Username on date</em> text when "
+"displaying posts of the following type."
+msgstr ""
+"Включите или отключите отображение имени автора сообщения и даты создания в "
+"материалах определенного типа."
+
+#: modules/system/system.admin.inc:447
+msgid "Logo image settings"
+msgstr "Настройки логотипа"
+
+#: modules/system/system.admin.inc:448
+msgid "If toggled on, the following logo will be displayed."
+msgstr "Если отмечено, будет отображаться соответствующий логитип."
+
+#: modules/system/system.admin.inc:453
+msgid "Use the default logo"
+msgstr "Использовать логотип по умолчанию"
+
+#: modules/system/system.admin.inc:456
+msgid "Check here if you want the theme to use the logo supplied with it."
+msgstr ""
+"Отметьте это поле, если хотите, чтобы тема использовала свой стандартный "
+"логотип."
+
+#: modules/system/system.admin.inc:460
+msgid "Path to custom logo"
+msgstr "Путь к произвольному логотипу"
+
+#: modules/system/system.admin.inc:462
+msgid ""
+"The path to the file you would like to use as your logo file instead of the "
+"default logo."
+msgstr ""
+"Путь к файлу, который вы хотите использовать в качестве логотипа вместо "
+"стандартного логотипа."
+
+#: modules/system/system.admin.inc:466
+msgid "Upload logo image"
+msgstr "Загрузить изображение с логотипом"
+
+#: modules/system/system.admin.inc:468
+msgid ""
+"If you don't have direct file access to the server, use this field to upload "
+"your logo."
+msgstr ""
+"Если вы не имеете прямого доступа к файлам сервера, используйте это поле для "
+"загрузки вашего логотипа."
+
+#: modules/system/system.admin.inc:475
+msgid "Shortcut icon settings"
+msgstr "Настройки иконки"
+
+#: modules/system/system.admin.inc:480
+msgid "Use the default shortcut icon."
+msgstr "Использовать иконку по умолчанию."
+
+#: modules/system/system.admin.inc:482
+msgid "Check here if you want the theme to use the default shortcut icon."
+msgstr ""
+"Отметьте это поле, если вы хотите, чтобы тема использовала свою встроенную "
+"иконку."
+
+#: modules/system/system.admin.inc:486
+msgid "Path to custom icon"
+msgstr "Путь к произвольной иконке"
+
+#: modules/system/system.admin.inc:488
+msgid ""
+"The path to the image file you would like to use as your custom shortcut "
+"icon."
+msgstr ""
+"Путь к файлу изображения, которое вы собираетесь использовать в качестве "
+"иконки."
+
+#: modules/system/system.admin.inc:493
+msgid "Upload icon image"
+msgstr "Закачать иконку"
+
+#: modules/system/system.admin.inc:494
+msgid ""
+"If you don't have direct file access to the server, use this field to upload "
+"your shortcut icon."
+msgstr ""
+"Если у вас нет прямого доступа к файлам сервера, используйте это поле для "
+"загрузи иконки."
+
+#: modules/system/system.admin.inc:515
+msgid ""
+"These settings only exist for all the templates and styles based on the %"
+"engine theme engine."
+msgstr ""
+"Эти настройки существуют только для тем и стилей, базирующихся на движке %"
+"engine."
+
+#: modules/system/system.admin.inc:527
+msgid "Theme-specific settings"
+msgstr "Настройки темы оформления"
+
+#: modules/system/system.admin.inc:527
+msgid ""
+"These settings only exist for the %theme theme and all the styles based on "
+"it."
+msgstr ""
+"Эти настройки существуют только для темы оформления %theme и всех тем, "
+"базирующихся на ней."
+
+#: modules/system/system.admin.inc:1904
+msgid "Show descriptions"
+msgstr "Показать описания"
+
+#: modules/system/system.admin.inc:1907
+msgid "Hide descriptions"
+msgstr "Скрыть описания"
+
+#: modules/system/system.admin.inc:118
+msgid "Get help"
+msgstr "Справка"
+
+#: modules/system/system.module:1199
+msgid "Configure permissions"
+msgstr "Настройка прав доступа"
+
+#: modules/system/system.module:158
+msgid "administer site configuration"
+msgstr "управлять настройками сайта"
+
+#: modules/system/system.module:158
+msgid "access administration pages"
+msgstr "доступ к страницам администрирования"
+
+#: modules/system/system.module:158
+msgid "select different theme"
+msgstr "выбирать другую тему оформления"
+
+#: modules/system/system.install:30
+msgid "Web server"
+msgstr "Веб-сервер"
+
+#: modules/system/system.install:40
+msgid ""
+"Your PHP installation is too old. Drupal requires at least PHP %version."
+msgstr ""
+"Установленный у вас PHP устарел. Для работы Drupal требуется PHP версии как "
+"минимум %version."
+
+#: modules/system/system.install:107,254
+msgid "Not protected"
+msgstr "Не защищен"
+
+#: modules/system/system.install:115
+msgid ""
+"The file %file is not protected from modifications and poses a security "
+"risk. You must change the file's permissions to be non-writable."
+msgstr ""
+"Файл %file не защищен от изменений, что является потенциальной проблемой "
+"безопасности. Вам следует установить права на файл \"запрет на запись\"."
+
+#: modules/system/system.install:120,261
+msgid "Protected"
+msgstr "Защищен"
+
+#: modules/system/system.install:123
+msgid "Configuration file"
+msgstr "Файл настроек"
+
+#: modules/system/system.install:166
+msgid "Last run !time ago"
+msgstr "Последний запуск !time назад"
+
+#: modules/system/system.install:162
+msgid "Never run"
+msgstr "Не запускался"
+
+#: modules/system/system.install:174
+msgid "Cron maintenance tasks"
+msgstr "Выполнение регулярных процедур (задачи cron)"
+
+#: modules/system/system.install:201
+msgid "The directory %directory is not writable."
+msgstr "Каталог %directory закрыт для записи."
+
+#: modules/system/system.install:196
+msgid "Not writable"
+msgstr "Запись запрещена"
+
+#: modules/system/system.install:205
+msgid ""
+"You may need to set the correct directory at the <a href=\"@admin-file-system"
+"\">file system settings page</a> or change the current directory's "
+"permissions so that it is writable."
+msgstr ""
+"Вам нужно установить правильный каталог на <a href=\"@admin-file-system"
+"\">странице настроек файловой системы</a> или установить для текущего "
+"каталога права, разрешающие запись."
+
+#: modules/system/system.install:220
+msgid "Writable (<em>public</em> download method)"
+msgstr "Запись разрешена (<em>публичный</em> метод загрузки)"
+
+#: modules/system/system.install:223
+msgid "Writable (<em>private</em> download method)"
+msgstr "Запись разрешена (<em>приватный</em> метод загрузки)"
+
+#: modules/system/system.install:243
+msgid ""
+"Some modules have database schema updates to install. You should run the <a "
+"href=\"@update\">database update script</a> immediately."
+msgstr ""
+"Некоторые модули требуют обновления базы данных для своей установки. Вы "
+"должны запустить сейчас <a href=\"@update\">скрипт обновления базы данных</"
+"a>."
+
+#: modules/system/system.module:343
+msgid "Actions"
+msgstr "Действия"
+
+#: modules/system/system.module:596
+msgid "Gray"
+msgstr "Серый"
+
+#: modules/system/system.install:275
+msgid "Not enabled"
+msgstr "Не включено"
+
+#: modules/system/system.module:474
+msgid "Reports"
+msgstr "Отчеты"
+
+#: modules/system/system.admin.inc:58,79
+msgid "You do not have any administrative items."
+msgstr "У Вас нет административных элементов."
+
+#: modules/system/system.admin.inc:173
+msgid "Use administration theme for content editing"
+msgstr "Использовать эту тему при редактировании содержимого"
+
+#: modules/system/system.admin.inc:174
+msgid ""
+"Use the administration theme when editing existing posts or creating new "
+"ones."
+msgstr ""
+"Использовать тему админки при создании новых или редактировании существующих "
+"сообщений."
+
+#: modules/system/system.admin.inc:515
+msgid "Theme-engine-specific settings"
+msgstr "Установки, специфичные для движка темы"
+
+#: modules/system/system.admin.inc:1131
+msgid "The name of this website."
+msgstr "Название этого сайта."
+
+#: modules/system/system.admin.inc:1255
+msgid ""
+"The normal cache mode is suitable for most sites and does not cause any side "
+"effects. The aggressive cache mode causes Drupal to skip the loading (boot) "
+"and unloading (exit) of enabled modules when serving a cached page. This "
+"results in an additional performance boost but can cause unwanted side "
+"effects."
+msgstr ""
+"Нормальный режим кеширования подходит большинству сайтов и не вызывает "
+"побочных эффектов. В агрессивном режиме пропускается загрузка (boot) и "
+"выгрузка (exit) включенных модулей при запросе кешированных страниц. Это "
+"даёт дополнительный прирост производительности, но может вызвать "
+"нежелательные побочные эффекты."
+
+#: modules/system/system.admin.inc:1261
+msgid ""
+"<strong class=\"error\">The following enabled modules are incompatible with "
+"aggressive mode caching and will not function properly: %modules</strong>"
+msgstr ""
+"<strong class=\"error\">Следующие модули не совместимы с агрессивным режимом "
+"кеширования и будут работать некорректно: %modules</strong>"
+
+#: modules/system/system.admin.inc:1276
+msgid "Normal (recommended for production sites, no side effects)"
+msgstr ""
+"Нормальный (рекомендуется для большинства сайтов, не имеет побочных эффектов)"
+
+#: modules/system/system.admin.inc:1299,1305
+msgid "Block cache"
+msgstr "Кэш блоков"
+
+#: modules/system/system.admin.inc:1307
+msgid "Enabled (recommended)"
+msgstr "Включено (рекомендуется)"
+
+#: modules/system/system.admin.inc:1309
+msgid ""
+"Note that block caching is inactive when modules defining content access "
+"restrictions are enabled."
+msgstr ""
+"Кеширование блоков невозможно, если включены модули, контролирующие доступ к "
+"материалам."
+
+#: modules/system/system.admin.inc:1322
+msgid "Optimize CSS files"
+msgstr "Оптимизировать CSS-файлы"
+
+#: modules/system/system.admin.inc:1330
+msgid "Optimize JavaScript files"
+msgstr "Оптимизировать JavaScript файлы"
+
+#: modules/system/system.admin.inc:1490
+msgid "Custom format"
+msgstr "Пользовательский формат"
+
+#: modules/system/system.admin.inc:1507
+msgid "User-configurable time zones"
+msgstr "Пользовательские-конфигурируемые часовые пояса."
+
+#: modules/system/system.admin.inc:1510
+msgid ""
+"When enabled, users can set their own time zone and dates will be displayed "
+"accordingly."
+msgstr ""
+"При разрешении, пользователь может выбрать свой часовой пояс и будут "
+"отображаться соответствующие даты."
+
+#: modules/system/system.admin.inc:1523
+msgid "Formatting"
+msgstr "Форматирование"
+
+#: modules/system/system.admin.inc:1543
+msgid "Custom short date format"
+msgstr "Настраиваемый короткий формат даты."
+
+#: modules/system/system.admin.inc:1546
+msgid ""
+"A user-defined short date format. See the <a href=\"@url\">PHP manual</a> "
+"for available options. This format is currently set to display as <span>%"
+"date</span>."
+msgstr ""
+"Определяемый пользователем короткий формат даты. Для доступных опций "
+"смотрите <a href=\"@url\">описание PHP</a>. В настоящее время этот формат "
+"установлен для отображения как <span>%date</span>."
+
+#: modules/system/system.admin.inc:1566
+msgid "Custom medium date format"
+msgstr "Настраиваемый краткий формат даты."
+
+#: modules/system/system.admin.inc:1569
+msgid ""
+"A user-defined medium date format. See the <a href=\"@url\">PHP manual</a> "
+"for available options. This format is currently set to display as <span>%"
+"date</span>."
+msgstr ""
+"Определяемый пользователем средний формат даты. Для доступных опций смотрите "
+"<a href=\"@url\">описание PHP</a>. В настоящее время этот формат установлен "
+"для отображения как <span>%date</span>."
+
+#: modules/system/system.admin.inc:1589
+msgid "Custom long date format"
+msgstr "Настраиваемый полный формат даты."
+
+#: modules/system/system.admin.inc:1592
+msgid ""
+"A user-defined long date format. See the <a href=\"@url\">PHP manual</a> for "
+"available options. This format is currently set to display as <span>%date</"
+"span>."
+msgstr ""
+"Определяемый пользователем полный формат даты. Для доступных опций смотрите "
+"<a href=\"@url\">описание PHP</a>. В настоящее время этот формат установлен "
+"для отображения как <span>%date</span>."
+
+#: modules/system/system.admin.inc:1671
+msgid ""
+"Before enabling clean URLs, you must perform a test to determine if your "
+"server is properly configured. If you are able to see this page again after "
+"clicking the \"Run the clean URL test\" link, the test has succeeded and the "
+"radio buttons above will be available. If instead you are directed to a "
+"\"Page not found\" error, you will need to change the configuration of your "
+"server. The <a href=\"@handbook\">handbook page on Clean URLs</a> has "
+"additional troubleshooting information."
+msgstr ""
+"Перед включением \"чистых\" ссылок необходимо проверить, возможно ли их "
+"использование на данном сервере. Если вы снова увидите эту страницу после "
+"нажатия ссылки \"запустить проверку чистых ссылок\", значит проверка прошла "
+"успешно. После этого станет возможно включать/выключать режим \"чистых\" "
+"ссылок на сайте. Если же вы увидели сообщение \"Страница не найдена\", то "
+"следует проверить настройки сервера. На <a href=\"@handbook\">страницах "
+"руководства о \"чистых\" ссылках</a> есть дополнительная информация о "
+"решении этой проблемы."
+
+#: modules/system/system.admin.inc:1675
+msgid "<a href=\"@clean_url\">Run the clean url test</a>."
+msgstr "<a href=\"@clean_url\">Запустить проверку \"чистых\" ссылок</a>."
+
+#: modules/system/system.admin.inc:2045,2050,2175,2180
+msgid "incompatible"
+msgstr "несовместимый"
+
+#: modules/system/system.admin.inc:2045,2175
+msgid "Incompatible with this version of Drupal core"
+msgstr "Несовместимый с этой версией ядра Drupal"
+
+#: modules/system/system.admin.inc:2046,2176
+msgid ""
+"This version is incompatible with the !core_version version of Drupal core."
+msgstr "Эта версия несовместима с версией !core_version ядра Drupal."
+
+#: modules/system/system.admin.inc:2050,2180
+msgid "Incompatible with this version of PHP"
+msgstr "Несовместимый с этой версией PHP"
+
+#: modules/system/system.admin.inc:2055
+msgid ""
+"This module requires PHP version @php_required and is incompatible with PHP "
+"version !php_version."
+msgstr ""
+"Этот модуль требует PHP версии @php_required и не совместим с PHP версии !"
+"php_version."
+
+#: modules/system/system.admin.inc:2185
+msgid ""
+"This theme requires PHP version @php_required and is incompatible with PHP "
+"version !php_version."
+msgstr ""
+"Эта тема требует PHP версии @php_required и не совместима с PHP версии !"
+"php_version."
+
+#: modules/system/system.admin.inc:833
+msgid "You must enable the @dependencies module to install @module."
+msgid_plural "You must enable the @dependencies modules to install @module."
+msgstr[0] "Для установки @module, вы должны включить модуль @dependencies."
+msgstr[1] "Для установки @module, вы должны включить модули @dependencies."
+msgstr[2] "Для установки @module, вы должны включить модули @dependencies."
+
+#: modules/system/system.module:78
+msgid ""
+"The auto-throttle functionality must be enabled on the <a href=\"@throttle"
+"\">throttle configuration page</a> after having enabled the throttle module."
+msgstr ""
+"Функционал авто-регулятора должен быть подключен на <a href=\"@throttle"
+"\">странице настройки регулятора</a> после подключения модуля Throttle."
+
+#: modules/system/system.module:89
+msgid ""
+"The <em>Powered by Drupal</em> block is an optional link to the home page of "
+"the Drupal project. While there is absolutely no requirement that sites "
+"feature this link, it may be used to show support for Drupal."
+msgstr ""
+"Блок <em>Приводится в действие Drupal</em> представляет собой необязательную "
+"ссылку на домашнюю страницу проекта Drupal. Хотя обязательного требования о "
+"внедрении этой ссылки на сайт не предъявляется, ее можно внедрять для "
+"поддержки проекта Drupal."
+
+#: modules/system/system.module:94
+msgid ""
+"Actions are individual tasks that the system can do, such as unpublishing a "
+"piece of content or banning a user. Modules, such as the trigger module, can "
+"fire these actions when certain system events happen; for example, when a "
+"new post is added or when a user logs in. Modules may also provide "
+"additional actions."
+msgstr ""
+"Действия — это отдельные задачи, которые может выполнять система, например "
+"снятие с публикации материала или бан пользователя. Модули, такие как "
+"Trigger, могут запускать эти действия по определённым системным событиям; "
+"например, при добавлении нового сообщения или при входе пользователя на "
+"сайт. Модули также могут предоставлять дополнительные действия."
+
+#: modules/system/system.module:95
+msgid ""
+"There are two types of actions: simple and advanced. Simple actions do not "
+"require any additional configuration, and are listed here automatically. "
+"Advanced actions can do more than simple actions; for example, send an e-"
+"mail to a specified address, or check for certain words within a piece of "
+"content. These actions need to be created and configured first before they "
+"may be used. To create an advanced action, select the action from the drop-"
+"down below and click the <em>Create</em> button."
+msgstr ""
+"Существует два типа действий: простые и сложные. Простые действия не требуют "
+"дополнительной настройки и выводятся здесь автоматически. Сложные действия "
+"могут делать больше, чем простые; например, послать e-mail на указанный "
+"адрес или проверить наличие определённых слов в тексте. Эти действия должны "
+"быть созданы и настроены до начала использования. Чтобы создать сложное "
+"действие, выберите действие из выпадающего списка снизу и нажмите кнопку "
+"<em>Создать</em>."
+
+#: modules/system/system.module:97
+msgid ""
+"You may proceed to the <a href=\"@url\">Triggers</a> page to assign these "
+"actions to system events."
+msgstr ""
+"Вы можете пройти на страницу <a href=\"@url\">Триггеров</a> для назначения "
+"этих действий системным событиям."
+
+#: modules/system/system.module:101
+msgid ""
+"An advanced action offers additional configuration options which may be "
+"filled out below. Changing the <em>Description</em> field is recommended, in "
+"order to better identify the precise action taking place. This description "
+"will be displayed in modules such as the trigger module when assigning "
+"actions to system events, so it is best if it is as descriptive as possible "
+"(for example, \"Send e-mail to Moderation Team\" rather than simply \"Send e-"
+"mail\")."
+msgstr ""
+"Сложное действие предоставляет дополнительные параметры настройки, которые "
+"вы можете отредактировать ниже. Желательно изменить поле <em>Описание</em>, "
+"чтобы точнее идентифицировать действие. Это описание будет отображено в "
+"модулях, например в модуле Trigger, при назначении действий системным "
+"событиям. Таким образом, сделайте описание как можно понятнее (например, "
+"«Отсылка e-mail команде модераторов» вместо простого «Отсылка e-mail»)."
+
+#: modules/system/system.module:442
+msgid "Date and time lookup"
+msgstr "Поиск даты и времени"
+
+#: modules/system/system.module:584
+msgid "Powered by Drupal"
+msgstr "Создано на Drupal"
+
+#: modules/system/system.module:594
+msgid "Badge color"
+msgstr "Цвет значка"
+
+#: modules/system/system.module:596
+msgid "Black"
+msgstr "Черный"
+
+#: modules/system/system.module:596
+msgid "Blue"
+msgstr "Синий"
+
+#: modules/system/system.module:600
+msgid "Badge size"
+msgstr "Размер значка"
+
+#: modules/system/system.module:1232
+msgid "Could not delete temporary file \"%path\" during garbage collection"
+msgstr "Не удалось удалить временный файл \"%path \" во время уборки «мусора»."
+
+#: modules/system/system.module:1253
+msgid "When cron runs"
+msgstr "При запуске крон."
+
+#: modules/system/system.module:1267
+msgid "Display a message to the user"
+msgstr "Показать сообщение пользователю"
+
+#: modules/system/system.module:1288
+msgid "Redirect to URL"
+msgstr "Перенаправить на URL"
+
+#: modules/system/system.module:1308
+msgid "Choose an advanced action"
+msgstr "Выберите сложное действие"
+
+#: modules/system/system.module:1323
+msgid "Action type"
+msgstr "Тип действий"
+
+#: modules/system/system.module:1343
+msgid "Actions available to Drupal:"
+msgstr "Действия доступные для Drupal:"
+
+#: modules/system/system.module:1369
+msgid "Make a new advanced action available"
+msgstr "Новое сложное действие"
+
+#: modules/system/system.module:1448
+msgid ""
+"A unique description for this advanced action. This description will be "
+"displayed in the interface of modules that integrate with actions, such as "
+"Trigger module."
+msgstr ""
+"Уникальное описание этого сложного действия. Это описание будет отображено в "
+"интерфейсе модулей, работающих с действиями, таких как модуль Trigger."
+
+#: modules/system/system.module:1504
+msgid "The action has been successfully saved."
+msgstr "Действие было успешно сохранено."
+
+#: modules/system/system.module:1522
+msgid "Are you sure you want to delete the action %action?"
+msgstr "Вы уверены в том, что хотите удалить действие %action?"
+
+#: modules/system/system.module:1524
+msgid "This cannot be undone."
+msgstr "Данное действие не сможет быть отменено."
+
+#: modules/system/system.module:1540
+msgid "Action %action was deleted"
+msgstr "Действие %action было удалено"
+
+#: modules/system/system.module:1552
+msgid "Deleted orphaned action (%action)."
+msgstr "Удалено зависшее действие (%action)."
+
+#: modules/system/system.module:1588
+msgid "Recipient"
+msgstr "Получатель"
+
+#: modules/system/system.module:1591
+msgid ""
+"The email address to which the message should be sent OR enter %author if "
+"you would like to send an e-mail to the author of the original post."
+msgstr ""
+"Адрес e-mail, на который следует отправить сообщение ИЛИ введите %author "
+"если хотите послать e-mail автору материала."
+
+#: modules/system/system.module:1598
+msgid "The subject of the message."
+msgstr "Тема сообщения"
+
+#: modules/system/system.module:1606
+msgid ""
+"The message that should be sent. You may include the following variables: %"
+"site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all "
+"variables will be available in all contexts."
+msgstr ""
+"Сообщение для отправки. Вы можете использовать следующие переменные: %"
+"site_name, %username, %node_url, %node_type, %title, %teaser, %body. Не все "
+"переменные могут быть доступны в любых контекстах."
+
+#: modules/system/system.module:1619
+msgid "Please enter a valid email address or %author."
+msgstr "Пожалуйста, введите правильный адрес электронной почты или %author."
+
+#: modules/system/system.module:1825
+msgid ""
+"The URL to which the user should be redirected. This can be an internal URL "
+"like node/1234 or an external URL like http://drupal.org."
+msgstr ""
+"Адрес URL, на который следует перенаправить пользователя. Им может быть "
+"внутренний адрес (например, node/1234), либо внешний URL (например, http://"
+"drupal.org)."
+
+#: modules/system/system.module:1882
+msgid "Powered by Drupal, an open source content management system"
+msgstr "Работает на Drupal, система с открытым исходным кодом."
+
+#: modules/system/system.module:1539
+msgid "Deleted action %aid (%action)"
+msgstr "Удалето действие %aid (%action)"
+
+#: modules/system/system.module:1666
+msgid "Cannot use %author token in this context."
+msgstr "Не могу использовать лексему %author в этом контексте."
+
+#: modules/system/system.module:1697
+msgid "Sent email to %recipient"
+msgstr "Сообщение электронной почты отправлено для %recipient"
+
+#: modules/system/system.module:1700
+msgid "Unable to send email to %recipient"
+msgstr "Невозможно отправить сообщение электронной почты для %recipient"
+
+#: modules/system/system.module:158
+msgid "administer actions"
+msgstr "управлять действиями"
+
+#: modules/system/system.module:158
+msgid "administer files"
+msgstr "управлять файлами"
+
+#: modules/system/system.module:344,350
+msgid "Manage the actions defined for your site."
+msgstr "Управление действиями, определенными для вашего сайта."
+
+#: modules/system/system.module:349
+msgid "Manage actions"
+msgstr "Управление действиями"
+
+#: modules/system/system.module:356
+msgid "Configure an advanced action"
+msgstr "Настройка сложного действия"
+
+#: modules/system/system.module:363
+msgid "Delete action"
+msgstr "Удалить действие"
+
+#: modules/system/system.module:364
+msgid "Delete an action."
+msgstr "Удалить действие."
+
+#: modules/system/system.module:371
+msgid "Remove orphans"
+msgstr "Удалите зависшие действия"
+
+#: modules/system/system.module:395
+msgid "Logging and alerts"
+msgstr "Отчеты и сообщения"
+
+#: modules/system/system.module:396
+msgid ""
+"Settings for logging and alerts modules. Various modules can route Drupal's "
+"system events to different destination, such as syslog, database, email, ..."
+"etc."
+msgstr ""
+"Настройки для модулей отчетов и сообщений. Различные модули могут записывать "
+"системные события Drupal в разные места, такие как системные логи, почта, и "
+"т.д."
+
+#: modules/system/system.module:403
+msgid ""
+"Enable or disable page caching for anonymous users and set CSS and JS "
+"bandwidth optimization options."
+msgstr ""
+"Включение/выключение кеширования для анонимных пользователей, а также "
+"включение/выключение препроцессора CSS."
+
+#: modules/system/system.install:497
+msgid ""
+"Stores details about batches (processes that run in multiple HTTP requests)."
+msgstr ""
+"Хранит информацию о пакетах (процессах, обрабатываемых с помощью нескольких "
+"HTTP запросов)."
+
+#: modules/system/system.install:112
+msgid ""
+"The directory %file is not protected from modifications and poses a security "
+"risk. You must change the directory's permissions to be non-writable. "
+msgstr ""
+"Каталог %file не защищен от изменений и это создает угрозу нарушению "
+"безопасности. Вам должны изменить атрибуты данного каталога на без права "
+"записи (non-writable). "
+
+#: modules/system/system.install:177
+msgid "You can <a href=\"@cron\">run cron manually</a>."
+msgstr ""
+"Вы можете <a href=\"@cron\">запустить выполнение регулярных процедур</a> "
+"(cron) вручную."
+
+#: modules/system/system.install:230
+msgid "Database updates"
+msgstr "Обновления базы данных"
+
+#: modules/system/system.install:256
+msgid ""
+"The update.php script is accessible to everyone without authentication "
+"check, which is a security risk. You must change the $update_free_access "
+"value in your settings.php back to FALSE."
+msgstr ""
+"Скрипт update.php доступен для всех без ввода пароля, что представляет собой "
+"угрозу безопасности. Вы должны изменить значение $update_free_access в Вашем "
+"settings.php на FALSE."
+
+#: modules/system/system.install:264
+msgid "Access to update.php"
+msgstr "Доступ к update.php"
+
+#: modules/system/system.module:1381
+msgid "Create"
+msgstr "Создать"
+
+#: modules/system/system.module:0
+msgid "Footer"
+msgstr "Подвал"
+
+#: modules/system/system.module:602
+msgid "Small"
+msgstr "Маленький"
+
+#: modules/system/system.module:602
+msgid "Large"
+msgstr "Большой"
+
+#: modules/system/system.admin.inc:1229
+msgid ""
+"Specify where Drupal, PHP and SQL errors are logged. While it is recommended "
+"that a site running in a production environment write errors to the log "
+"only, in a development or testing environment it may be helpful to write "
+"errors both to the log and to the screen."
+msgstr ""
+"Укажите, куда выводятся ошибки Drupal, PHP и SQL. На рабочем сервере "
+"рекомендуется записывать ошибки только в журнал, а при разработке может "
+"оказаться полезным вывод ошибок ещё и на экран."
+
+#: modules/system/system.admin.inc:1269
+msgid ""
+"Enabling the page cache will offer a significant performance boost. Drupal "
+"can store and send compressed cached pages requested by <em>anonymous</em> "
+"users. By caching a web page, Drupal does not have to construct the page "
+"each time it is viewed."
+msgstr ""
+"Включение кеширования страниц заметно увеличивает производительность. Drupal "
+"может сохранять и отправлять сжатые кешированные страницы по запросам "
+"<em>анонимных</em> пользователей. При включенном кешировании, Drupal не "
+"строит страницы заново при каждом просмотре."
+
+#: modules/system/system.admin.inc:1287
+msgid ""
+"On high-traffic sites, it may be necessary to enforce a minimum cache "
+"lifetime. The minimum cache lifetime is the minimum amount of time that will "
+"elapse before the cache is emptied and recreated, and is applied to both "
+"page and block caches. A larger minimum cache lifetime offers better "
+"performance, but users will not see new content for a longer period of time."
+msgstr ""
+"При высокой нагрузке на сайт необходимо увеличить минимальное время жизни "
+"кеша. Минимальное время жизни кеша - это промежуток времени, по истечении "
+"которого кеш будет очищен и создан заново. Этот параметр используется и при "
+"кешировании блоков. Большее время жизни кеша увеличивает производительность, "
+"но пользователи не смогут более длительное время увидеть обновленную "
+"информацию на сайте."
+
+#: modules/system/system.admin.inc:1291
+msgid "Page compression"
+msgstr "Компрессия страниц"
+
+#: modules/system/system.admin.inc:1294
+msgid ""
+"By default, Drupal compresses the pages it caches in order to save bandwidth "
+"and improve download times. This option should be disabled when using a "
+"webserver that performs compression."
+msgstr ""
+"По умолчанию, Drupal сжимает страницы, которые он кэширует это сберегает "
+"ширину полосы пропускания и улучшает время загрузки. Данная опция должна "
+"быть отключена, если вы используете вебсервер, который сам сжимает данные."
+
+#: modules/system/system.admin.inc:1300
+msgid ""
+"Enabling the block cache can offer a performance increase for all users by "
+"preventing blocks from being reconstructed on each page load. If the page "
+"cache is also enabled, performance increases from enabling the block cache "
+"will mainly benefit authenticated users."
+msgstr ""
+"Включение кеширования блоков может дать значительный прирост "
+"производительности для всех пользователей. После включения блоки не "
+"обрабатываются заново при каждой загрузке страницы. Если кеширование страниц "
+"уже работает, то включение кеширования блоков будет заметно преимущественно "
+"для зарегистрированных пользователей."
+
+#: modules/system/system.admin.inc:1378
+msgid ""
+"A file system path where the files will be stored. This directory must exist "
+"and be writable by Drupal. If the download method is set to public, this "
+"directory must be relative to the Drupal installation directory and be "
+"accessible over the web. If the download method is set to private, this "
+"directory should not be accessible over the web. Changing this location will "
+"modify all download paths and may cause unexpected problems on an existing "
+"site."
+msgstr ""
+"Путь к сохраняемым файлам. Указанная папка должна существовать и быть "
+"доступной для записи в неё файлов сайтом. Если выбран способ скачивания "
+"\"Публичный\", эта папка должна быть указана относительно корневой папки "
+"сайта и доступна для посетителей сайта. Если же выбран способ скачивания "
+"\"Приватный\", эта папка не должна быть доступна для посетителей. Изменение "
+"этого пути в ходе работы сайта вызовет проблемы, поэтому на работающем сайте "
+"изменяйте этот параметр только если точно знаете, что делаете."
+
+#: modules/system/system.admin.inc:1387
+msgid "A file system path where uploaded files will be stored during previews."
+msgstr "Место, где хранятся загруженные файлы во время предпросмотров."
+
+#: modules/system/system.admin.inc:1396
+msgid ""
+"Choose the <em>Public download</em> method unless you wish to enforce fine-"
+"grained access controls over file downloads. Changing the download method "
+"will modify all download paths and may cause unexpected problems on an "
+"existing site."
+msgstr ""
+"Используйте <em>публичный</em> метод скачивания, если вам не нужно "
+"контролировать доступ к файлам. Вы можете изменить его в любое время, однако "
+"все ссылки на загруженные файлы изменятся, из-за чего могут возникнуть "
+"неожиданные проблемы."
+
+#: modules/system/system.module:465
+msgid "Clean URL check"
+msgstr "Проверка чистых ссылок"
+
+#: modules/system/system.module:475
+msgid "View reports from system logs and other status information."
+msgstr "Просмотр системного журнала и другой информации о состоянии сайта."
+
+#: modules/system/system.install:157
+msgid ""
+"Cron has not run. Please visit the <a href=\"@status\">status report</a> for "
+"more information."
+msgstr ""
+"Крон не запускался. Пожалуйста посетите  <a href=\"@status\">Отчет о "
+"состоянии</a> для более детальной информации."
+
+#: modules/system/system.install:163
+msgid "Cron has not run."
+msgstr "Крон вообще не запускался."
+
+#: modules/system/system.install:169
+msgid "Cron has not run recently."
+msgstr "Крон давно не запускался."
+
+#: modules/system/system.install:277
+msgid ""
+"Update notifications are not enabled. It is <strong>highly recommended</"
+"strong> that you enable the update status module from the <a href=\"@module"
+"\">module administration page</a> in order to stay up-to-date on new "
+"releases. For more information please read the <a href=\"@update\">Update "
+"status handbook page</a>."
+msgstr ""
+"Уведомления об обновлении выключены. <strong>Настоятельно рекомендуем</"
+"strong> вам включить модуль статуса обновлений на <a href=\"@module"
+"\">странице управления модулями</a>, чтобы продолжать оставаться "
+"осведомленным о последних выпусках. Для получения дополнительной информации, "
+"прочтите, пожалуйста, <a href=\"@update\">Страницу руководства по статусу "
+"обновлений</a>."
+
+#: modules/system/system.admin.inc:476
+msgid ""
+"Your shortcut icon, or 'favicon', is displayed in the address bar and "
+"bookmarks of most browsers."
+msgstr ""
+"Иконка вашего сайта (называемая favicon) отображается большинством браузеров "
+"в адресной строке и в закладках."
+
+#: modules/system/system.admin.inc:1326
+msgid ""
+"This option can interfere with theme development and should only be enabled "
+"in a production environment."
+msgstr ""
+"Этот параметр может помешать разработке тем оформления и должен включаться "
+"только на рабочем сайте."
+
+#: modules/system/system.admin.inc:1334
+msgid ""
+"This option can interfere with module development and should only be enabled "
+"in a production environment."
+msgstr ""
+"Этот параметр может помешать разработке модулей и должен включаться только "
+"на рабочем сайте."
+
+#: modules/system/system.admin.inc:1339,1345
+msgid "Clear cached data"
+msgstr "Очистить кеш данных"
+
+#: modules/system/system.admin.inc:1340
+msgid ""
+"Caching data improves performance, but may cause problems while "
+"troubleshooting new modules, themes, or translations, if outdated "
+"information has been cached. To refresh all cached data on your site, click "
+"the button below. <em>Warning: high-traffic sites will experience "
+"performance slowdowns while cached data is rebuilt.</em>"
+msgstr ""
+"Кеширование информации увеличивает производительность, но может вызвать "
+"проблемы при отладке новых модулей, тем или переводов, если была кеширована "
+"устаревшая информация. Для обновления всех кешированных данных на сайте "
+"нажмите кнопку ниже. <em>Предупреждение: после удаления кеша на сервере с "
+"высокой посещаемостью может существенно возрасти нагрузка на него.</em>"
+
+#: modules/system/system.admin.inc:1786
+msgid ""
+"The MySQL query cache can improve performance of your site by storing the "
+"result of queries. Then, if an identical query is received later, the MySQL "
+"server retrieves the result from the query cache rather than parsing and "
+"executing the statement again."
+msgstr ""
+"Кэш запроса MySQL может повысить производительность Вашего сайта, сохраняя "
+"результаты запросов. Затем, если позднее будет получен идентичный запрос, то "
+"сервер MySQL восстановит результат из кэша запроса вместо того, чтобы снова "
+"анализировать и выполнять оператор."
+
+#: modules/system/system.admin.inc:1789
+msgid "The number of times MySQL found previous results in the cache."
+msgstr "Количество раз, когда MySQL находил в кеше предшествующий результат."
+
+#: modules/system/system.admin.inc:1790
+msgid "The number of times MySQL added a query to the cache (misses)."
+msgstr "Количество раз, когда MySQL добавлял запрос в кеш (промахи)."
+
+#: modules/system/system.admin.inc:1791
+msgid ""
+"The number of times MySQL had to remove queries from the cache because it "
+"ran out of memory. Ideally should be zero."
+msgstr ""
+"Количество раз, когда MySQL приходилось удалять запросы из кеша из-за "
+"нехватки памяти. В идеале равно нулю."
+
+#: modules/system/system.admin.inc:1904
+msgid "Expand layout to include descriptions."
+msgstr "Развернуть блок для отображения описания."
+
+#: modules/system/system.admin.inc:1907
+msgid "Compress layout by hiding descriptions."
+msgstr "Свернуть блок для сокрытия описания."
+
+#: modules/system/system.module:66
+msgid ""
+"Select which themes are available to your users and specify the default "
+"theme. To configure site-wide display settings, click the \"configure\" task "
+"above. Alternatively, to override these settings in a specific theme, click "
+"the \"configure\" link for that theme. Note that different themes may have "
+"different regions available for displaying content; for consistency in "
+"presentation, you may wish to enable only one theme."
+msgstr ""
+"Укажите, какие темы будут доступны для ваших пользователей, и выберете тему "
+"по умолчанию. Для изменения глобальных настроек для всех тем оформления, "
+"нажмите выше ссылку «Настройка». Вы также можете настроить определённую тему, "
+"нажав ссылку «настроить» для данной темы. Обратите внимание, что различные "
+"темы могут иметь различные области для отображения содержимого; для того "
+"чтобы обеспечить постоянство отображения мы советуем вам активировать только "
+"одну тему."
+
+#: modules/system/system.module:67
+msgid ""
+"To change the appearance of your site, a number of <a href=\"@themes"
+"\">contributed themes</a> are available."
+msgstr ""
+"Для смены внешнего вида сайта существует множество <a href=\"@themes"
+"\">дополнительных тем оформления</a>."
+
+#: modules/system/system.module:76
+msgid ""
+"Modules are plugins that extend Drupal's core functionality. Enable modules "
+"by selecting the <em>Enabled</em> checkboxes below and clicking the <em>Save "
+"configuration</em> button. Once a module is enabled, new <a href="
+"\"@permissions\">permissions</a> may be available. To reduce server load, "
+"modules with their <em>Throttle</em> checkbox selected are temporarily "
+"disabled when your site becomes extremely busy. (Note that the <em>Throttle</"
+"em> checkbox is only available if the Throttle module is enabled.)"
+msgstr ""
+"Модули — это дополнения, расширяющие функциональность Drupal. Подключите "
+"модули, пометив флажок <em>Включено</em> и нажав кнопку <em>Сохранить "
+"настройки</em>. Как только модуль будет подключён, могут появиться новые <a "
+"href=\"@permissions\">разрешения</a>. Для уменьшения нагрузки на сервер "
+"служит флажок <em>Регулятор</em>, временно отключающий помеченные модули во "
+"время сильной нагрузки. (Учтите, что флажок <em>Регулятор</em> доступен лишь "
+"при подключённом модуле Throttle)."
+
+#: modules/system/system.module:81
+msgid ""
+"It is important that <a href=\"@update-php\">update.php</a> is run every "
+"time a module is updated to a newer version."
+msgstr ""
+"Важно запускать скрипт <a href=\"@update-php\">update.php</a> при каждом "
+"обновлении модулей до новой версии."
+
+#: modules/system/system.module:82
+msgid ""
+"You can find all administration tasks belonging to a particular module on "
+"the <a href=\"@by-module\">administration by module page</a>."
+msgstr ""
+"Вы можете найти все пункты меню, принадлежащие определённому модулю на "
+"странице управления <a href=\"@by-module\">По модулям</a>."
+
+#: modules/system/system.module:83
+msgid ""
+"To extend the functionality of your site, a number of <a href=\"@modules"
+"\">contributed modules</a> are available."
+msgstr ""
+"Для расширения функциональности сайта существует множество <a href=\"@modules"
+"\">дополнительных модулей</a>."
+
+#: modules/system/system.module:103
+msgid ""
+"Here you can find a short overview of your site's parameters as well as any "
+"problems detected with your installation. It may be useful to copy and paste "
+"this information into support requests filed on drupal.org's support forums "
+"and project issue queues."
+msgstr ""
+"Здесь вы найдете краткий обзор параметров вашего сайта, а также проблем, "
+"которые были обнаружены. Данную информацию полезно добавлять в ваши вопросы "
+"на drupal.org или на других форумах поддержки. Обратите внимание, чтобы "
+"пользоваться сайтом drupal.org нужно владеть техническим английским. "
+"Обращайтесь на drupal.ru если вы русскоязычны."
+
+#: modules/system/system.module:1752
+msgid ""
+"The message to be displayed to the current user. You may include the "
+"following variables: %site_name, %username, %node_url, %node_type, %title, %"
+"teaser, %body. Not all variables will be available in all contexts."
+msgstr ""
+"Сообщение для показа пользователю. Вы можете использовать следующие "
+"переменные: %site_name, %username, %node_url, %node_type, %title, %teaser, %"
+"body. Не все переменные могут быть доступны в любых контекстах."
+
+#: modules/system/system.admin.inc:1145
+msgid ""
+"Your site's motto, tag line, or catchphrase (often displayed alongside the "
+"title of the site)."
+msgstr "Девиз сайта"
+
+#: modules/system/system.admin.inc:1151
+msgid ""
+"Your site's mission or focus statement (often prominently displayed on the "
+"front page)."
+msgstr ""
+"Миссия вашего сайта или главное, на что вы хотите обратить внимание (часто "
+"отображается на главной странице)."
+
+#: modules/system/system.admin.inc:1196
+msgid "The path '@path' is either invalid or you do not have access to it."
+msgstr "Путь '@path' или ошибочный или вы не имеете доступа к нему."
+
+#: modules/system/system.admin.inc:1315
+msgid ""
+"<p>Drupal can automatically optimize external resources like CSS and "
+"JavaScript, which can reduce both the size and number of requests made to "
+"your website. CSS files can be aggregated and compressed into a single file, "
+"while JavaScript files are aggregated (but not compressed). These optional "
+"optimizations may reduce server load, bandwidth requirements, and page "
+"loading times.</p><p>These options are disabled if you have not set up your "
+"files directory, or if your download method is set to private.</p>"
+msgstr ""
+"<p>Drupal может оптимизировать использование дополнительных файлов, таких "
+"как JavaScript и CSS, что уменьшает размер и количество запросов к сайту. "
+"Все CSS и JavaScript файлы собираются в один (свой файл для CSS и свой "
+"&mdash; для JavaScript). CSS файл сжимается. Эта дополнительная оптимизация "
+"уменьшит время загрузки страниц,  нагрузку на сервер и использование канала."
+"</p>\r\n"
+"<p>Эти настройки недоступны, если вы не указали каталог для сохранения "
+"файлов или установили приватный метод загрузки.</p>"
+
+#: modules/system/system.admin.inc:1437
+msgid "Number of items in each feed"
+msgstr "Количество элементов на каждую RSS-ленту"
+
+#: modules/system/system.admin.inc:1440
+msgid "Default number of items to include in each feed."
+msgstr "Количество элементов  (по умолчанию) включаемых в RSS-ленту."
+
+#: modules/system/system.admin.inc:1444
+msgid "Feed content"
+msgstr "Содержимое ленты"
+
+#: modules/system/system.admin.inc:1447
+msgid "Global setting for the default display of content items in each feed."
+msgstr "Глобальные настройки отображения содержания элементов в ленте."
+
+#: modules/system/system.module:52
+msgid ""
+"The system module is at the foundation of your Drupal website, and provides "
+"basic but extensible functionality for use by other modules and themes. Some "
+"integral elements of Drupal are contained in and managed by the system "
+"module, including caching, enabling or disabling of modules and themes, "
+"preparing and displaying the administrative page, and configuring "
+"fundamental site settings. A number of key system maintenance operations are "
+"also part of the system module."
+msgstr ""
+"Модуль системы - находится в фонде вашего вебсайта Drupal, и обеспечивает "
+"основные но расширяемые функциональные возможности для использования другими "
+"модулями и темами. Некоторые составные элементы Drupal содержатся в нем и "
+"управляются модулем системы, включая кэширование, предоставление возможности "
+"или выведение из строя модулей и тем, подготовки и показа административной "
+"страницы, и конфигурирования фундаментальных параметров настройки участка. "
+"Множество ключевых операций обслуживания системы - также часть модуля "
+"системы."
+
+#: modules/system/system.module:53
+msgid "The system module provides:"
+msgstr "Системный модуль позволяет:"
+
+#: modules/system/system.module:54
+msgid ""
+"support for enabling and disabling <a href=\"@modules\">modules</a>. Drupal "
+"comes packaged with a number of core modules; each module provides a "
+"discrete set of features and may be enabled depending on the needs of your "
+"site. A wide array of additional modules contributed by members of the "
+"Drupal community are available for download at the <a href=\"@drupal-modules"
+"\">Drupal.org module page</a>."
+msgstr ""
+"поддержка включения и выключеня <a href=\"@modules\">модулей</a>. Drupal "
+"содержит некоторое количество модулей ядра; каждый модуль предоставляет "
+"определенный набор функций и может быть включен в зависимости от "
+"потребностей вашего сайта. Огромное количество дополнительных модулей "
+"выкладывается членами сообщества Drupal для скачивания на <a href=\"@drupal-"
+"modules\">странице модулей на Drupal.org</a>."
+
+#: modules/system/system.module:55
+msgid ""
+"support for enabling and disabling <a href=\"@themes\">themes</a>, which "
+"determine the design and presentation of your site. Drupal comes packaged "
+"with several core themes and additional contributed themes are available at "
+"the <a href=\"@drupal-themes\">Drupal.org theme page</a>."
+msgstr ""
+"обеспечивает включение и отключение <a href=\"@themes\">тем оформления</a>, "
+"которые определяют дизайн и внешний вид сайта. В комплект Drupal включены "
+"несколько тем оформления, дополнительные темы оформления могут быть скачены "
+"с <a href=\"@drupal-themes\">Drupal.org theme page</a>."
+
+#: modules/system/system.module:56
+msgid ""
+"a robust <a href=\"@cache-settings\">caching system</a> that allows the "
+"efficient re-use of previously-constructed web pages and web page "
+"components. Drupal stores the pages requested by anonymous users in a "
+"compressed format; depending on your site configuration and the amount of "
+"your web traffic tied to anonymous visitors, Drupal's caching system may "
+"significantly increase the speed of your site."
+msgstr ""
+"функция <a href=\"@cache-settings\">кэширование системы</a>, которая "
+"позволяет эффективное повторное использование предварительно-построенных веб-"
+"страниц и компонентов веб-страницы. Drupal хранит страницы, которые "
+"запрашивают анонимные пользователи в сжатом формате; в зависимости от вашей "
+"конфигурации сайта и количества вашего трафика, привязанного к анонимным "
+"посетителям, система кэширования Друпала может значительно увеличить "
+"скорость вашего сайта."
+
+#: modules/system/system.module:57
+msgid ""
+"a set of routine administrative operations that rely on a correctly-"
+"configured <a href=\"@cron\">cron maintenance task</a> to run automatically. "
+"A number of other modules, including the feed aggregator, ping module and "
+"search also rely on <a href=\"@cron\">cron maintenance tasks</a>. For more "
+"information, see the online handbook entry for <a href=\"@handbook"
+"\">configuring cron jobs</a>."
+msgstr ""
+"набор рутинных административных операций, который зависит от правильно "
+"настроенных <a href=\"@cron\">регулярных процедур cron</a>, выполняется "
+"автоматически. Целый ряд других модулей, в том числе агрегатор, модули ping "
+"и поиска, также зависят от <a href=\"@cron\"> регулярных процедур cron</a>. "
+"Подробная информация находится в документации по настройке, на странице <a "
+"href=\"@cron-handbook\">настройки работы крона</a>."
+
+#: modules/system/system.module:58
+msgid ""
+"basic configuration options for your site, including <a href=\"@date-settings"
+"\">date and time settings</a>, <a href=\"@file-system\">file system "
+"settings</a>, <a href=\"@clean-url\">clean URL support</a>, <a href=\"@site-"
+"info\">site name and other information</a>, and a <a href=\"@site-maintenance"
+"\">site maintenance</a> function for taking your site temporarily off-line."
+msgstr ""
+"основные настройки для вашего сайта, включая <a href=\"@date-settings"
+"\">настройки даты и времени</a>, <a href=\"@file-system\">настройки файловой "
+"системы</a>, <a href=\"@clean-url\">поддержки чистых URL</a>, <a href="
+"\"@site-info\">имя сайта и другая информация</a>, и <a href=\"@site-"
+"maintenance\">обслуживание сайта</a> функции для перевода вашего сайта в off-"
+"line состояние."
+
+#: modules/system/system.module:59
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@system"
+"\">System module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью <a "
+"href=\"@system\">System module</a>."
+
+#: modules/system/system.install:133
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@cron-"
+"handbook\">configuring cron jobs</a>."
+msgstr ""
+"Подробная информация находится в документации по настройке, на странице <a "
+"href=\"@cron-handbook\">настройки работы крона</a>."
+
+#: modules/system/system.install:290
+msgid "HTTP request status"
+msgstr "Статус  HTTP запроса"
+
+#: modules/system/system.install:291
+msgid "Fails"
+msgstr "Неудача."
+
+#: modules/system/system.install:293
+msgid ""
+"Your system or network configuration does not allow Drupal to access web "
+"pages, resulting in reduced functionality. This could be due to your "
+"webserver configuration or PHP settings, and should be resolved in order to "
+"download information about available updates, fetch aggregator feeds, sign "
+"in via OpenID, or use other network-dependent services."
+msgstr ""
+"Ваша системная или сетевая конфигурация не позволяет Drupal обращаться к веб-"
+"страницам, что выражается в ограниченной функциональности. Это может "
+"происходить из-за настроек PHP и должно быть исправлено для получения "
+"информации о доступных обновлениях, сбора новостей из RSS-лент, входа по "
+"OpenID и для использования других сетевых сервисов."
+
+#: modules/system/system.install:55
+msgid ""
+"<em>register_globals</em> is enabled. Drupal requires this configuration "
+"directive to be disabled. Your site may not be secure when "
+"<em>register_globals</em> is enabled. The PHP manual has instructions for <a "
+"href=\"http://php.net/configuration.changes\">how to change configuration "
+"settings</a>."
+msgstr ""
+"<em>register_globals</em> включен. Drupal требует отключить эту директиву. "
+"При включенной <em>register_globals</em> ваш сайт будет не защищен. "
+"Подробнее см. документацию PHP <a href=\"http://php.net/configuration.changes"
+"\">как менять настройки конфигурации</a>."
+
+#: modules/system/system.admin.inc:1716
+msgid "Cron ran successfully."
+msgstr "Cron запущен успешно."
+
+#: modules/system/system.admin.inc:1719
+msgid "Cron run failed."
+msgstr "Ошибка запуска Cron."
+
+#: modules/system/system.module:158
+msgid "access site reports"
+msgstr "отчеты о доступе к сайту"
+
+#: modules/system/system.install:66
+msgid "PHP memory limit"
+msgstr "Ограничение памяти PHP"
+
+#: modules/system/system.install:73
+msgid ""
+"Consider increasing your PHP memory limit to %memory_minimum_limit to help "
+"prevent errors in the installation process."
+msgstr ""
+"Обратите внимание, что увеличение лимита памяти PHP до %memory_minimum_limit "
+"поможет предотвратить появление ошибок во время инсталляции."
+
+#: modules/system/system.install:79
+msgid ""
+"Depending on your configuration, Drupal can run with a %memory_limit PHP "
+"memory limit. However, a %memory_minimum_limit PHP memory limit or above is "
+"recommended, especially if your site uses additional custom or contributed "
+"modules."
+msgstr ""
+"В зависимости от конфигурации, Drupal может работать с %memory_limit лимитом "
+"памяти PHP. Однако рекомендуется устанавливать %memory_minimum_limit лимит "
+"памяти PHP или выше, особенно если Ваш сайт использует дополнительные модули."
+
+#: modules/system/system.install:84
+msgid ""
+"Increase the memory limit by editing the memory_limit parameter in the file %"
+"configuration-file and then restart your web server (or contact your system "
+"administrator or hosting provider for assistance)."
+msgstr ""
+"Увеличьте лимит памяти, редактируя параметр memory_limit в файле %"
+"configuration-file, затем перезапустите Ваш веб-сервер (или обратитесь за "
+"помощью к системному администратору или хостинг-провайдеру)."
+
+#: modules/system/system.install:87
+msgid ""
+"Contact your system administrator or hosting provider for assistance with "
+"increasing your PHP memory limit."
+msgstr ""
+"Свяжитесь с системным администратором или хостинг-провайдером для увеличения "
+"лимита памяти PHP."
+
+#: modules/system/system.install:90
+msgid "See the <a href=\"@url\">Drupal requirements</a> for more information."
+msgstr ""
+"Посмотрите <a href=\"@url\">Требования Drupalа</a> для более детальной "
+"информации."
+
+#: modules/system/system.install:210
+msgid ""
+"An automated attempt to create this directory failed, possibly due to a "
+"permissions problem. To proceed with the installation, either create the "
+"directory and modify its permissions manually, or ensure that the installer "
+"has the permissions to create it automatically. For more information, please "
+"see INSTALL.txt or the <a href=\"@handbook_url\">on-line handbook</a>."
+msgstr ""
+"Сбой при попытке автоматического создания этой директории, возможно из-за "
+"проблем с разрешениями. Чтобы продолжить установку, создайте директорию и "
+"настройте разрешения вручную или убедитесь, что программа установки имеет "
+"разрешение для автоматического создания. Для получения дополнительной "
+"информации, обратитесь пожалуйста к INSTALL.txt или <a href=\"@handbook_url"
+"\">онлайн-справочнику</a>."
+
+#: modules/system/system.admin.inc:1779
+msgid ""
+"The number of joins without keys that check for key usage after each row; "
+"should be zero."
+msgstr ""
+"Число соединений без ключей, которые проверяют для ключевого использования "
+"после каждого ряда; должно быть ноль."
+
+#: modules/system/system.install:46
+msgid "PHP register globals"
+msgstr "PHP register globals"
+
+#: modules/system/system.install:57
+msgid "Enabled ('@value')"
+msgstr "Разрешено ('@value')"
+
+#: modules/system/system.install:76
+msgid ""
+"Consider increasing your PHP memory limit to %memory_minimum_limit to help "
+"prevent errors in the update process."
+msgstr ""
+"Обратите внимание, что увеличение лимита памяти PHP до %memory_minimum_limit "
+"поможет предотвратить появление ошибок в процессе обновления."
+
+#: modules/system/system.admin.inc:1362
+msgid "Caches cleared."
+msgstr "Кеш очищен."
+
+#: modules/system/system.admin.inc:692,710
+msgid "@module (<span class=\"admin-enabled\">enabled</span>)"
+msgstr "@module (<span class=\"admin-enabled\">включён</span>)"
+
+#: modules/system/system.admin.inc:683,715
+msgid "@module (<span class=\"admin-disabled\">disabled</span>)"
+msgstr "@module (<span class=\"admin-disabled\">отключён</span>)"
+
+#: modules/system/system.admin.inc:686
+msgid "@module (<span class=\"admin-missing\">missing</span>)"
+msgstr "@module (<span class=\"admin-missing\">отсутствует</span>)"
+
+#: modules/system/system.install:67
+msgid "-1 (Unlimited)"
+msgstr "-1 (Неограниченный)"

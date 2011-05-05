@@ -1,0 +1,1086 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from files:
+#  node.pages.inc,v 1.28.2.4 2009/04/27 11:35:01 goba
+#  content_types.inc,v 1.50.2.2 2009/04/27 14:28:57 goba
+#  node.module,v 1.947.2.15 2009/02/16 14:39:40 goba
+#  node.admin.inc,v 1.19.2.2 2008/11/10 10:31:06 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2009-05-04 17:44+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/node/node.pages.inc:163
+msgid "Log message"
+msgstr "Сообщение в системный журнал"
+
+#: modules/node/content_types.inc:42
+msgid "No content types available."
+msgstr "Не доступных типов содержимого."
+
+#: modules/node/content_types.inc:98
+msgid ""
+"The machine-readable name of this content type. This field cannot be "
+"modified for system-defined content types."
+msgstr ""
+"Машинное название этого типа содержимого. Это поле нельзя изменить для "
+"предустановленных системой типов содержимого."
+
+#: modules/node/content_types.inc:106
+msgid ""
+"A brief description of this content type. This text will be displayed as "
+"part of the list on the <em>create content</em> page."
+msgstr ""
+"Короткое описание этого типа материалов. Этот текст будет показан как часть "
+"списка на странице <em>создать материал</em>."
+
+#: modules/node/content_types.inc:116
+msgid "Title field label"
+msgstr "Название поля заголовка"
+
+#: modules/node/content_types.inc:125
+msgid "This content type does not have a title field."
+msgstr "Название для поля заголовка этого типа материалов."
+
+#: modules/node/content_types.inc:129
+msgid "Body field label"
+msgstr "Название поля текста"
+
+#: modules/node/content_types.inc:132
+msgid ""
+"To omit the body field for this content type, remove any text and leave this "
+"field blank."
+msgstr ""
+"Чтобы пропустить поле текст для этого типа материалов, удалите весь текст и "
+"оставьте поле пустым."
+
+#: modules/node/content_types.inc:136
+msgid "Minimum number of words"
+msgstr "Минимальное количество слов"
+
+#: modules/node/content_types.inc:139
+msgid ""
+"The minimum number of words for the body field to be considered valid for "
+"this content type. This can be useful to rule out submissions that do not "
+"meet the site's standards, such as short test posts."
+msgstr ""
+"Минимальное количество слов для поля текста этого типа материалов. Может "
+"быть использованно для отклонения материалов, не согласующихся со "
+"стандартами сайта, например слишком короткие пробные сообщения."
+
+#: modules/node/content_types.inc:143
+msgid "Explanation or submission guidelines"
+msgstr "Пояснения или инструкции по отправке материала"
+
+#: modules/node/content_types.inc:145
+msgid ""
+"This text will be displayed at the top of the submission form for this "
+"content type. It is useful for helping or instructing your users."
+msgstr ""
+"Этот текст будет отображаться вверху формы отправки материалов этого типа. "
+"Удобно использовать для размещения инструкций и помощи пользователям."
+
+#: modules/node/content_types.inc:154
+msgid "Default options"
+msgstr "Настройки по умолчанию"
+
+#: modules/node/content_types.inc:162
+msgid ""
+"Users with the <em>administer nodes</em> permission will be able to override "
+"these options."
+msgstr ""
+"Пользователи с правом <em>управления материалами</em> могут переопределять "
+"эти настройки."
+
+#: modules/node/content_types.inc:192
+msgid "Save content type"
+msgstr "Сохранить тип содержимого"
+
+#: modules/node/content_types.inc:200,282
+msgid "Delete content type"
+msgstr "Удалить тип материала"
+
+#: modules/node/content_types.inc:231
+msgid "The machine-readable name %type is already taken."
+msgstr "Машинное название %type уже занято."
+
+#: modules/node/content_types.inc:246
+msgid "The human-readable name %name is already taken."
+msgstr "Человеческое название %name уже занято."
+
+#: modules/node/content_types.inc:326
+msgid "The content type %name has been reset to its default values."
+msgstr "Настройки типа материалов %name были сброшены к исходным."
+
+#: modules/node/content_types.inc:331
+msgid "The content type %name has been updated."
+msgstr "Тип материалов %name изменен."
+
+#: modules/node/content_types.inc:334
+msgid "The content type %name has been added."
+msgstr "Тип материалов %name добавлен."
+
+#: modules/node/content_types.inc:335
+msgid "Added content type %name."
+msgstr "Добавлен тип материалов %name."
+
+#: modules/node/content_types.inc:383
+msgid "Are you sure you want to delete the content type %type?"
+msgstr "Вы действительно хотите удалить тип материала %type?"
+
+#: modules/node/content_types.inc:403
+msgid "The content type %name has been deleted."
+msgstr "Тип материала %name успешно удален."
+
+#: modules/node/content_types.inc:404
+msgid "Deleted content type %name."
+msgstr "Удален тип материала %name."
+
+#: modules/node/node.module:47
+msgid ""
+"Below is a list of all the content types on your site. All posts that exist "
+"on your site are instances of one of these content types."
+msgstr ""
+"Ниже располагается список типов содержимого на вашем сайте. Все сообщения на "
+"сайте представляют собой один из этих типов."
+
+#: modules/node/node.module:49
+msgid ""
+"To create a new content type, enter the human-readable name, the machine-"
+"readable name, and all other relevant fields that are on this page. Once "
+"created, users of your site will be able to create posts that are instances "
+"of this content type."
+msgstr ""
+"Для того, чтобы создать новый тип материалов, укажите понятное для человека "
+"имя этого типа, машинное имя и заполните все другие важные поля, которые "
+"находятся на этой странице. Как только тип материалов будет создан, "
+"пользователи вашего сайта смогут создавать материалы данного типа."
+
+#: modules/node/node.module:51
+msgid ""
+"The revisions let you track differences between multiple versions of a post."
+msgstr ""
+"Редакции позволяют вам следить за изменениями в разных версиях сообщений."
+
+#: modules/node/node.module:1159
+msgid "Content ranking"
+msgstr "Ранжирование содержания"
+
+#: modules/node/node.module:1163
+msgid ""
+"The following numbers control which properties the content search should "
+"favor when ordering the results. Higher numbers mean more influence, zero "
+"means the property is ignored. Changing these numbers does not require the "
+"search index to be rebuilt. Changes take effect immediately."
+msgstr ""
+"Следующие числа определяют, каким образом будет сортироваться результат "
+"поиска по содержанию. Большие числа означают больший приоритет, ноль "
+"означает, что данный фактор при сортировке не учитывается. Изменение этих "
+"значений не требует перестройки поискового индекса. Сделанные изменения "
+"действуют сразу же."
+
+#: modules/node/node.module:1166
+msgid "Keyword relevance"
+msgstr "Релевантность ключевого слова"
+
+#: modules/node/node.module:1167
+msgid "Recently posted"
+msgstr "Недавно отправленные"
+
+#: modules/node/node.module:1169
+msgid "Number of comments"
+msgstr "Число комментариев"
+
+#: modules/node/node.module:1172
+msgid "Number of views"
+msgstr "Число просмотров"
+
+#: modules/node/node.module:1322
+msgid "Factor"
+msgstr "Фактор"
+
+#: modules/node/node.admin.inc:17
+msgid ""
+"If the site is experiencing problems with permissions to content, you may "
+"have to rebuild the permissions cache. Possible causes for permission "
+"problems are disabling modules or configuration changes to permissions. "
+"Rebuilding will remove all privileges to posts, and replace them with "
+"permissions based on the current modules and settings."
+msgstr ""
+"Если сайт испытывает проблемы с правами на содержимое, вам может "
+"понадобиться пересоздать кеш прав доступа. Возможные причины для проблем с "
+"правами - это выключение модулей или изменения в конфигурации прав доступа. "
+"Пересоздание удалит все настройки правд для сообщений и заменит их правами, "
+"основанными на действующих модулях и настройках."
+
+#: modules/node/node.admin.inc:18
+msgid ""
+"Rebuilding may take some time if there is a lot of content or complex "
+"permission settings. After rebuilding has completed posts will automatically "
+"use the new permissions."
+msgstr ""
+"Пересоздание может занять некоторое время, если содержимого много или задана "
+"сложная комбинация прав доступа. После того, как пересоздание будет "
+"завершено, сообщения автоматически получают новые права доступа."
+
+#: modules/node/node.admin.inc:22
+msgid "Node access status"
+msgstr "Состояние доступа к материалу"
+
+#: modules/node/node.admin.inc:33
+msgid "Number of posts on main page"
+msgstr "Количество материалов на главной странице"
+
+#: modules/node/node.admin.inc:35
+msgid ""
+"The default maximum number of posts to display per page on overview pages "
+"such as the main page."
+msgstr ""
+"Максимальное количество материалов на страницу для таких страниц, как "
+"главная."
+
+#: modules/node/node.admin.inc:38
+msgid "Length of trimmed posts"
+msgstr "Длина усеченных материалов"
+
+#: modules/node/node.admin.inc:41
+msgid "200 characters"
+msgstr "200 знаков"
+
+#: modules/node/node.admin.inc:42
+msgid "400 characters"
+msgstr "400 знаков"
+
+#: modules/node/node.admin.inc:43
+msgid "600 characters"
+msgstr "600 знаков"
+
+#: modules/node/node.admin.inc:44
+msgid "800 characters"
+msgstr "800 знаков"
+
+#: modules/node/node.admin.inc:45
+msgid "1000 characters"
+msgstr "1000 знаков"
+
+#: modules/node/node.admin.inc:46
+msgid "1200 characters"
+msgstr "1200 знаков"
+
+#: modules/node/node.admin.inc:47
+msgid "1400 characters"
+msgstr "1400 знаков"
+
+#: modules/node/node.admin.inc:48
+msgid "1600 characters"
+msgstr "1600 знаков"
+
+#: modules/node/node.admin.inc:49
+msgid "1800 characters"
+msgstr "1800 знаков"
+
+#: modules/node/node.admin.inc:50
+msgid "2000 characters"
+msgstr "2000 знаков"
+
+#: modules/node/node.admin.inc:52
+msgid ""
+"The maximum number of characters used in the trimmed version of a post. "
+"Drupal will use this setting to determine at which offset long posts should "
+"be trimmed. The trimmed version of a post is typically used as a teaser when "
+"displaying the post on the main page, in XML feeds, etc. To disable teasers, "
+"set to 'Unlimited'. Note that this setting will only affect new or updated "
+"content and will not affect existing teasers."
+msgstr ""
+"Максимальное число знаков в усеченной версии материала. Drupal использует "
+"эту настройку, чтобы отрезать определенное  количество знаков в начале "
+"текста для усеченного варианта, который обычно используется как анонс "
+"основной страницы, XML-лент и т.п. Для отключения анонсов, установите "
+"'Неограничено'. Обратите внимание, что это изменение будет касаться только "
+"новых или обновленных материалов и не повлияет на существующие анонсы."
+
+#: modules/node/node.admin.inc:57
+msgid "Preview post"
+msgstr "Просмотр материала"
+
+#: modules/node/node.admin.inc:60
+msgid "Must users preview posts before submitting?"
+msgstr "Обязателен ли просмотр материала перед его отправкой?"
+
+#: modules/node/node.module:1411
+msgid "View, edit, and delete your site's content."
+msgstr "Просмотр, изменение и удаление материалов сайта."
+
+#: modules/node/node.module:1425
+msgid "Post settings"
+msgstr "Настройки публикации"
+
+#: modules/node/node.module:1426
+msgid ""
+"Control posting behavior, such as teaser length, requiring previews before "
+"posting, and the number of posts on the front page."
+msgstr ""
+"Настройка режима публикации: длина анонса, необходимость просмотра перед "
+"публикацией и количество сообщений на главной странице."
+
+#: modules/node/node.module:1444
+msgid ""
+"Manage posts by content type, including default status, front page "
+"promotion, etc."
+msgstr ""
+"Управление материалами по типам, включая значения по умолчанию, размещение "
+"на главной странице и т.д."
+
+#: modules/node/node.module:1455
+msgid "Add content type"
+msgstr "Добавить тип содержимого"
+
+#: modules/node/node.module:1469
+msgid "Create content"
+msgstr "Создать материал"
+
+#: modules/node/node.module:1545,1555
+msgid "Revisions"
+msgstr "Редакции"
+
+#: modules/node/node.admin.inc:95
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: modules/node/node.admin.inc:100
+msgid "Unpublish"
+msgstr "Не публиковать"
+
+#: modules/node/node.admin.inc:105
+msgid "Promote to front page"
+msgstr "Поместить на главную"
+
+#: modules/node/node.admin.inc:110
+msgid "Demote from front page"
+msgstr "Убрать с главной"
+
+#: modules/node/node.admin.inc:115
+msgid "Make sticky"
+msgstr "Закрепить вверху"
+
+#: modules/node/node.admin.inc:120
+msgid "Remove stickiness"
+msgstr "Не закреплять вверху"
+
+#: modules/node/node.admin.inc:142
+msgid "promoted"
+msgstr "на главной"
+
+#: modules/node/node.admin.inc:143
+msgid "not promoted"
+msgstr "не на главной"
+
+#: modules/node/node.admin.inc:144
+msgid "sticky"
+msgstr "закреплено"
+
+#: modules/node/node.admin.inc:145
+msgid "not sticky"
+msgstr "не закреплено"
+
+#: modules/node/node.admin.inc:217
+msgid "Show only items where"
+msgstr "Показывать только элементы, где"
+
+#: modules/node/node.admin.inc:518
+msgid "No items selected."
+msgstr "Нет выбранных элементов."
+
+#: modules/node/node.admin.inc:616
+msgid "Are you sure you want to delete these items?"
+msgstr "Вы уверены, что хотите удалить эти элементы?"
+
+#: modules/node/node.admin.inc:626
+msgid "The items have been deleted."
+msgstr "Элементы удалены."
+
+#: modules/node/node.pages.inc:528
+msgid "Revisions for %title"
+msgstr "Редакции %title"
+
+#: modules/node/node.pages.inc:530
+msgid "Revision"
+msgstr "Редакция"
+
+#: modules/node/node.pages.inc:548,554
+msgid "!date by !username"
+msgstr "!date от !username"
+
+#: modules/node/node.pages.inc:551
+msgid "current revision"
+msgstr "текущая редакция"
+
+#: modules/node/node.pages.inc:557
+msgid "revert"
+msgstr "вернуть"
+
+#: modules/node/node.pages.inc:574
+msgid "Are you sure you want to revert to the revision from %revision-date?"
+msgstr "Вы уверены, что хотите вернуться к редакции от %revision-date?"
+
+#: modules/node/node.pages.inc:580
+msgid "Copy of the revision from %date."
+msgstr "Копия редакции от %date."
+
+#: modules/node/node.pages.inc:587
+msgid "@type: reverted %title revision %revision."
+msgstr "@type: %title возвращен к редакции %revision."
+
+#: modules/node/node.pages.inc:594
+msgid "Are you sure you want to delete the revision from %revision-date?"
+msgstr "Вы уверены, что хотите удалить редакцию от %revision-date?"
+
+#: modules/node/node.pages.inc:601
+msgid "@type: deleted %title revision %revision."
+msgstr "@type: %title удалена редакция %revision."
+
+#: modules/node/node.module:1623,1629,1630
+msgid "Syndicate"
+msgstr "Сбор новостей"
+
+#: modules/node/node.module:785
+msgid "The body of your @type is too short. You need at least %words words."
+msgstr "Текст @type слишком короткий. Нужно минимум %words слов."
+
+#: modules/node/node.module:789
+msgid ""
+"This content has been modified by another user, changes cannot be saved."
+msgstr ""
+"Содержимое было изменено другим пользователем,  изменения не удается "
+"сохранить."
+
+#: modules/node/node.module:798
+msgid "The username %name does not exist."
+msgstr "Имя пользователя %name не существует."
+
+#: modules/node/node.pages.inc:166
+msgid ""
+"An explanation of the additions or updates being made to help other authors "
+"understand your motivations."
+msgstr ""
+"Пояснения к вашим добавлениям или обновлениям, чтобы помочь другим авторам "
+"понять смысл ваших действий."
+
+#: modules/node/node.pages.inc:174
+msgid "Authoring information"
+msgstr "Информация об авторе"
+
+#: modules/node/node.pages.inc:186
+msgid "Leave blank for %anonymous."
+msgstr "Если поле оставить пустым, автором будет %anonymous."
+
+#: modules/node/node.pages.inc:192
+msgid "Format: %time. Leave blank to use the time of form submission."
+msgstr ""
+"Формат: %time. Если поле оставить пустым, будет добавлено время отправки "
+"сообщения."
+
+#: modules/node/node.pages.inc:203
+msgid "Publishing options"
+msgstr "Настройки публикации"
+
+#: modules/node/node.pages.inc:438
+msgid "Preview trimmed version"
+msgstr "Просмотр усеченной версии"
+
+#: modules/node/node.pages.inc:440
+msgid "Preview full version"
+msgstr "Просмотр полной версии"
+
+#: modules/node/node.module:1114
+msgid "Log"
+msgstr "Журнал"
+
+#: modules/node/node.pages.inc:466
+msgid "@type: updated %title."
+msgstr "@type: обновлено %title."
+
+#: modules/node/node.pages.inc:462
+msgid "@type: added %title."
+msgstr "@type: добавлен %title."
+
+#: modules/node/node.pages.inc:505
+msgid "Are you sure you want to delete %title?"
+msgstr "Вы уверены, что хотите удалить %title?"
+
+#: modules/node/node.module:978
+msgid "@type: deleted %title."
+msgstr "@type: удален %title."
+
+#: modules/node/node.module:1094
+msgid "Revision of %title from %date"
+msgstr "Редакция %title от %date"
+
+#: modules/node/node.module:1759
+msgid "RSS"
+msgstr "RSS"
+
+#: modules/node/node.module:1763
+msgid ""
+"<h1 class=\"title\">Welcome to your new Drupal website!</h1><p>Please follow "
+"these steps to set up and start using your website:</p>"
+msgstr ""
+"<h1 class=\"title\">Добро пожаловать на ваш новый сайт на Drupal!</"
+"h1><p>Сделайте несколько шагов для настройки и начала работы вашего сайта:</"
+"p>"
+
+#: modules/node/node.module:1766
+msgid ""
+"<strong>Configure your website</strong> Once logged in, visit the <a href="
+"\"@admin\">administration section</a>, where you can <a href=\"@config"
+"\">customize and configure</a> all aspects of your website."
+msgstr ""
+"<strong>Настройка вашего сайта</strong> Зайдя на сайт, посетите <a href="
+"\"@admin\">администраторский раздел</a>, где вы сможете <a href=\"@config"
+"\">провести настройку и конфигурацию</a> всех параметров вашего сайта."
+
+#: modules/node/node.module:1767
+msgid ""
+"<strong>Enable additional functionality</strong> Next, visit the <a href="
+"\"@modules\">module list</a> and enable features which suit your specific "
+"needs. You can find additional modules in the <a href=\"@download_modules"
+"\">Drupal modules download section</a>."
+msgstr ""
+"<strong>Подключение дополнительных функций</strong> Затем зайдите на "
+"страницу <a href=\"@modules\">списка модулей</a> и включите те возможности, "
+"которые вам нужны. Дополнительные модули вы можете найти в разделе <a href="
+"\"@download_modules\">загрузка модулей</a> на сайте Drupal.org."
+
+#: modules/node/node.module:1768
+msgid ""
+"<strong>Customize your website design</strong> To change the \"look and feel"
+"\" of your website, visit the <a href=\"@themes\">themes section</a>. You "
+"may choose from one of the included themes or download additional themes "
+"from the <a href=\"@download_themes\">Drupal themes download section</a>."
+msgstr ""
+"<strong>Настройка дизайна сайта</strong> Для изменения внешнего облика "
+"вашего сайта зайдите в раздел <a href=\"@themes\">темы оформления</a>. В "
+"этом разделе вы можете выбрать из одну из существующих или загрузить "
+"дополнительную тему оформления со страниц <a href=\"@download_themes"
+"\">загрузки тем оформления</a> сайта Drupal.org."
+
+#: modules/node/node.module:1769
+msgid ""
+"<strong>Start posting content</strong> Finally, you can <a href=\"@content"
+"\">create content</a> for your website. This message will disappear once you "
+"have promoted a post to the front page."
+msgstr ""
+"<strong>Начало публикации материалов</strong> Наконец, вы можете <a href="
+"\"@content\">создавать материалы</a> вашего сайта. \r\n"
+"<i>А эта инструкция исчезнет, как только вы поместите свой первый материал "
+"на главную страницу сайта</i>."
+
+#: modules/node/node.module:1771
+msgid ""
+"For more information, please refer to the <a href=\"@help\">help section</"
+"a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also "
+"post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of "
+"<a href=\"@support\">other support options</a> available."
+msgstr ""
+"За дополнительной информацией обращайтесь в раздел <a href=\"@help"
+"\">Справка</a>, либо к сетевому <a href=\"@handbook\">справочнику по Drupal</"
+"a>. Можно также написать на <a href=\"@forum\">форум Drupal.org</a> или "
+"использовать широкий диапазон других услуг <a href=\"@support\">службы "
+"поддержки</a> сайта Drupal.org.<br/>Существует также русскоязычное "
+"сообщество на сайте <a href=\"http://drupal.ru\">Drupal.ru</a>."
+
+#: modules/node/node.module:1843,1895
+msgid "Advanced search"
+msgstr "Расширенный поиск"
+
+#: modules/node/node.module:1854
+msgid "Containing any of the words"
+msgstr "Содержит любое из слов"
+
+#: modules/node/node.module:1860
+msgid "Containing the phrase"
+msgstr "Содержит фразу"
+
+#: modules/node/node.module:1866
+msgid "Containing none of the words"
+msgstr "Не содержит слова"
+
+#: modules/node/node.module:1875
+msgid "Only in the category(s)"
+msgstr "Только в категории(-ях)"
+
+#: modules/node/node.module:1888
+msgid "Only of the type(s)"
+msgstr "Только для типа(-ов)"
+
+#: modules/node/node.module:1120
+msgid "administer content types"
+msgstr "управлять типами материалов"
+
+#: modules/node/node.module:1120
+msgid "administer nodes"
+msgstr "управлять материалами"
+
+#: modules/node/node.module:1120
+msgid "access content"
+msgstr "доступ к содержанию сайта"
+
+#: modules/node/node.module:1120
+msgid "view revisions"
+msgstr "просмотреть редакции"
+
+#: modules/node/node.module:1120
+msgid "revert revisions"
+msgstr "переключаться между редакциями"
+
+#: modules/node/content_types.inc:335
+msgid "node"
+msgstr "материал"
+
+#: modules/node/node.module:2388
+msgid "The content access permissions have been rebuilt."
+msgstr "Права доступа к содержимому обновлены."
+
+#: modules/node/content_types.inc:111
+msgid "Submission form settings"
+msgstr "Свойства формы"
+
+#: modules/node/content_types.inc:149
+msgid "Workflow settings"
+msgstr "Процесс"
+
+#: modules/node/content_types.inc:350
+msgid "Changed the content type of 1 post from %old-type to %type."
+msgid_plural ""
+"Changed the content type of @count posts from %old-type to %type."
+msgstr[0] "Тип 1 сообщения изменен с %old-type на %type."
+msgstr[1] "Тип @count сообщений изменен с %old-type на %type."
+msgstr[2] ""
+
+#: modules/node/content_types.inc:388
+msgid ""
+"<strong>Warning:</strong> there is currently 1 %type post on your site. It "
+"may not be able to be displayed or edited correctly, once you have removed "
+"this content type."
+msgid_plural ""
+"<strong>Warning:</strong> there are currently @count %type posts on your "
+"site. They may not be able to be displayed or edited correctly, once you "
+"have removed this content type."
+msgstr[0] ""
+"<strong> Предупреждение:</strong>: На Вашем сайте в настоящий момент имеется "
+"1 сообщение типа %type. Оно не будет правильно выводиться или "
+"редактироваться после удаления Вами этого типа содержимого."
+msgstr[1] ""
+"<strong> Предупреждение:</strong>: На Вашем сайте в настоящий момент имеются "
+"@count сообщения типа %type. Они не будут правильно выводиться или "
+"редактироваться после удаления Вами этого типа содержимого.; "
+msgstr[2] ""
+"<strong> Предупреждение:</strong>: На Вашем сайте в настоящий момент имеются "
+"@count сообщений типа %type. Они не будут правильно выводиться или "
+"редактироваться после удаления Вами этого типа содержимого."
+
+#: modules/node/node.admin.inc:235
+msgid "<em>and</em> where <strong>%a</strong> is <strong>%b</strong>"
+msgstr "<em> и </em> где <strong>%a</strong> является <strong>%b</strong>"
+
+#: modules/node/node.admin.inc:238
+msgid "<strong>%a</strong> is <strong>%b</strong>"
+msgstr "<strong>%a</strong> - <strong>%b</strong>"
+
+#: modules/node/node.pages.inc:57
+msgid "Create @name"
+msgstr "Создать @name"
+
+#: modules/node/node.pages.inc:149
+msgid "Revision information"
+msgstr "Информация о редакции"
+
+#: modules/node/node.pages.inc:284
+msgid "Show summary in full view"
+msgstr "Показывать анонс в полной версии"
+
+#: modules/node/node.pages.inc:437
+msgid ""
+"The trimmed version of your post shows what your post looks like when "
+"promoted to the main page or when exported for syndication.<span class=\"no-"
+"js\"> You can insert the delimiter \"&lt;!--break--&gt;\" (without the "
+"quotes) to fine-tune where your post gets split.</span>"
+msgstr ""
+"Урезанный вариант Вашего сообщения показывает, как будет выглядеть Ваше "
+"сообщение при продвижении на основную страницу или при экспорте для сбора. "
+"<span class=\"no-js\"> Вы можете вставить разделитель \"&lt;!--break--&gt;"
+"\" (без кавычек), чтобы указать то место, в котором Ваше сообщение будет "
+"разбито. </span>"
+
+#: modules/node/node.module:32
+msgid ""
+"The content access permissions need to be rebuilt. Please visit <a href="
+"\"@node_access_rebuild\">this page</a>."
+msgstr ""
+"Права доступа к содержанию следует перестроить. Пожалуйста посетите <a href="
+"\"@node_access_rebuild\">эту страницу</a>."
+
+#: modules/node/node.module:1360
+msgid "Read the rest of !title."
+msgstr "Читать дальше !title"
+
+#: modules/node/node.module:2312
+msgid "Rebuilding content access permissions"
+msgstr "Обновление разрешений доступа к содержимому"
+
+#: modules/node/node.module:2392
+msgid "The content access permissions have not been properly rebuilt."
+msgstr "Разрешения доступа к содержимому не были успешно обновлены."
+
+#: modules/node/node.module:2480
+msgid "Submitted by !username on @datetime"
+msgstr "Опубликовано !username в @datetime"
+
+#: modules/node/node.module:2495
+msgid "When either saving a new post or updating an existing post"
+msgstr "При сохранении нового сообщения или обновлении существующего"
+
+#: modules/node/node.module:2498
+msgid "After saving a new post"
+msgstr "После сохранения нового сообщения"
+
+#: modules/node/node.module:2501
+msgid "After saving an updated post"
+msgstr "После сохранения обновлённого сообщения"
+
+#: modules/node/node.module:2504
+msgid "After deleting a post"
+msgstr "После удаления сообщения"
+
+#: modules/node/node.module:2507
+msgid "When content is viewed by an authenticated user"
+msgstr "При просмотре содержимого авторизованным пользователем"
+
+#: modules/node/node.module:2521
+msgid "Publish post"
+msgstr "Опубликовать"
+
+#: modules/node/node.module:2531
+msgid "Unpublish post"
+msgstr "Снять с публикации"
+
+#: modules/node/node.module:2541
+msgid "Make post sticky"
+msgstr "Закрепить вверху списков"
+
+#: modules/node/node.module:2551
+msgid "Make post unsticky"
+msgstr "Удалить закрепление вверху списков"
+
+#: modules/node/node.module:2561
+msgid "Promote post to front page"
+msgstr "Поместить на главную страницу"
+
+#: modules/node/node.module:2571
+msgid "Remove post from front page"
+msgstr "Убрать с главной"
+
+#: modules/node/node.module:2581
+msgid "Change the author of a post"
+msgstr "Сменить автора"
+
+#: modules/node/node.module:2592
+msgid "Save post"
+msgstr "Сохранить сообщение"
+
+#: modules/node/node.module:2600
+msgid "Unpublish post containing keyword(s)"
+msgstr "Снять с публикации материал содержащий слова"
+
+#: modules/node/node.module:2683
+msgid "The username of the user to which you would like to assign ownership."
+msgstr "Имя пользователя, которому вы хотите назначить авторство."
+
+#: modules/node/node.module:2722
+msgid "Please enter a valid username."
+msgstr "Пожалуйста введите правильное имя пользователя."
+
+#: modules/node/node.admin.inc:366
+msgid "The update has encountered an error."
+msgstr "Во время обновления произошла ошибка."
+
+#: modules/node/node.admin.inc:432
+msgid "An error occurred and processing did not complete."
+msgstr "Произошла ошибка и процесс не был завершен."
+
+#: modules/node/node.module:2615
+msgid "Set @type %title to published."
+msgstr "Установить @type %title как опубликованное."
+
+#: modules/node/node.module:2624,2759
+msgid "Set @type %title to unpublished."
+msgstr "Установить @type %title как неопубликованное."
+
+#: modules/node/node.module:2633
+msgid "Set @type %title to sticky."
+msgstr "Установить @type %title закреплённым."
+
+#: modules/node/node.module:2642
+msgid "Set @type %title to unsticky."
+msgstr "Снять закрепление для @type %title."
+
+#: modules/node/node.module:2651
+msgid "Promoted @type %title to front page."
+msgstr "Поместить @type %title на главную страницу."
+
+#: modules/node/node.module:2660
+msgid "Removed @type %title from front page."
+msgstr "Удалить @type %title с главной страницы."
+
+#: modules/node/node.module:2669
+msgid "Saved @type %title"
+msgstr "Сохранено @type %title"
+
+#: modules/node/node.module:2679
+msgid "Changed owner of @type %title to uid %name."
+msgstr "Сменить владельца для @type %title на uid %name."
+
+#: modules/node/node.admin.inc:433
+msgid "1 item successfully processed:"
+msgid_plural "@count items successfully processed:"
+msgstr[0] "1 пункт успешно обработан:"
+msgstr[1] "@count пункта успешно обработано:"
+msgstr[2] "@count пунктов успешно обработано:"
+
+#: modules/node/node.admin.inc:160
+msgid "category"
+msgstr "категория"
+
+#: modules/node/node.admin.inc:156
+msgid "type"
+msgstr "тип"
+
+#: modules/node/node.module:1356
+msgid "Read more"
+msgstr "Читать далее"
+
+#: modules/node/node.admin.inc:140,497
+msgid "published"
+msgstr "опубликовано"
+
+#: modules/node/node.admin.inc:141,497
+msgid "not published"
+msgstr "не опубликовано"
+
+#: modules/node/node.admin.inc:165
+msgid "language"
+msgstr "язык"
+
+#: modules/node/node.pages.inc:574
+msgid "Revert"
+msgstr "Вернутся"
+
+#: modules/node/content_types.inc:86
+msgid ""
+"The machine-readable name of this content type. This text will be used for "
+"constructing the URL of the <em>create content</em> page for this content "
+"type. This name must contain only lowercase letters, numbers, and "
+"underscores. Underscores will be converted into hyphens when constructing "
+"the URL of the <em>create content</em> page. This name must be unique."
+msgstr ""
+"Машинное имя этого типа материала. Эта строка будет использоваться при "
+"конструировании адреса страницы <em>создать материал</em> для этого типа "
+"материала. Это имя может содержать лишь строчные буквы, цифры и знак "
+"подчеркивания. Знаки подчеркивания будут преобразованы в дефисы при "
+"конструировании ссылки страницы <em>создать материал</em>. Имя должно быть "
+"уникальным."
+
+#: modules/node/content_types.inc:234
+msgid ""
+"The machine-readable name must contain only lowercase letters, numbers, and "
+"underscores."
+msgstr ""
+"Машинное имя может содержать только буквы в нижнем регистре, цифры и знаки "
+"подчёркивания."
+
+#: modules/node/node.admin.inc:77
+msgid "Are you sure you want to rebuild the permissions on site content?"
+msgstr "Вы уверены, что хотите перестроить права доступа к содержимому сайта?"
+
+#: modules/node/node.admin.inc:78
+msgid ""
+"This action rebuilds all permissions on site content, and may be a lengthy "
+"process. This action cannot be undone."
+msgstr ""
+"Это действие обновляет все разрешения для содержимого сайта и может занять "
+"длительное время. Это действие не сможет быть отменено."
+
+#: modules/node/node.pages.inc:477
+msgid "The post could not be saved."
+msgstr "Не удалось сохранить сообщение."
+
+#: modules/node/node.module:2342
+msgid "Content permissions have been rebuilt."
+msgstr "Разрешения просмотра содержимого были обновлены."
+
+#: modules/node/node.module:2736
+msgid ""
+"The post will be unpublished if it contains any of the character sequences "
+"above. Use a comma-separated list of character sequences. Example: funny, "
+"bungee jumping, \"Company, Inc.\". Character sequences are case-sensitive."
+msgstr ""
+"Материал будет снят с публикации, если он содержит любую из указанных "
+"последовательностей символов. Используйте список последовательностей, "
+"разделённых запятыми. Например: смешной, банджи джампинг, \"Рога и Копыта\". "
+"Символы чувствительны к регистру."
+
+#: modules/node/node.module:29
+msgid "The content access permissions need to be rebuilt."
+msgstr "Разрешения доступа к содержимому нуждаются в обновлении."
+
+#: modules/node/node.module:1564
+msgid "Revert to earlier revision"
+msgstr "Вернуться к более ранней редакции"
+
+#: modules/node/node.module:1574
+msgid "Delete earlier revision"
+msgstr "Удалить предыдущую редакцию"
+
+#: modules/node/node.pages.inc:463
+msgid "@type %title has been created."
+msgstr "@type %title был создан."
+
+#: modules/node/node.pages.inc:467
+msgid "@type %title has been updated."
+msgstr "@type %title был обновлен."
+
+#: modules/node/node.pages.inc:588
+msgid ""
+"@type %title has been reverted back to the revision from %revision-date."
+msgstr "@type %title возвращено к редации от %revision-date."
+
+#: modules/node/node.pages.inc:602
+msgid "Revision from %revision-date of @type %title has been deleted."
+msgstr "Редакция @type %title от %revision-date удалена."
+
+#: modules/node/node.module:39
+msgid ""
+"The node module manages content on your site, and stores all posts "
+"(regardless of type) as a \"node\". In addition to basic publishing "
+"settings, including whether the post has been published, promoted to the "
+"site front page, or should remain present (or sticky) at the top of lists, "
+"the node module also records basic information about the author of a post. "
+"Optional revision control over edits is available. For additional "
+"functionality, the node module is often extended by other modules."
+msgstr ""
+"Модуль node (нода) управляет содержимым сайта, он хранит все (в "
+"независимости от типа) как \"ноду\". В дополнение к базовым свойствам "
+"отображения, таким как, когда содержимое было опубликовано, нужно ли его "
+"отображать на главной странице или должно ли оно быть вверху списка, данный "
+"модуль также хранит информацию, кто автор материала. Опционально доступен "
+"контроль за редакциями содержимого. Дополнительную функциональность данный "
+"получает при использовании других модулей."
+
+#: modules/node/node.module:40
+msgid ""
+"Though each post on your site is a node, each post is also of a particular "
+"<a href=\"@content-type\">content type</a>. <a href=\"@content-type"
+"\">Content types</a> are used to define the characteristics of a post, "
+"including the title and description of the fields displayed on its add and "
+"edit pages. Each content type may have different default settings for "
+"<em>Publishing options</em> and other workflow controls. By default, the two "
+"content types in a standard Drupal installation are <em>Page</em> and "
+"<em>Story</em>. Use the <a href=\"@content-type\">content types page</a> to "
+"add new or edit existing content types. Additional content types also become "
+"available as you enable additional core, contributed and custom modules."
+msgstr ""
+"Хотя каждая публикация на вашем сайте является материалом, также каждая "
+"публикация имеет конкретный <a href=\"@content-type\">тип содержимого</a>. "
+"<a href=\"@content-type\">Типы содержимого</a> используются для определения "
+"характеристик публикации, в том числе полей названия и описания, которые "
+"отображаются на страницах его добавления и редактирования. Каждый тип "
+"содержимого может иметь различные параметры по умолчанию для <em>Публикация</"
+"em> и других рабочих процессов. По умолчанию в стандартной установке Drupal "
+"создано два типа содержимого <em>Страница</em> и <em>Заметка</em>. "
+"Используйте <a href=\"@content-type\">страницу типов содержимого</a>, чтобы "
+"добавлять новые или изменять существующие типы содержимого. Дополнительные "
+"типы содержимого также становятся доступными, когда вы включаете "
+"дополнительные внутренние, сторонние или пользовательские модули."
+
+#: modules/node/node.module:41
+msgid ""
+"The administrative <a href=\"@content\">content page</a> allows you to "
+"review and manage your site content. The <a href=\"@post-settings\">post "
+"settings page</a> sets certain options for the display of posts. The node "
+"module makes a number of permissions available for each content type, which "
+"may be set by role on the <a href=\"@permissions\">permissions page</a>."
+msgstr ""
+"С помощью <a href=\"@content\">страницы управления содержимым</a> вы можете "
+"просматривать все материалы на сайте и управлять ими. На странице <a href="
+"\"@post-settings\">настроек публикации</a> находятся некоторые настройки "
+"отображения сообщений. Модуль node добавляет множество новых прав для "
+"каждого из типа документов, которые можно настроить на странице<a href="
+"\"@permissions\">контроля доступа</a>."
+
+#: modules/node/node.module:42
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@node"
+"\">Node module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью <a "
+"href=\"@node\">Node module</a>."
+
+#: modules/node/node.module:979
+msgid "@type %title has been deleted."
+msgstr "@type %title удалён."
+
+#: modules/node/node.module:260
+msgid ""
+"You specified that the summary should not be shown when this post is "
+"displayed in full view. This setting is ignored when the summary is empty."
+msgstr ""
+"Вы отключили показ усеченной версии при показе сообщения полностью. Эта "
+"настройка игнорируется, когда усеченная версия отсутствует."
+
+#: modules/node/node.module:264
+msgid ""
+"You specified that the summary should not be shown when this post is "
+"displayed in full view. This setting has been ignored since you have not "
+"defined a summary for the post. (To define a summary, insert the delimiter "
+"\"&lt;!--break--&gt;\" (without the quotes) in the Body of the post to "
+"indicate the end of the summary and the start of the main content.)"
+msgstr ""
+"Вы определили, что резюме нельзя показать, когда этот пост показан в полном "
+"представлении.  Эта установка игнорировалась, так как вы не определили "
+"резюме для поста. (Чтобы определять резюме, вставьте разделитель  \"&lt;!--"
+"break--&gt;\" (без кавычек) в Теле поста, чтобы указать конец резюме и "
+"начала главного содержания.)"
+
+#: modules/node/content_types.inc:75
+msgid ""
+"The human-readable name of this content type. This text will be displayed as "
+"part of the list on the <em>create content</em> page. It is recommended that "
+"this name begin with a capital letter and contain only letters, numbers, and "
+"<strong>spaces</strong>. This name must be unique."
+msgstr ""
+"Человеческое название этого типа материалов. Этот текст будет показан как "
+"часть списка на странице <em>создать содержание</em>. Рекомендуется, чтобы "
+"это имя начиналось с заглавной буквы и содержало только буквы, числа и "
+"<strong>пробелы</strong>. Оно должно быть уникальным для данного типа "
+"материалов."
+
+#: modules/node/content_types.inc:239
+msgid "Invalid machine-readable name. Please enter a name other than %invalid."
+msgstr ""
+"Неправильное машинное имя. Пожалуйста, введите имя, отличное от %invalid."
+
+#: modules/node/node.admin.inc:151
+msgid "Up to date translation"
+msgstr "Актуальный перевод"
+
+#: modules/node/node.admin.inc:152
+msgid "Outdated translation"
+msgstr "Устаревший перевод"

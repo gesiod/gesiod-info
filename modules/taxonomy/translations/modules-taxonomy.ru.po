@@ -1,0 +1,536 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from files:
+#  taxonomy.module,v 1.414.2.8 2009/04/27 11:49:05 goba
+#  taxonomy.admin.inc,v 1.22.2.3 2009/02/25 12:53:24 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2008-08-30 17:49+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/taxonomy/taxonomy.module:127
+msgid "Add vocabulary"
+msgstr "Добавить словарь"
+
+#: modules/taxonomy/taxonomy.module:137
+msgid "Edit vocabulary"
+msgstr "Изменить словарь"
+
+#: modules/taxonomy/taxonomy.module:146
+msgid "Edit term"
+msgstr "Изменить термин"
+
+#: modules/taxonomy/taxonomy.module:154
+msgid "Taxonomy term"
+msgstr "Термин таксономии"
+
+#: modules/taxonomy/taxonomy.module:163
+msgid "Autocomplete taxonomy"
+msgstr "Автозаполнение таксономии"
+
+#: modules/taxonomy/taxonomy.module:170
+msgid "List terms"
+msgstr "Список терминов"
+
+#: modules/taxonomy/taxonomy.module:185
+msgid "Add term"
+msgstr "Добавить термин"
+
+#: modules/taxonomy/taxonomy.admin.inc:31
+msgid "add terms"
+msgstr "добавить термины"
+
+#: modules/taxonomy/taxonomy.admin.inc:409
+msgid "No terms available."
+msgstr "Нет терминов."
+
+#: modules/taxonomy/taxonomy.admin.inc:122
+msgid "Vocabulary name"
+msgstr "Название словаря"
+
+#: modules/taxonomy/taxonomy.admin.inc:131
+msgid "Description of the vocabulary; can be used by modules."
+msgstr "Описание словаря. Может использоваться модулями."
+
+#: modules/taxonomy/taxonomy.admin.inc:134
+msgid "Help text"
+msgstr "Справочный текст"
+
+#: modules/taxonomy/taxonomy.admin.inc:696
+msgid "Related terms"
+msgstr "Связанные термины"
+
+#: modules/taxonomy/taxonomy.admin.inc:161
+msgid "Multiple select"
+msgstr "Множественный выбор"
+
+#: modules/taxonomy/taxonomy.admin.inc:202,203
+msgid "Created new vocabulary %name."
+msgstr "Создан новый словарь %name."
+
+#: modules/taxonomy/taxonomy.admin.inc:206,207
+msgid "Updated vocabulary %name."
+msgstr "Обновлен словарь %name."
+
+#: modules/taxonomy/taxonomy.admin.inc:873
+msgid "Are you sure you want to delete the vocabulary %title?"
+msgstr "Вы действительно желаете удалить словарь %title?"
+
+#: modules/taxonomy/taxonomy.admin.inc:876
+msgid ""
+"Deleting a vocabulary will delete all the terms in it. This action cannot be "
+"undone."
+msgstr ""
+"Удаление словаря повлечет за собой удаление всех терминов в нем. Это "
+"действие не может быть отменено."
+
+#: modules/taxonomy/taxonomy.admin.inc:888,889
+msgid "Deleted vocabulary %name."
+msgstr "Удалён словарь %name."
+
+#: modules/taxonomy/taxonomy.admin.inc:663
+msgid "Term name"
+msgstr "Название термина"
+
+#: modules/taxonomy/taxonomy.admin.inc:666
+msgid "The name of this term."
+msgstr "Название данного термина."
+
+#: modules/taxonomy/taxonomy.admin.inc:695
+msgid "Parents"
+msgstr "Родители"
+
+#: modules/taxonomy/taxonomy.admin.inc:695
+msgid "Parent terms"
+msgstr "Родительские термины"
+
+#: modules/taxonomy/taxonomy.admin.inc:700
+msgid "Synonyms"
+msgstr "Синонимы"
+
+#: modules/taxonomy/taxonomy.admin.inc:768,769
+msgid "Created new term %term."
+msgstr "Создан новый термин %term."
+
+#: modules/taxonomy/taxonomy.admin.inc:772,773
+msgid "Updated term %term."
+msgstr "Обновление термина %term."
+
+#: modules/taxonomy/taxonomy.admin.inc:838
+msgid "Are you sure you want to delete the term %title?"
+msgstr "Вы действительно желаете удалить термин %title?"
+
+#: modules/taxonomy/taxonomy.admin.inc:841
+msgid ""
+"Deleting a term will delete all its children if there are any. This action "
+"cannot be undone."
+msgstr ""
+"Удаление термина повлечет за собой удаление всех дочерних терминов, если они "
+"есть. Это действие не может быть отменено."
+
+#: modules/taxonomy/taxonomy.admin.inc:854,855
+msgid "Deleted term %name."
+msgstr "Удален термин %name."
+
+#: modules/taxonomy/taxonomy.module:520
+msgid ""
+"A comma-separated list of terms describing this content. Example: funny, "
+"bungee jumping, \"Company, Inc.\"."
+msgstr ""
+"Список разделенных запятыми ярлыков, характеризующих содержание. Пример: "
+"забавное, прыжки в высоту, \"ЗАО Компания\"."
+
+#: modules/taxonomy/taxonomy.module:638
+msgid "The %name vocabulary can not be modified in this way."
+msgstr "Словарь %name нельзя обновить подобным образом."
+
+#: modules/taxonomy/taxonomy.module:1137
+msgid "There are currently no posts in this category."
+msgstr "В этой категории нет материалов."
+
+#: modules/taxonomy/taxonomy.module:13
+msgid "administer taxonomy"
+msgstr "управлять таксономией"
+
+#: modules/taxonomy/taxonomy.admin.inc:156
+msgid "Tags"
+msgstr "Теги"
+
+#: modules/taxonomy/taxonomy.admin.inc:254
+msgid "Terms in %vocabulary"
+msgstr "Термины в словаре %vocabulary"
+
+#: modules/taxonomy/taxonomy.admin.inc:624
+msgid "Add term to %vocabulary"
+msgstr "Добавить термин в  %vocabulary"
+
+#: modules/taxonomy/taxonomy.admin.inc:30
+msgid "list terms"
+msgstr "список терминов"
+
+#: modules/taxonomy/taxonomy.admin.inc:203,207,769,773,855,889,924
+msgid "taxonomy"
+msgstr "таксономия"
+
+#: modules/taxonomy/taxonomy.admin.inc:29
+msgid "edit vocabulary"
+msgstr "изменить словарь"
+
+#: modules/taxonomy/taxonomy.admin.inc:148
+msgid "Select content types to categorize using this vocabulary."
+msgstr ""
+"Выберите типы материалов, которые будут классифицированы с помощью данного "
+"словаря."
+
+#: modules/taxonomy/taxonomy.admin.inc:158
+msgid ""
+"Terms are created by users when submitting posts by typing a comma separated "
+"list."
+msgstr ""
+"Термины будут создаваться пользователями при создании материала, путём "
+"набора слов, разделённых запятыми."
+
+#: modules/taxonomy/taxonomy.admin.inc:163
+msgid ""
+"Allows posts to have more than one term from this vocabulary (always true "
+"for tags)."
+msgstr ""
+"Позволяет назначать материалам сразу несколько терминов из этого словаря "
+"(для тегов это всегда так)."
+
+#: modules/taxonomy/taxonomy.admin.inc:168
+msgid ""
+"At least one term in this vocabulary must be selected when submitting a post."
+msgstr ""
+"По крайней мере, один термин должен быть выбран во время создания материала."
+
+#: modules/taxonomy/taxonomy.admin.inc:173
+msgid "Vocabularies are displayed in ascending order by weight."
+msgstr "Словари будут отображаться в порядке возрастания их веса."
+
+#: modules/taxonomy/taxonomy.admin.inc:672
+msgid ""
+"A description of the term. To be displayed on taxonomy/term pages and RSS "
+"feeds."
+msgstr ""
+"Описание термина. Оно будет показано на страницах таксономии или термина, а "
+"также RSS."
+
+#: modules/taxonomy/taxonomy.admin.inc:702
+msgid "Synonyms of this term, one synonym per line."
+msgstr "Синонимы данного термина, один синоним на одну строчку."
+
+#: modules/taxonomy/taxonomy.module:421
+msgid "- None selected -"
+msgstr "- Ничего не выбрано -"
+
+#: modules/taxonomy/taxonomy.module:551
+msgid "Vocabularies"
+msgstr "Словари"
+
+#: modules/taxonomy/taxonomy.module:1241
+msgid ""
+"For example, when creating a recipe site, you might want to classify posts "
+"by both the type of meal and preparation time. A vocabulary for each allows "
+"you to categorize using each criteria independently instead of creating a "
+"tag for every possible combination."
+msgstr ""
+"Например, когда вы создаёте сайт рецептов, вы можете захотеть "
+"классифицировать материалы и по типу еды и по времени приготовления. Словарь "
+"для каждого из этих критериев позволит независимо категоризировать "
+"материалы, вместо создания тегов для каждой возможной комбинации."
+
+#: modules/taxonomy/taxonomy.module:1242
+msgid "Type of Meal: <em>Appetizer, Main Course, Salad, Dessert</em>"
+msgstr "Тип еды: <em>Закуска, Главное блюдо, Салат, Десерт</em>"
+
+#: modules/taxonomy/taxonomy.module:1243
+msgid "Preparation Time: <em>0-30mins, 30-60mins, 1-2 hrs, 2hrs+</em>"
+msgstr ""
+"Время приготовления: <em>0–30 мин., 30–60 мин., 1–2 часа, больше 2-х часов</"
+"em>"
+
+#: modules/taxonomy/taxonomy.module:1245
+msgid ""
+"Terms can also be organized in parent/child relationships from the admin "
+"interface. An example would be a vocabulary grouping countries under their "
+"parent geo-political regions. The taxonomy module also enables advanced "
+"implementations of hierarchy, for example placing Turkey in both the 'Middle "
+"East' and 'Europe'."
+msgstr ""
+"Термины могут быть организованы как родительские/дочерние при помощи "
+"административного интерфейса. Например, можно создать словарь, группирующий "
+"названия стран внутри родительских гео-политических регионов. Модуль "
+"Таксономия также позволяет создавать продвинутую версию иерархии, к примеру, "
+"помещая Турцию сразу в «Ближний Восток» и «Европу»."
+
+#: modules/taxonomy/taxonomy.module:1267
+msgid ""
+"Define how your vocabulary will be presented to administrators and users, "
+"and which content types to categorize with it. Tags allows users to create "
+"terms when submitting posts by typing a comma separated list. Otherwise "
+"terms are chosen from a select list and can only be created by users with "
+"the \"administer taxonomy\" permission."
+msgstr ""
+"Настройте, как ваш словарь будет представлен администраторам и "
+"пользователям, и какие типы материалов будут работать с ним. Теги дают "
+"возможность пользователям создавать термины при добавлении материалов, вводя "
+"список слов, разделённых запятыми. Или же термины могут выбираться из "
+"выпадающего списка и создаваться они будут лишь пользователями с правами "
+"«управлять таксономией»."
+
+#: modules/taxonomy/taxonomy.module:113
+msgid "Manage tagging, categorization, and classification of your content."
+msgstr "Создание словарей и терминов для разбивки материалов по категориям."
+
+#: modules/taxonomy/taxonomy.admin.inc:85
+msgid "No vocabularies available."
+msgstr "Нет доступных словарей."
+
+#: modules/taxonomy/taxonomy.admin.inc:708
+msgid "Terms are displayed in ascending order by weight."
+msgstr "Термины  показаны отсортированными в порядке их веса."
+
+#: modules/taxonomy/taxonomy.admin.inc:739
+msgid "Weight value must be numeric."
+msgstr "Значение веса должно быть числовым."
+
+#: modules/taxonomy/taxonomy.admin.inc:818
+msgid "Set multiple term parents?"
+msgstr "Включить множественное наследование терминов?"
+
+#: modules/taxonomy/taxonomy.admin.inc:819
+msgid ""
+"Adding multiple parents to a term will cause the %vocabulary vocabulary to "
+"look for multiple parents on every term. Because multiple parents are not "
+"supported when using the drag and drop outline interface, drag and drop will "
+"be disabled if you enable this option. If you choose to have multiple "
+"parents, you will only be able to set parents by using the term edit form."
+msgstr ""
+"Добавление множественных родителей к термину заставит словарь %vocabulary "
+"искать множественных родителей для каждого термина. Поскольку множественные "
+"родители не поддерживают функцию перетаскивания, эта функция будет "
+"отключена, даже если Вы ее включите. Если Вы предпочтете иметь множественных "
+"родителей, то сможете настроить родителей только используя форму "
+"редактирования термина."
+
+#: modules/taxonomy/taxonomy.admin.inc:820
+msgid ""
+"You may re-enable the drag and drop interface at any time by reducing "
+"multiple parents to a single parent for the terms in this vocabulary."
+msgstr ""
+"Вы можете вновь включить возможность перетаскиванию в интерфейсе в любое "
+"время, сократив множественных родителей до одиночного родителя для терминов "
+"в этом словаре."
+
+#: modules/taxonomy/taxonomy.admin.inc:821
+msgid "Set multiple parents"
+msgstr "Установить множественных родителей"
+
+#: modules/taxonomy/taxonomy.admin.inc:908
+msgid ""
+"Are you sure you want to reset the vocabulary %title to alphabetical order?"
+msgstr ""
+"Вы уверены в том, что хотите вернуть словарь %title к отображению в порядке "
+"алфавита?"
+
+#: modules/taxonomy/taxonomy.admin.inc:923,924
+msgid "Reset vocabulary %name to alphabetical order."
+msgstr "Вернуть словарь %name к отображению в порядке алфавита."
+
+#: modules/taxonomy/taxonomy.module:1256
+msgid ""
+"%capital_name is a free-tagging vocabulary. To change the name or "
+"description of a term, click the <em>edit</em> link next to the term."
+msgstr ""
+"%capital_name представляет собой словарь со свободной разметкой. Чтобы "
+"изменить имя или описание термина, нажмите на ссылку редактирования рядом с "
+"этим термином."
+
+#: modules/taxonomy/taxonomy.module:1260
+msgid ""
+"%capital_name is a flat vocabulary. You may organize the terms in the %name "
+"vocabulary by using the handles on the left side of the table. To change the "
+"name or description of a term, click the <em>edit</em> link next to the term."
+msgstr ""
+"%capital_name представляет собой простой словарь. Вы можете организовать "
+"термины в словаре %name, используя маркеры в левой части таблицы. Чтобы "
+"изменить имя или описание термина, нажмите на ссылку редактирования рядом с "
+"термином."
+
+#: modules/taxonomy/taxonomy.module:1262
+msgid ""
+"%capital_name is a single hierarchy vocabulary. You may organize the terms "
+"in the %name vocabulary by using the handles on the left side of the table. "
+"To change the name or description of a term, click the <em>edit</em> link "
+"next to the term."
+msgstr ""
+"%capital_name представляет собой отдельный иерархически организованный "
+"словарь. Вы можете организовать термины в словаре %name, используя маркеры в "
+"левой части таблицы. Чтобы изменить имя или описание термина, нажмите на "
+"ссылку редактирования рядом с термином."
+
+#: modules/taxonomy/taxonomy.module:1264
+msgid ""
+"%capital_name is a multiple hierarchy vocabulary. To change the name or "
+"description of a term, click the <em>edit</em> link next to the term. Drag "
+"and drop of multiple hierarchies is not supported, but you can re-enable "
+"drag and drop support by editing each term to include only a single parent."
+msgstr ""
+"%capital_name представляет собой множественный иерархически организованный "
+"словарь. Чтобы изменить имя или описание термина, нажмите на ссылку "
+"редактирования рядом с термином. Перетаскивание множественных иерархий не "
+"поддерживается, но Вы можете включить поддержку опции перетаскивания, "
+"редактируя каждый термин так, чтобы он включал только одного родителя."
+
+#: modules/taxonomy/taxonomy.admin.inc:418,445,912
+msgid "Reset to alphabetical"
+msgstr "Сортировать по алфавиту"
+
+#: modules/taxonomy/taxonomy.admin.inc:911
+msgid ""
+"Resetting a vocabulary will discard all custom ordering and sort items "
+"alphabetically."
+msgstr ""
+"Сброс словарей приведет к отмене всех пользовательских настроек и сортирует "
+"пункты по алфавиту."
+
+#: modules/taxonomy/taxonomy.module:424
+msgid "- None -"
+msgstr "- Ни один -"
+
+#: modules/taxonomy/taxonomy.module:1240
+msgid ""
+"The taxonomy module allows you to categorize content using various systems "
+"of classification. Free-tagging vocabularies are created by users on the fly "
+"when they submit posts (as commonly found in blogs and social bookmarking "
+"applications). Controlled vocabularies allow for administrator-defined short "
+"lists of terms as well as complex hierarchies with multiple relationships "
+"between different terms. These methods can be applied to different content "
+"types and combined together to create a powerful and flexible method of "
+"classifying and presenting your content."
+msgstr ""
+"Модуль Таксономия позволяет вам категоризировать содержимое, используя "
+"различные системы классификации. Словари с тегами создаются пользователями "
+"«на лету» при добавлении материалов (как это часто бывает в блогах и сайтах "
+"социальных закладок). Контролируемые словари позволяют создавать короткие "
+"списки терминов, задаваемых администраторами, или комплексные иерархии с "
+"множественными связями между разными терминами. Эти методики могут "
+"применяться к различным типам материалов и комбинироваться вместе для "
+"создания мощной и гибкой системы классификации и представления содержимого."
+
+#: modules/taxonomy/taxonomy.module:1244
+msgid ""
+"Each taxonomy term (often called a 'category' or 'tag' in other systems) "
+"automatically provides lists of posts and a corresponding RSS feed. These "
+"taxonomy/term URLs can be manipulated to generate AND and OR lists of posts "
+"classified with terms. In our recipe site example, it then becomes easy to "
+"create pages displaying 'Main courses', '30 minute recipes', or '30 minute "
+"main courses and appetizers' by using terms on their own or in combination "
+"with others. There are a significant number of contributed modules which you "
+"to alter and extend the behavior of the core module for both display and "
+"organization of terms."
+msgstr ""
+"Каждый термин (часто называемый в других системах 'категория' или 'тег') "
+"автоматически формирует список всех материалов и RSS-ленту. Данные ссылки "
+"вида taxonomy/term можно изменять, получая списки материалов, которые "
+"помечены этими терминами, совершая при этом выборки с логикой И или ИЛИ. В "
+"нашем случае с сайтом рецептов, становится легко создать страницу, "
+"отображающую 'Главные блюда', '30-минутные рецепты' или '30-минутные главные "
+"блюда и закуски', используя термины по отдельности или в комбинации с "
+"другими. Существует большое количество дополнительных модулей, которые "
+"позволяют изменять и расширять поведение встроенных модулей в области "
+"отображения и организации терминов."
+
+#: modules/taxonomy/taxonomy.module:1246
+msgid ""
+"The taxonomy module supports the use of both synonyms and related terms, but "
+"does not directly use this functionality. However, optional contributed or "
+"custom modules may make full use of these advanced features."
+msgstr ""
+"Модуль Таксономия поддерживает и синонимы и связанные термины, но не "
+"использует напрямую данный функционал. Однако, дополнительные или самописные "
+"модули могут использовать эти продвинутые возможности."
+
+#: modules/taxonomy/taxonomy.module:1247
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@taxonomy"
+"\">Taxonomy module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью  <a "
+"href=\"@taxonomy\">Taxonomy module</a>."
+
+#: modules/taxonomy/taxonomy.module:1250
+msgid ""
+"The taxonomy module allows you to categorize your content using both tags "
+"and administrator defined terms. It is a flexible tool for classifying "
+"content with many advanced features. To begin, create a 'Vocabulary' to hold "
+"one set of terms or tags. You can create one free-tagging vocabulary for "
+"everything, or separate controlled vocabularies to define the various "
+"properties of your content, for example 'Countries' or 'Colors'."
+msgstr ""
+"Модуль Таксономия позволяет категоризировать содержимое, используя теги и "
+"термины, определённые администратором. Это гибкая система для классификации "
+"содержимого с богатыми возможностями. Для начала, создайте 'Словарь', "
+"который будет содержать набор терминов или тегов. Вы можете создать один "
+"словарь с тегами для всего содержимого или раздельные контролируемые "
+"словари, определяющие различные параметры вашего содержимого, например "
+"'Страны' или 'Цвета'."
+
+#: modules/taxonomy/taxonomy.module:1251
+msgid ""
+"Use the list below to configure and review the vocabularies defined on your "
+"site, or to list and manage the terms (tags) they contain. A vocabulary may "
+"(optionally) be tied to specific content types as shown in the <em>Type</em> "
+"column and, if so, will be displayed when creating or editing posts of that "
+"type. Multiple vocabularies tied to the same content type will be displayed "
+"in the order shown below. To change the order of a vocabulary, grab a drag-"
+"and-drop handle under the <em>Name</em> column and drag it to a new location "
+"in the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+"Используйте этот список для настройки и обзора словарей вашего сайта, а "
+"также для управления терминами (тегами), которые содержатся в этих словарях. "
+"Словарь может быть (необязательно) привязан к определённому типу материала, "
+"что показывается в колонке <em>Тип</em>. Если это так, то данный словарь "
+"будет отображён при создании и редактировании материалов данного типа. "
+"Множественные словари, привязанные к данному типу материала, будут показаны "
+"в том же порядке, что и здесь. Для изменения порядка словарей, схватите и "
+"тащите указатель в колонке <em>Название</em>, перетаскивая его в новое место "
+"списка (схватите указатель, кликнув на нём мышкой и, удерживая клавишу мышки "
+"зажатой, перетаскивайте указатель). Помните, что сделанные изменения не "
+"сохранятся до тех пор, пока вы не нажмете кнопку <em>Сохранить</em> внизу "
+"страницы."
+
+#: modules/taxonomy/taxonomy.module:1306
+msgid "After saving a new term to the database"
+msgstr "После сохранения нового термина в базу данных"
+
+#: modules/taxonomy/taxonomy.module:1309
+msgid "After saving an updated term to the database"
+msgstr "После сохранения и обновления термина в базе"
+
+#: modules/taxonomy/taxonomy.module:1312
+msgid "After deleting a term"
+msgstr "После удаления термина"
+
+#: modules/taxonomy/taxonomy.admin.inc:125
+msgid "The name for this vocabulary, e.g., <em>\"Tags\"</em>."
+msgstr "Имя словаря, например, <em>\"Метки\"</em>."
+
+#: modules/taxonomy/taxonomy.admin.inc:137
+msgid ""
+"Instructions to present to the user when selecting terms, e.g., <em>\"Enter "
+"a comma separated list of words\"</em>."
+msgstr ""
+"Инструкции, показываемые пользователю при выборе терминов, например "
+"<em>«Введите список слов, разделённых запятыми»</em>."

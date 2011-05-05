@@ -1,0 +1,13 @@
+; $Id: node_import_update.info,v 1.1 2010/05/12 17:58:59 ergonlogic Exp $
+name = Node Import Update
+description = Extend Node Import to allow for nodes to be updated.
+
+dependencies[] = node_import
+package = Node Import
+core = 6.x
+; Information added by drupal.org packaging script on 2010-05-31
+version = "6.x-0.2"
+core = "6.x"
+project = "node_import_update"
+datestamp = "1275314107"
+

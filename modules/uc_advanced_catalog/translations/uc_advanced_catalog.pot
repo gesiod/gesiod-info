@@ -1,0 +1,429 @@
+# $Id: uc_advanced_catalog.pot,v 1.1.2.1 2011/01/04 11:01:38 mogtofu33 Exp $
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  uc_advanced_catalog.admin.inc,v 1.2.4.1 2010/12/22 22:04:09 mogtofu33
+#  uc_advanced_catalog.filters.inc,v 1.1.4.1 2010/12/22 22:04:09 mogtofu33
+#  uc_advanced_catalog.module,v 1.4.4.1 2010/12/22 22:04:09 mogtofu33
+#  uc_advanced_catalog.pages.inc,v 1.1.2.3 2011/01/03 16:25:39 mogtofu33
+#  uc_advanced_catalog.ds_default.inc,v 1.1.2.2 2010/12/22 22:04:09 mogtofu33
+#  uc_advanced_catalog.info,v 1.1.4.1 2010/12/22 22:04:09 mogtofu33
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-01-04 12:05+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: uc_advanced_catalog.admin.inc:31
+msgid "Advanced catalog filters"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:32
+msgid "The checked filters will be included in your catalog filter area."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:33
+msgid "Select which default view will be used when available, even if filter is not displayed."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:34
+msgid "You can reorder filters, first one will be on the left side."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:55
+msgid "Filters settings"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:59
+msgid "Extra information text"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:60
+msgid "Variables are !start, !end and !total."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:61 uc_advanced_catalog.filters.inc:72
+msgid "Items !start to !end of !total total"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:65
+msgid "Limit all filter"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:68
+msgid "Indicate the maximum limit for <em>all</em> limit selection."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:74
+msgid "Limit filter prefix"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:75;232 uc_advanced_catalog.filters.inc:111
+msgid "Show"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:79
+msgid "Limit filter suffix"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:80 uc_advanced_catalog.filters.inc:112
+msgid "per page"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:84
+msgid "View filter prefix"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:85 uc_advanced_catalog.filters.inc:121;153
+msgid "View as"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:89
+msgid "Ordering filter prefix"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:90 uc_advanced_catalog.filters.inc:208
+msgid "Sort by"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:96 uc_advanced_catalog.module:28
+msgid "Advanced catalog settings"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:99
+msgid "Top"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:100
+msgid "Bottom"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:101
+msgid "Top and Bottom"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:105
+msgid "Pager position"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:107
+msgid "Select where the pager will be display on catalog."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:112
+msgid "Filters position"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:114
+msgid "Select where the filters will be display on catalog."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:130
+msgid "Reset to defaults"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:170
+msgid "Filters"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:170
+msgid "Default value"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:170
+msgid "Options"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:200
+msgid "Field activation, position and option is now handle by Display suite and Node display, please visit <a href=\"!url\">Display suite Layout settings</a>, select Catalog list."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:210;273
+msgid "Image cache preset of single image mode"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:212;275
+msgid "Choose the preset that will be used for the image field."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:231
+msgid "Header display"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:232;234 uc_advanced_catalog.pages.inc:452;452
+msgid "Hide"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:233
+msgid "Select display of the table header row. Note: header will not be sortable."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:244
+msgid "Advanced catalog notice: If you need more fined settings on node full display, fields activation, position and option can be handle by Display suite, please visit <a href=\"!url\">Display suite Layout settings</a>. On full node settings."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:260
+msgid "Fill up single line"
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:261
+msgid "If you disable this option a grid with only one row will have the amount of items as tds. If you disable it this can cause problems with your css."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:282
+msgid "Fields activation, position and option is now handle by Display suite, please visit <a href=\"!url\">Display suite Layout settings</a>, select Catalog Grid."
+msgstr ""
+
+#: uc_advanced_catalog.admin.inc:305
+msgid "This field need to be numeric."
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:336
+msgid "Product image"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:341
+msgid "Grid mode: First image"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:343
+msgid "List mode: First image"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:344
+msgid "All images (Ubercart full node)"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:350
+msgid "Sell price"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:355;367;379
+msgid "Price formatted"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:356;368
+msgid "Price themed"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:362
+msgid "List price"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:374
+msgid "Cost"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:385
+msgid "SKU"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:390;403;416;429;440;451
+msgid "Default"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:398 uc_advanced_catalog.filters.inc:213;279;283
+msgid "Weight"
+msgstr ""
+
+#: uc_advanced_catalog.ds_default.inc:411 uc_advanced_catalog.filters.inc:214;289;293
+msgid "Lenght"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:77
+msgid "Pagination"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:79
+msgid "Display:"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:79
+msgid "See filter settings below to change text."
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:91;105 uc_advanced_catalog.pages.inc:182
+msgid "all"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:96
+msgid "Limit"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:104
+msgid "Specify limit option values available. Separate each with comma. Notice that if you are using grid display all values must be multiple of the grid width value, otherwise the last row will not match. <em>all</em> can be used to display all values. It make more sense to have default value in the options list."
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:126;129
+msgid "Grid"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:135;138
+msgid "Table"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:144;147
+msgid "List"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:157;167
+msgid "Grid view"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:158;177
+msgid "Table view"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:159;187
+msgid "List view"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:171
+msgid "Grid view enabled."
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:181
+msgid "Table view enabled."
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:191
+msgid "List view enabled."
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:210;249;253
+msgid "Position"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:211;259;263
+msgid "Name"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:212;269;273
+msgid "Price"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:215;299;303
+msgid "Width"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:216;309;313
+msgid "Height"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:239
+msgid "Ordering"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:253;263;273;283;293;303;313
+msgid "Ordering by !filter is enabled."
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:327
+msgid "Ascending"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:328
+msgid "Descending"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:335
+msgid "descending"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:340
+msgid "ascending"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:343
+msgid "Click to sort !sort"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:358
+msgid "Sort"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:366
+msgid "Image"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:366
+msgid "Select"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:367
+msgid "Specify filter apparence, use image or select field."
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:397
+msgid "Taxonomy filter"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:448
+msgid "Product attributes"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:468;487;542
+msgid "All"
+msgstr ""
+
+#: uc_advanced_catalog.filters.inc:511
+msgid "CCK filter"
+msgstr ""
+
+#: uc_advanced_catalog.pages.inc:72
+msgid "More..."
+msgstr ""
+
+#: uc_advanced_catalog.pages.inc:328
+msgid "error, no theming function for !mode mode!"
+msgstr ""
+
+#: uc_advanced_catalog.module:149
+msgid "Apply"
+msgstr ""
+
+#: uc_advanced_catalog.module:232;265
+msgid "n/a"
+msgstr ""
+
+#: uc_advanced_catalog.module:393
+msgid "Catalog"
+msgstr ""
+
+#: uc_advanced_catalog.module:396
+msgid "Catalog grid"
+msgstr ""
+
+#: uc_advanced_catalog.module:399
+msgid "Catalog list"
+msgstr ""
+
+#: uc_advanced_catalog.module:36
+msgid "Product table settings"
+msgstr ""
+
+#: uc_advanced_catalog.module:44
+msgid "Product list settings"
+msgstr ""
+
+#: uc_advanced_catalog.info:0
+msgid "Ubercart advanced catalog"
+msgstr ""
+
+#: uc_advanced_catalog.info:0
+msgid "Provide filter and view managment for Ubercart catalog."
+msgstr ""
+
+#: uc_advanced_catalog.info:0
+msgid "Ubercart - extra"
+msgstr ""
+

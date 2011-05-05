@@ -1,0 +1,173 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from files:
+#  trigger.admin.inc,v 1.5 2008/01/08 10:35:43 goba
+#  trigger.module,v 1.13.2.2 2009/03/30 11:53:09 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2008-05-17 18:32+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/trigger/trigger.admin.inc:238
+msgid "Operation"
+msgstr "Действие"
+
+#: modules/trigger/trigger.module:17
+msgid ""
+"Below you can assign actions to run when certain comment-related triggers "
+"happen. For example, you could promote a post to the front page when a "
+"comment is added."
+msgstr ""
+"Ниже вы можете назначить действия при срабатывании триггеров, связанных с "
+"комментариями. Например, вы можете поместить сообщение на первую страницу "
+"при добавлении комментария."
+
+#: modules/trigger/trigger.module:25
+msgid ""
+"Below you can assign actions to run when certain user-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"user account is deleted."
+msgstr ""
+"Ниже вы можете назначить действия при срабатывании триггеров, связанных с "
+"пользователями. Например, вы можете послать e-mail администратору при "
+"удалении учётной записи пользователя."
+
+#: modules/trigger/trigger.module:27
+msgid ""
+"The Trigger module provides the ability to trigger <a href=\"@actions"
+"\">actions</a> upon system events, such as when new content is added or when "
+"a user logs in."
+msgstr ""
+"Модуль Trigger позволяет запускать различные <a href=\"@actions\">действия</"
+"a> по системным событиям, таким как создание нового содержимого или вход "
+"пользователя на сайт."
+
+#: modules/trigger/trigger.admin.inc:144
+msgid "Trigger: "
+msgstr "Триггер: "
+
+#: modules/trigger/trigger.admin.inc:154
+msgid "unassign"
+msgstr "снять"
+
+#: modules/trigger/trigger.admin.inc:171
+msgid "Assign"
+msgstr "Назначить"
+
+#: modules/trigger/trigger.admin.inc:176
+msgid "No available actions for this trigger."
+msgstr "Нет доступных действий для триггера."
+
+#: modules/trigger/trigger.admin.inc:218
+msgid ""
+"You have added an action that changes a the property of a post. A Save post "
+"action has been added so that the property change will be saved."
+msgstr ""
+"Вы добавили действие, которое изменяет свойство сообщения. Для сохранения "
+"изменения свойств было добавлено действие Save post."
+
+#: modules/trigger/trigger.admin.inc:74
+msgid "Are you sure you want to unassign the action %title?"
+msgstr "Вы уверены в том, что хотите снять действие %title?"
+
+#: modules/trigger/trigger.admin.inc:76
+msgid "You can assign it again later if you wish."
+msgstr "Вы можете назначить это снова позже, если пожелаете"
+
+#: modules/trigger/trigger.admin.inc:88,87
+msgid "Action %action has been unassigned."
+msgstr "Действие %action было снято."
+
+#: modules/trigger/trigger.module:39
+msgid "Triggers"
+msgstr "Триггеры"
+
+#: modules/trigger/trigger.module:40
+msgid "Tell Drupal when to execute actions."
+msgstr "Укажите Drupal, когда он должен выполнять действия."
+
+#: modules/trigger/trigger.module:115
+msgid "Unassign an action from a trigger."
+msgstr "Снять действие с триггера."
+
+#: modules/trigger/trigger.module:85
+msgid "Cron"
+msgstr "Хронометр"
+
+#: modules/trigger/trigger.module:23
+msgid ""
+"Below you can assign actions to run when certain taxonomy-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"term is deleted."
+msgstr ""
+"Ниже вы можете назначить действия при срабатывании триггеров, связанных с "
+"таксономией. Например, вы можете послать e-mail администратору при удалении "
+"термина."
+
+#: modules/trigger/trigger.module:28
+msgid ""
+"The combination of actions and triggers can perform many useful tasks, such "
+"as e-mailing an administrator if a user account is deleted, or automatically "
+"unpublishing comments that contain certain words. By default, there are five "
+"\"contexts\" of events (Comments, Content, Cron, Taxonomy, and Users), but "
+"more may be added by additional modules."
+msgstr ""
+"Комбинация действий и триггеров может выполнять множество полезных задач, "
+"например отправлять e-mail администратору при удалении учётной записи "
+"пользователя, или автоматически убирать из публикации комментарии, "
+"содержащие определённые слова. По умолчанию, существует пять «контекстов» "
+"событий (Комментарии, Содержимое, Хронограф, Таксономия и Пользователи), но "
+"модули могут добавлять дополнительные."
+
+#: modules/trigger/trigger.module:14
+msgid ""
+"Triggers are system events, such as when new content is added or when a user "
+"logs in. Trigger module combines these triggers with actions (functional "
+"tasks), such as unpublishing content or e-mailing an administrator. The <a "
+"href=\"@url\">Actions settings page</a> contains a list of existing actions "
+"and provides the ability to create and configure additional actions."
+msgstr ""
+"Триггеры — это системные события, такие как добавление нового материала или "
+"вход пользователя на сайт. Модуль Trigger связывает триггеры с действиями "
+"(функциональные задачи), такими как снятие с публикации содержимого или "
+"отправка e-mail администратору. <a href=\"@url\">Страница настройки "
+"Действий</a> содержит список существующих действий и позволяет создавать и "
+"настраивать дополнительные действия."
+
+#: modules/trigger/trigger.module:21
+msgid ""
+"Below you can assign actions to run during each pass of a <a href=\"@cron"
+"\">cron maintenance task</a>."
+msgstr ""
+"Ниже вы можете назначить действия, срабатывающие при каждом выполнении <a "
+"href=\"@cron\">регулярных процедур cron</a>."
+
+#: modules/trigger/trigger.module:29
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@trigger"
+"\">Trigger module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью <a "
+"href=\"@trigger\">Trigger module</a>."
+
+#: modules/trigger/trigger.admin.inc:192
+msgid "The action you chose is already assigned to that trigger."
+msgstr "Выбранное Вами действие уже назначено этому триггеру."
+
+#: modules/trigger/trigger.module:19
+msgid ""
+"Below you can assign actions to run when certain content-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"post is created or updated."
+msgstr ""
+"Ниже вы можете назначить действия при срабатывании триггеров, связанных с "
+"содержимым. Например, вы можете послать e-mail администратору при создании "
+"или обновлении материала."

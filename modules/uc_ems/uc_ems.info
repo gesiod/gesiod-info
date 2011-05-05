@@ -1,0 +1,14 @@
+; $Id: uc_ems.info,v 1.1 2011/01/12 21:13:50 troy Exp $
+name = EMS shipping method
+description = Integration of EMS shipping Calculator with Ubercart.
+dependencies[] = uc_quote
+package = Ubercart - fulfillment
+core = 6.x
+
+
+; Information added by drupal.org packaging script on January 1, 1970 - 00:00
+version = "6.x-1.2"
+core = "6.x"
+project = "uc_ems"
+datestamp = "1297433194"
+

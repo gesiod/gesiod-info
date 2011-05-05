@@ -1,0 +1,253 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from files:
+#  php.module,v 1.8.2.1 2008/02/05 09:29:50 goba
+#  php.install,v 1.1 2007/04/24 10:54:34 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2009-05-04 17:46+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/php/php.module:32
+msgid "You may post PHP code. You should include &lt;?php ?&gt; tags."
+msgstr "Вы можете размещать код PHP. Необходимо вставлять теги &lt;?php ?&gt;."
+
+#: modules/php/php.module:75
+msgid "PHP evaluator"
+msgstr "Обработчик PHP"
+
+#: modules/php/php.module:80
+msgid ""
+"Executes a piece of PHP code. The usage of this filter should be restricted "
+"to administrators only!"
+msgstr ""
+"Выполняет код PHP. Использование этого фильтра должно быть разрешено только "
+"администраторам!"
+
+#: modules/php/php.install:28
+msgid ""
+"The PHP module has been disabled. Please note that any existing content that "
+"was using the PHP filter will now be visible in plain text. This might pose "
+"a security risk by exposing sensitive information, if any, used in the PHP "
+"code."
+msgstr ""
+"Модуль PHP был заблокирован. Пожалуйста, заметьте, что любое существующее "
+"содержание, которое использовало фильтр PHP, будет теперь иметь видимо в "
+"форме незашифрованного текста. Это может представлять угрозу для "
+"безопасности, создавая возможность разглашения важной информации, которая "
+"могла использоваться в коде PHP."
+
+#: modules/php/php.module:18,61
+msgid ""
+"<a href=\"@drupal\">Drupal.org</a> offers <a href=\"@php-snippets\">some "
+"example PHP snippets</a>, or you can create your own with some PHP "
+"experience and knowledge of the Drupal system."
+msgstr ""
+"<a href=\"@drupal\">Drupal.org</a> предлагает <a href=\"@php-snippets"
+"\">образцы фрагментов PHP</a>,  или, если вы располагаете некоторым опытом "
+"работы с PHP и знанием системы Drupal, Вы можете создать собственные."
+
+#: modules/php/php.module:34
+msgid "Using custom PHP code"
+msgstr "Использовать пользовательский код PHP"
+
+#: modules/php/php.module:35
+msgid ""
+"Custom PHP code may be embedded in some types of site content, including "
+"posts and blocks. While embedding PHP code inside a post or block is a "
+"powerful and flexible feature when used by a trusted user with PHP "
+"experience, it is a significant and dangerous security risk when used "
+"improperly. Even a small mistake when posting PHP code may accidentally "
+"compromise your site."
+msgstr ""
+"Пользовательский код PHP может быть внедрен в некоторые типы имеющегося на "
+"сайте содержимого, включая сообщения и блоки. Хотя внедрение кода PHP в "
+"сообщение или блок является сильным и гибким инструментом, если используется "
+"пользующимся доверием пользователем, располагающим опытом работы с PHP, оно "
+"может составлять существенную угрозу безопасности, если будет использовано "
+"ненадлежащим образом. Даже незначительная ошибка при внедрении кодов PHP "
+"может случайно поставить под угрозу Ваш сайт."
+
+#: modules/php/php.module:36
+msgid ""
+"If you are unfamiliar with PHP, SQL, or Drupal, avoid using custom PHP code "
+"within posts. Experimenting with PHP may corrupt your database, render your "
+"site inoperable, or significantly compromise security."
+msgstr ""
+"Если Вы незнакомы с PHP, SQL или Drupal, то избегаете использования "
+"пользовательских кодов PHP внутри сообщений. Экспериментирование с PHP может "
+"повредить Вашу базу данных, сделать Ваш сайт неработоспособным или создать "
+"значительную угрозу безопасности."
+
+#: modules/php/php.module:37
+msgid "Notes:"
+msgstr "Примечания:"
+
+#: modules/php/php.module:38
+msgid ""
+"Remember to double-check each line for syntax and logic errors "
+"<strong>before</strong> saving."
+msgstr ""
+"Не забудьте перепроверить каждую строку на наличие синтаксических и "
+"логических ошибок <strong>перед</strong> сохранением."
+
+#: modules/php/php.module:39
+msgid "Statements must be correctly terminated with semicolons."
+msgstr "Операторы должны правильно завершаться точками с запятой."
+
+#: modules/php/php.module:40
+msgid ""
+"Global variables used within your PHP code retain their values after your "
+"script executes."
+msgstr ""
+"Глобальные переменные, используемые в Вашем коде PHP, сохраняют свои "
+"значения после выполнения Вашего скрипта."
+
+#: modules/php/php.module:41
+msgid ""
+"<code>register_globals</code> is <strong>turned off</strong>. If you need to "
+"use forms, understand and use the functions in <a href=\"@formapi\">the "
+"Drupal Form API</a>."
+msgstr ""
+"<code>register_globals</code> <strong>выключен</strong>. Если Вам приходится "
+"использовать формы, ознакомьтесь и воспользуйтесь функциями в <a href="
+"\"@formapi\"> Drupal Form API</a>."
+
+#: modules/php/php.module:42
+msgid ""
+"Use a <code>print</code> or <code>return</code> statement in your code to "
+"output content."
+msgstr ""
+"Используйте операторы <code>печатать</code> или <code>возвратить</code> в "
+"вашем коде чтобы обеспечить вывод содержимого."
+
+#: modules/php/php.module:43
+msgid ""
+"Develop and test your PHP code using a separate test script and sample "
+"database before deploying on a production site."
+msgstr ""
+"Разработайте и проверьте свой код PHP, используя отдельный сценарий "
+"тестирования и образец базы данных, прежде чем развернуть его на главном "
+"сайте."
+
+#: modules/php/php.module:44
+msgid ""
+"Consider including your custom PHP code within a site-specific module or "
+"<code>template.php</code> file rather than embedding it directly into a post "
+"or block."
+msgstr ""
+"Рассмотрите вопрос о включении Вашего пользовательского кода PHP в "
+"находящийся на сайте модуль или файл template.php вместо того, чтобы "
+"внедрить его непосредственно в сообщение или блок."
+
+#: modules/php/php.module:45
+msgid ""
+"Be aware that the ability to embed PHP code within content is provided by "
+"the PHP Filter module. If this module is disabled or deleted, then blocks "
+"and posts with embedded PHP may display, rather than execute, the PHP code."
+msgstr ""
+"Помните, что способность к внедрению кода PHP в содержимое предоставляется "
+"модулем Filter PHP. Если этот модуль отключен или удален, то блоки и "
+"сообщения с внедренным кодом PHP могут отображать, а не выполнять код PHP."
+
+#: modules/php/php.module:46
+msgid ""
+"A basic example: <em>Creating a \"Welcome\" block that greets visitors with "
+"a simple message.</em>"
+msgstr ""
+"Пример: <em>Создание блока \"Добро пожаловать\", приветствующего посетителей "
+"простым сообщением."
+
+#: modules/php/php.install:20
+msgid "A !php-code input format has been created."
+msgstr "Формат ввода !php-code был создан."
+
+#: modules/php/php.module:16
+msgid ""
+"The PHP filter adds the ability to include PHP code in posts. PHP is a "
+"general-purpose scripting language widely-used for web development; the "
+"content management system used by this website has been developed using PHP."
+msgstr ""
+"Фильтр PHP добавляет возможность включения кода PHP в сообщения. PHP "
+"представляет собой универсальный язык сценариев, широко используемый в Web-"
+"разработках; используемая этим сайтом система управления содержимым была "
+"разработана с использованием PHP."
+
+#: modules/php/php.module:17
+msgid ""
+"Through the PHP filter, users with the proper permission may include custom "
+"PHP code within a page of the site. While this is a powerful and flexible "
+"feature if used by a trusted user with PHP experience, it is a significant "
+"and dangerous security risk in the hands of a malicious user. Even a trusted "
+"user may accidentally compromise the site by entering malformed or incorrect "
+"PHP code. Only the most trusted users should be granted permission to use "
+"the PHP filter, and all PHP code added through the PHP filter should be "
+"carefully examined before use."
+msgstr ""
+"Через фильтр PHP, пользователи с надлежащим разрешением могут включить "
+"таможенный кодекс PHP в пределах страницы участка. В то время как это - "
+"мощная и гибкая особенность если используется пользователем, которому "
+"доверяют, с опытом программирования на PHP, то это существенный и опасный "
+"риск безопасности в руках злонамеренного пользователя. Даже пользователь, "
+"которому доверяют, может случайно поставить под угрозу сайт, вводя уродливый "
+"или неправильный код PHP. Только пользующимся наибольшим доверием "
+"пользователям нужно предоставить разрешение использовать фильтр PHP, и весь "
+"код PHP, добавленный через PHP фильтр."
+
+#: modules/php/php.module:19
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@php\">PHP "
+"module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью <a "
+"href=\"@php\">PHP module</a>."
+
+#: modules/php/php.module:47
+msgid ""
+"<p>Add a custom block to your site, named \"Welcome\". With its input format "
+"set to \"PHP code\" (or another format supporting PHP input), add the "
+"following in the Block body:</p>\n"
+"<pre>\n"
+"print t('Welcome visitor! Thank you for visiting.');\n"
+"</pre>"
+msgstr ""
+"<p>Добавить пользовательский блок на свой сайт, с именем \"Добро пожаловать"
+"\". Выберите формат \"PHP code\" (или любой другой, поддерживающий PHP "
+"ввод), добавьте следующий код в теле блок:</p>\r\n"
+"<pre>print t('Welcome visitor! Thank you for visiting.');\r\n"
+"</pre>"
+
+#: modules/php/php.module:51
+msgid ""
+"<p>To display the name of a registered user, use this instead:</p>\n"
+"<pre>\n"
+"global $user;\n"
+"if ($user->uid) {\n"
+"  print t('Welcome @name! Thank you for visiting.', array('@name' => $user-"
+">name));\n"
+"}\n"
+"else {\n"
+"  print t('Welcome visitor! Thank you for visiting.');\n"
+"}\n"
+"</pre>"
+msgstr ""
+"<p>Для отображения имени зарегистрированного пользователя, используйте это:</"
+"p>\r\n"
+"<pre>\r\n"
+"global $user;\r\n"
+"if ($user->uid) {\r\n"
+"  print t('Welcome @name! Thank you for visiting.', array('@name' => $user-"
+">name));\r\n"
+"}\r\n"
+"else {\r\n"
+"  print t('Welcome visitor! Thank you for visiting.');\r\n"
+"}\r\n"
+"</pre>"

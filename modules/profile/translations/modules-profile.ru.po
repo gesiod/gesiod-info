@@ -1,0 +1,422 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from files:
+#  profile.module,v 1.236.2.3 2009/01/12 10:09:19 goba
+#  profile.admin.inc,v 1.8.2.1 2008/10/16 12:43:08 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2008-11-11 16:27+0300\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/profile/profile.module:87
+msgid "Profiles"
+msgstr "Профили"
+
+#: modules/profile/profile.module:88
+msgid "Create customizable fields for your users."
+msgstr "Создание дополнительных полей информации о пользователе."
+
+#: modules/profile/profile.module:95
+msgid "Add field"
+msgstr "Новое поле"
+
+#: modules/profile/profile.module:103
+msgid "Profile category autocomplete"
+msgstr "Автозаполнение категорий для профилей"
+
+#: modules/profile/profile.module:110
+msgid "Edit field"
+msgstr "Изменить поле"
+
+#: modules/profile/profile.module:118
+msgid "Delete field"
+msgstr "Удалить поле"
+
+#: modules/profile/profile.module:126
+msgid "Profile autocomplete"
+msgstr "Автозаполнение профиля"
+
+#: modules/profile/profile.module:141
+msgid "Author information"
+msgstr "Информация об авторе"
+
+#: modules/profile/profile.module:152
+msgid "Link to full user profile"
+msgstr "Ссылка на полный пользовательский профиль"
+
+#: modules/profile/profile.module:154
+msgid "Profile fields to display"
+msgstr "Поля профиля для показа"
+
+#: modules/profile/profile.module:157
+msgid ""
+"Select which profile fields you wish to display in the block. Only fields "
+"designated as public in the <a href=\"@profile-admin\">profile field "
+"configuration</a> are available."
+msgstr ""
+"Выберите, какие поля профиля вы хотите отображать в блоке. Доступны только "
+"публичные поля (см. <a href=\"@profile-admin\">настройки поля</a>)."
+
+#: modules/profile/profile.module:189
+msgid "View full user profile"
+msgstr "Просмотреть полный профиль пользователя"
+
+#: modules/profile/profile.module:194
+msgid "About %name"
+msgstr "О пользователе %name"
+
+#: modules/profile/profile.admin.inc:178
+msgid "edit %title"
+msgstr "изменить %title"
+
+#: modules/profile/profile.admin.inc:196
+msgid "add new %type"
+msgstr "добавить новый %type"
+
+#: modules/profile/profile.admin.inc:211
+msgid "Field settings"
+msgstr "Настройки поля"
+
+#: modules/profile/profile.admin.inc:217
+msgid ""
+"The category the new field should be part of. Categories are used to group "
+"fields logically. An example category is \"Personal information\"."
+msgstr ""
+"Категория, частью которой станет новое поле. Категории используются для "
+"логической группировки полей. Пример категории: \"Личная информация\"."
+
+#: modules/profile/profile.admin.inc:223
+msgid ""
+"The title of the new field. The title will be shown to the user. An example "
+"title is \"Favorite color\"."
+msgstr ""
+"Заголовок нового поля. Заголовок будет показан пользователю. Например, "
+"\"Любимый цвет\"."
+
+#: modules/profile/profile.admin.inc:227
+msgid "Form name"
+msgstr "Название формы"
+
+#: modules/profile/profile.admin.inc:229
+msgid ""
+"The name of the field. The form name is not shown to the user but used "
+"internally in the HTML code and URLs.\n"
+"Unless you know what you are doing, it is highly recommended that you prefix "
+"the form name with <code>profile_</code> to avoid name clashes with other "
+"fields. Spaces or any other special characters except dash (-) and "
+"underscore (_) are not allowed. An example name is \"profile_favorite_color"
+"\" or perhaps just \"profile_color\"."
+msgstr ""
+"Название поля. Название формы не будет показываться пользователю, оно "
+"используется только в HTML-коде и в адресах страниц.\n"
+"Кроме случаев, когда вы точно знаете, что делаете, настоятельно "
+"рекомендуется использовать префикс для имени формы <code>profile_</code>, "
+"чтобы не было путаницы с другими полями. Пробелы и специальные символы "
+"запрещены, допустимы только дефис (-) и подчеркивание (_). Пример: "
+"\"profile_favorite_color\" или просто \"profile_color\"."
+
+#: modules/profile/profile.admin.inc:234
+msgid "Explanation"
+msgstr "Объяснение"
+
+#: modules/profile/profile.admin.inc:236
+msgid ""
+"An optional explanation to go with the new field. The explanation will be "
+"shown to the user."
+msgstr ""
+"Необязательное объяснение для нового поля. Объяснение будет показано "
+"пользователю."
+
+#: modules/profile/profile.admin.inc:240
+msgid "Selection options"
+msgstr "Настройки выбора"
+
+#: modules/profile/profile.admin.inc:242
+msgid ""
+"A list of all options. Put each option on a separate line. Example options "
+"are \"red\", \"blue\", \"green\", etc."
+msgstr ""
+"Список всех вариантов. Укажите по одному варианту на строку. Пример "
+"вариантов: \"красный\", \"синий\", \"зеленый\"."
+
+#: modules/profile/profile.admin.inc:267
+msgid ""
+"The weights define the order in which the form fields are shown. Lighter "
+"fields \"float up\" towards the top of the category."
+msgstr ""
+"Вес определяет, в каком порядке показываются поля формы. Более легкие "
+"всплывают вверх в категории."
+
+#: modules/profile/profile.admin.inc:246
+msgid "Visibility"
+msgstr "Видимость"
+
+#: modules/profile/profile.admin.inc:248
+msgid ""
+"Hidden profile field, only accessible by administrators, modules and themes."
+msgstr ""
+"Скрытые поля профиля, доступны только администраторам, в модулях и в темах "
+"формления."
+
+#: modules/profile/profile.admin.inc:248
+msgid "Private field, content only available to privileged users."
+msgstr ""
+"Приватное поле, содержимое доступно только привилегированным пользователям."
+
+#: modules/profile/profile.admin.inc:248
+msgid ""
+"Public field, content shown on profile page but not used on member list "
+"pages."
+msgstr ""
+"Публичное поле. Данные будут показываться на странице профиля, но не "
+"используется на страницах списков пользователей."
+
+#: modules/profile/profile.admin.inc:248
+msgid "Public field, content shown on profile page and on member list pages."
+msgstr ""
+"Публичное поле. Данные будут показываться на странице профиля и на страницах "
+"списков пользователей."
+
+#: modules/profile/profile.admin.inc:252,259
+msgid "Page title"
+msgstr "Заголовок страницы"
+
+#: modules/profile/profile.admin.inc:254
+msgid ""
+"To enable browsing this field by value, enter a title for the resulting "
+"page. The word <code>%value</code> will be substituted with the "
+"corresponding value. An example page title is \"People whose favorite color "
+"is %value\". This is only applicable for a public field."
+msgstr ""
+"Чтобы дать возможность просмотра значения этого поля, укажите заголовок "
+"итоговой страницы. Слово <code>%value</code> будет заменено соответствующим "
+"значением. Например: \"Люди, которые любят %value цвет\". Применяется только "
+"для публичных полей."
+
+#: modules/profile/profile.admin.inc:261
+msgid ""
+"To enable browsing this field by value, enter a title for the resulting "
+"page. An example page title is \"People who are employed\". This is only "
+"applicable for a public field."
+msgstr ""
+"Чтобы дать возможность просмотра значения этого поля, укажите заголовок "
+"итоговой страницы. Например: \"Люди, которые участвовали в проекте\". "
+"Применяется только для публичных полей."
+
+#: modules/profile/profile.admin.inc:270
+msgid "Form will auto-complete while user is typing."
+msgstr ""
+"Форма может предлагать автозаполнение в процессе ввода текста пользователем."
+
+#: modules/profile/profile.admin.inc:275
+msgid "The user must enter a value."
+msgstr "Пользователь должен ввести значение."
+
+#: modules/profile/profile.admin.inc:279
+msgid "Visible in user registration form."
+msgstr "Отображается в форме регистрации пользователя."
+
+#: modules/profile/profile.admin.inc:283
+msgid "Save field"
+msgstr "Сохранить поле"
+
+#: modules/profile/profile.admin.inc:294
+msgid ""
+"The specified form name contains one or more illegal characters. Spaces or "
+"any other special characters except dash (-) and underscore (_) are not "
+"allowed."
+msgstr ""
+"Указанное имя содержит один или более недопустимых символов. Пробелы и "
+"другие специальные символы за исключением дефиса (-) и подчёркивания (_) "
+"недопустимы."
+
+#: modules/profile/profile.admin.inc:298
+msgid "The specified form name is reserved for use by Drupal."
+msgstr "Указанное название формы зарезервировано для Drupal."
+
+#: modules/profile/profile.admin.inc:305
+msgid "The specified category name is reserved for use by Drupal."
+msgstr "Указанное название категории зарезервировано для Drupal."
+
+#: modules/profile/profile.admin.inc:317
+msgid "The specified title is already in use."
+msgstr "Указанный заголовок уже используется."
+
+#: modules/profile/profile.admin.inc:320
+msgid "The specified name is already in use."
+msgstr "Указанное имя уже используется."
+
+#: modules/profile/profile.admin.inc:345
+msgid "The field has been created."
+msgstr "Поле создано."
+
+#: modules/profile/profile.admin.inc:346
+msgid "Profile field %field added under category %category."
+msgstr "Поле профиля %field добавлено в категорию %category."
+
+#: modules/profile/profile.admin.inc:351
+msgid "The field has been updated."
+msgstr "Поле обновлено."
+
+#: modules/profile/profile.admin.inc:373
+msgid "Are you sure you want to delete the field %field?"
+msgstr "Вы действительно хотите удалить поле %field?"
+
+#: modules/profile/profile.admin.inc:374
+msgid ""
+"This action cannot be undone. If users have entered values into this field "
+"in their profile, these entries will also be deleted. If you want to keep "
+"the user-entered data, instead of deleting the field you may wish to <a href="
+"\"@edit-field\">edit this field</a> and change it to a hidden profile field "
+"so that it may only be accessed by administrators."
+msgstr ""
+"Это действие не может быть отменено. Если пользователи ввели значения в это "
+"поле в своем профиле, эти данные будут потеряны. Если вы хотите сохранить "
+"данные, введенные пользователями, то вместо удаления поля, вы можете <a href="
+"\"@edit-field\">изменить его</a> и сделать его скрытым - тогда доступ к нему "
+"будет иметь только администраторы."
+
+#: modules/profile/profile.admin.inc:387
+msgid "The field %field has been deleted."
+msgstr "Поле %field было удалено."
+
+#: modules/profile/profile.admin.inc:388
+msgid "Profile field %field deleted."
+msgstr "Поле профиля %field было удалено."
+
+#: modules/profile/profile.admin.inc:55
+msgid "Add new field"
+msgstr "Добавить новое поле"
+
+#: modules/profile/profile.module:337
+msgid ""
+"Put each item on a separate line or separate them by commas. No HTML allowed."
+msgstr ""
+"Укажите каждый элемент в отдельной строке или разделите их запятыми. HTML "
+"запрещен."
+
+#: modules/profile/profile.module:439
+msgid "The value provided for %field is not a valid URL."
+msgstr "Значение в поле %field не является правильным адресом."
+
+#: modules/profile/profile.module:444
+msgid "The field %field is required."
+msgstr "Поле %field обязательно для заполнения."
+
+#: modules/profile/profile.module:37,545
+msgid "single-line textfield"
+msgstr "текстовое поле"
+
+#: modules/profile/profile.module:38,546
+msgid "multi-line textfield"
+msgstr "многострочное текстовое поле"
+
+#: modules/profile/profile.module:39,547
+msgid "checkbox"
+msgstr "флажок"
+
+#: modules/profile/profile.module:40,548
+msgid "list selection"
+msgstr "выбор из списка"
+
+#: modules/profile/profile.module:41,549
+msgid "freeform list"
+msgstr "свободно заполняемый список"
+
+#: modules/profile/profile.module:43,551
+msgid "date"
+msgstr "дата"
+
+#: modules/profile/profile.admin.inc:346,388
+msgid "profile"
+msgstr "профиль"
+
+#: modules/profile/profile.admin.inc:324
+msgid "A hidden field cannot be required."
+msgstr "Скрытое поле не может быть обязательным."
+
+#: modules/profile/profile.admin.inc:327
+msgid "A hidden field cannot be set to visible on the user registration form."
+msgstr ""
+"Скрытое поле не может быть определено как видимое на форме регистрации "
+"пользователя."
+
+#: modules/profile/profile.admin.inc:82
+msgid "Profile fields have been updated."
+msgstr "Поля профиля были обновлены."
+
+#: modules/profile/profile.admin.inc:115
+msgid ""
+"No fields in this category. If this category remains empty when saved, it "
+"will be removed."
+msgstr ""
+"В данной категории нет полей. Если при сохранении эта категория останется "
+"пустой, то она будет удалена."
+
+#: modules/profile/profile.admin.inc:144
+msgid "No fields available."
+msgstr "Нет доступных полей."
+
+#: modules/profile/profile.module:35
+msgid ""
+"The profile module allows custom fields (such as country, full name, or age) "
+"to be defined and displayed in the <em>My Account</em> section. This permits "
+"users of a site to share more information about themselves, and can help "
+"community-based sites organize users around specific information."
+msgstr ""
+"Модуль Profile позволяет создавать наборные поля (такие как, страна, полное "
+"имя возраст) для отображения в разделе <em>Мой профиль</em>. Это помогает "
+"пользователям сайта указывать больше информации о себе и позволяет сайтам-"
+"сообществам лучше организовывать своих посетителей."
+
+#: modules/profile/profile.module:36
+msgid "The following types of fields can be added to a user profile:"
+msgstr "Следующие типы полей могут быть добавлены в пользовательский профиль:"
+
+#: modules/profile/profile.module:44
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@profile"
+"\">Profile module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью <a "
+"href=\"@profile\">Profile module</a>."
+
+#: modules/profile/profile.module:47
+msgid ""
+"This page displays a list of the existing custom profile fields to be "
+"displayed on a user's <em>My Account</em> page. To provide structure, "
+"similar or related fields may be placed inside a category. To add a new "
+"category (or edit an existing one), edit a profile field and provide a new "
+"category name. To change the category of a field or the order of fields "
+"within a category, grab a drag-and-drop handle under the Title column and "
+"drag the field to a new location in the list. (Grab a handle by clicking and "
+"holding the mouse while hovering over a handle icon.) Remember that your "
+"changes will not be saved until you click the <em>Save configuration</em> "
+"button at the bottom of the page."
+msgstr ""
+"Эта страница показывает список существующих наборных полей, отображаемых на "
+"страницах <em>Мой профиль</em>. Для лучшей организации, похожие или "
+"связанные поля можно объединять в категории. Для добавления новой категории "
+"(или редактирования существующей), войдите в режим изменения поля и укажите "
+"новое имя категории. Для изменения категории поля или порядка полей внутри "
+"категории, схватите и потяните мышкой указатель в колонке Заголовок, "
+"перетянув поле в новое место в списке. (Схватите указатель, кликнув на нём "
+"мышкой и, удерживая клавишу мышки зажатой, перетаскивайте указатель). "
+"Помните, что сделанные изменения не сохранятся до тех пор, пока вы не "
+"нажмете кнопку <em>Сохранить настройки</em> внизу страницы."
+
+#: modules/profile/profile.admin.inc:272
+msgid ""
+"For security, auto-complete will be disabled if the user does not have "
+"access to user profiles."
+msgstr ""
+"Из соображений безопасности, автозаполнение будет отключено, если "
+"пользователь не имеет доступа к профилям пользователей."

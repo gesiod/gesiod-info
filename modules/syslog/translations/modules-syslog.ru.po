@@ -1,0 +1,131 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from file: syslog.module,v 1.14.2.2 2008/07/24 06:52:43 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2008-06-19 00:05+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/syslog/syslog.module:54
+msgid "LOG_USER - User level messages. Use this for Windows."
+msgstr ""
+"LOG_USER - Сообщения пользовательского уровня. Используйте это для Windows."
+
+#: modules/syslog/syslog.module:58
+msgid "LOG_LOCAL0 - Local 0"
+msgstr "LOG_LOCAL0 - Региональные установки 0"
+
+#: modules/syslog/syslog.module:59
+msgid "LOG_LOCAL1 - Local 1"
+msgstr "LOG_LOCAL1 - Региональные установки 1"
+
+#: modules/syslog/syslog.module:60
+msgid "LOG_LOCAL2 - Local 2"
+msgstr "LOG_LOCAL2 - Региональные установки 2"
+
+#: modules/syslog/syslog.module:61
+msgid "LOG_LOCAL3 - Local 3"
+msgstr "LOG_LOCAL3 - Региональные установки 3"
+
+#: modules/syslog/syslog.module:62
+msgid "LOG_LOCAL4 - Local 4"
+msgstr "LOG_LOCAL4 - Региональные установки 4"
+
+#: modules/syslog/syslog.module:63
+msgid "LOG_LOCAL5 - Local 5"
+msgstr "LOG_LOCAL5 - Региональные установки 5"
+
+#: modules/syslog/syslog.module:64
+msgid "LOG_LOCAL6 - Local 6"
+msgstr "LOG_LOCAL6 - Региональные установки 6"
+
+#: modules/syslog/syslog.module:65
+msgid "LOG_LOCAL7 - Local 7"
+msgstr "LOG_LOCAL7 - Региональные установки 7"
+
+#: modules/syslog/syslog.module:23
+msgid ""
+"Syslog is an operating system administrative logging tool, and provides "
+"valuable information for use in system management and security auditing. "
+"Most suited to medium and large sites, syslog provides filtering tools that "
+"allow messages to be routed by type and severity. On UNIX/Linux systems, the "
+"file /etc/syslog.conf defines this routing configuration; on Microsoft "
+"Windows, all messages are sent to the Event Log. For more information on "
+"syslog facilities, severity levels, and how to set up a syslog.conf file, "
+"see <a href=\"@syslog_conf\">UNIX/Linux syslog.conf</a> and PHP's <a href="
+"\"@php_openlog\">openlog</a> and <a href=\"@php_syslog\">syslog</a> "
+"functions."
+msgstr ""
+"Системный журнал Syslog представляет собой административный инструмент "
+"ведения журнала операционной системы, предоставляющий ценную информацию для "
+"использования в управлении системой безопасности и сопровождении системы. "
+"Syslog более всего подходит для средних и больших сайтов, он предоставляет "
+"средства фильтрации, позволяющие направлять сообщения согласно их типу и "
+"серьезности ошибки. В системах UNIX/Linux эту конфигурацию маршрутизации "
+"определяет файл /etc/syslog.conf; в Microsoft Windows все сообщения "
+"отправляются на журнал регистрации событий Event Log. Для получения "
+"дополнительной информации по возможностям Syslog, уровням серьезности "
+"ошибки, а также по настройке файла syslog.conf, см. <a href=\"@syslog_conf"
+"\">UNIX/Linux syslog.conf</a>, а в PHP функции <a href=\"@php_openlog"
+"\">openlog</a> и <a href=\"@php_syslog\">syslog</a>."
+
+#: modules/syslog/syslog.module:43
+msgid "Send events to this syslog facility"
+msgstr "Отправляет события на syslog"
+
+#: modules/syslog/syslog.module:46
+msgid ""
+"Select the syslog facility code under which Drupal's messages should be "
+"sent. On UNIX/Linux systems, Drupal can flag its messages with the code "
+"LOG_LOCAL0 through LOG_LOCAL7; for Microsoft Windows, all messages are "
+"flagged with the code LOG_USER. Depending on the system configuration, "
+"syslog and other logging tools use this code to identify or filter Drupal "
+"messages from within the entire system log. For more information on syslog, "
+"see <a href=\"@syslog_help\">Syslog help</a>."
+msgstr ""
+"Выберите код инструментального средства syslog, по которым нужно отправлять "
+"сообщения Drupal. В системах UNIX/Linux, Drupal может помечать свои "
+"сообщения кодом с LOG_LOCAL0 по LOG_LOCAL7; в Microsoft Windows все "
+"сообщения помечаются кодом LOG_USER. В зависимости от конфигурации системы, "
+"syslog и других инструментальные средств ведения журналов используют этот "
+"код для идентификации или фильтрования сообщений Drupal изнутри всего "
+"системного журнала. Для получения дополнительной информации по syslog, см. "
+"<a href=\"@syslog_help\">Справка Syslog</a>."
+
+#: modules/syslog/syslog.module:32
+msgid ""
+"Settings for syslog logging. Syslog is an operating system administrative "
+"logging tool used in systems management and security auditing. Most suited "
+"to medium and large sites, syslog provides filtering tools that allow "
+"messages to be routed by type and severity."
+msgstr ""
+"Настройки для регистрации в Syslog. Syslog представляет собой "
+"административный инструмент ведения журнала операционной системы, "
+"использующийся в управлении системой безопасности и сопровождении системы. "
+"Syslog более всего подходит для средних и больших сайтов, он предоставляет "
+"средства фильтрации, позволяющие направлять сообщения согласно их типу и "
+"серьезности ошибки."
+
+#: modules/syslog/syslog.module:22
+msgid ""
+"The syslog module enables Drupal to send messages to the operating system's "
+"logging facility."
+msgstr ""
+"Модуль syslog позволяет Drupal с легкостью, посылать сообщения операционной "
+"системе."
+
+#: modules/syslog/syslog.module:24
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@syslog"
+"\">Syslog module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью <a "
+"href=\"@syslog\">Syslog module</a>."

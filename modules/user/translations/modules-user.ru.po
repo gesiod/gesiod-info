@@ -1,0 +1,1530 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from files:
+#  user.module,v 1.892.2.13 2009/04/27 12:02:27 goba
+#  user.admin.inc,v 1.18.2.1 2008/08/13 23:59:14 drumm
+#  user.pages.inc,v 1.11.2.1 2008/10/08 20:12:18 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2009-04-10 21:35+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/user/user.module:619
+msgid "History"
+msgstr "История"
+
+#: modules/user/user.module:1518
+msgid "Signature"
+msgstr "Подпись"
+
+#: modules/user/user.module:1520
+msgid "Your signature will be publicly displayed at the end of your comments."
+msgstr "Подпись будет выводиться в конце текста ваших комментариев."
+
+#: modules/user/user.admin.inc:956
+msgid "locked"
+msgstr "неизменяемо"
+
+#: modules/user/user.module:382
+msgid "The username cannot begin with a space."
+msgstr "Имя пользователя не может начинаться с пробела."
+
+#: modules/user/user.module:383
+msgid "The username cannot end with a space."
+msgstr "Имя пользователя не может заканчиваться пробелом."
+
+#: modules/user/user.module:384
+msgid "The username cannot contain multiple spaces in a row."
+msgstr "Имя пользователя не может содержать несколько пробелов подряд."
+
+#: modules/user/user.module:385,396
+msgid "The username contains an illegal character."
+msgstr "Имя пользователя содержит недопустимый символ."
+
+#: modules/user/user.module:398
+msgid "The username is not a valid authentication ID."
+msgstr ""
+"Имя пользователя не является правильным идентификатором для авторизации."
+
+#: modules/user/user.module:399
+msgid "The username %name is too long: it must be %max characters or less."
+msgstr ""
+"Имя пользователя %name слишком длинное: оно должно быть короче %max символов."
+
+#: modules/user/user.module:403
+msgid "You must enter an e-mail address."
+msgstr "Вы должны указать адрес электронной почтыl."
+
+#: modules/user/user.module:405
+msgid "The e-mail address %mail is not valid."
+msgstr "Адрес электронной почты %mail не корректен."
+
+#: modules/user/user.module:431
+msgid ""
+"Failed to upload the picture image; the %directory directory doesn't exist "
+"or is not writable."
+msgstr ""
+"Ошибка при загрузке изображения; каталог \"%directory\" не существует, либо "
+"не доступен для записи."
+
+#: modules/user/user.module:641
+msgid "Account settings"
+msgstr "Настройки учетной записи"
+
+#: modules/user/user.module:669
+msgid "Create a new user account."
+msgstr "Создать новую учетную запись пользователя."
+
+#: modules/user/user.module:671,922
+msgid "Request new password"
+msgstr "Забыли пароль?"
+
+#: modules/user/user.module:671
+msgid "Request new password via e-mail."
+msgstr "Запросить новый пароль по электронной почте."
+
+#: modules/user/user.module:683,730
+msgid "User login"
+msgstr "Вход в систему"
+
+#: modules/user/user.module:692,751
+msgid "Who's new"
+msgstr "Новые пользователи"
+
+#: modules/user/user.module:695,790
+msgid "Who's online"
+msgstr "Сейчас на сайте"
+
+#: modules/user/user.module:702
+msgid "Number of users to display"
+msgstr "Сколько пользователей показывать"
+
+#: modules/user/user.module:710
+msgid "User activity"
+msgstr "Действия пользователя"
+
+#: modules/user/user.module:710
+msgid ""
+"A user is considered online for this long after they have last viewed a page."
+msgstr ""
+"Пользователь считается находящимся на сайте в течение этого периода, начиная "
+"со времени последнего просмотра им страницы."
+
+#: modules/user/user.module:711
+msgid "User list length"
+msgstr "Длина списка пользователей"
+
+#: modules/user/user.module:711
+msgid "Maximum number of currently online users to display."
+msgstr "Максимальное отображаемое число пользователей, находящихся на сайте."
+
+#: modules/user/user.module:778
+msgid "There is currently %members and %visitors online."
+msgstr "Сейчас на сайте %members и %visitors."
+
+#: modules/user/user.module:781
+msgid "There are currently %members and %visitors online."
+msgstr "Сейчас на сайте %members и %visitors."
+
+#: modules/user/user.module:787
+msgid "Online users"
+msgstr "Пользователи на сайте"
+
+#: modules/user/user.module:818
+msgid "@user's picture"
+msgstr "@user аватар"
+
+#: modules/user/user.module:899
+msgid "User account"
+msgstr "Профиль пользователя"
+
+#: modules/user/user.module:889
+msgid "User autocomplete"
+msgstr "Автозаполнение"
+
+#: modules/user/user.module:930
+msgid "Reset password"
+msgstr "Сбросить пароль"
+
+#: modules/user/user.module:940
+msgid "User management"
+msgstr "Управление пользователями"
+
+#: modules/user/user.module:941
+msgid "Manage your site's users, groups and access to site features."
+msgstr "Управление пользователями, группами и доступом к возможностям сайта."
+
+#: modules/user/user.module:950
+msgid "List, add, and edit users."
+msgstr "Список пользователей, добавление и изменение их статуса."
+
+#: modules/user/user.module:962
+msgid "Add user"
+msgstr "Добавить пользователя"
+
+#: modules/user/user.module:969
+msgid "User settings"
+msgstr "Параметры регистрации"
+
+#: modules/user/user.module:970
+msgid ""
+"Configure default behavior of users, including registration requirements, e-"
+"mails, and user pictures."
+msgstr ""
+"Настройка требований к пользователям, включая правила регистрации, сообщения "
+"по электронной почте и пользовательские изображения."
+
+#: modules/user/user.module:980
+msgid "Determine access to features by selecting permissions for roles."
+msgstr ""
+"Определение доступа к возможностям путём выбора прав доступа для ролей."
+
+#: modules/user/user.module:988
+msgid "List, edit, or add user roles."
+msgstr "Список, изменение и создание ролей."
+
+#: modules/user/user.module:995
+msgid "Edit role"
+msgstr "Изменение роли"
+
+#: modules/user/user.module:1002
+msgid "Access rules"
+msgstr "Правила доступа"
+
+#: modules/user/user.module:1003
+msgid ""
+"List and create rules to disallow usernames, e-mail addresses, and IP "
+"addresses."
+msgstr ""
+"Список и создание шаблонов нежелательных имён пользователей, электронных "
+"почтовых ящиков и IP адресов."
+
+#: modules/user/user.module:1021
+msgid "Check rules"
+msgstr "Проверить правила"
+
+#: modules/user/user.module:1028
+msgid "Edit rule"
+msgstr "Изменить правило"
+
+#: modules/user/user.module:1035
+msgid "Delete rule"
+msgstr "Удалить правило"
+
+#: modules/user/user.module:1182,1052
+msgid "My account"
+msgstr "Мои профиль"
+
+#: modules/user/user.module:1044
+msgid "Log out"
+msgstr "Выйти"
+
+#: modules/user/user.module:1254
+msgid "Enter your @s username."
+msgstr "Укажите ваше имя на сайте @s."
+
+#: modules/user/user.module:1257
+msgid "Enter the password that accompanies your username."
+msgstr "Укажите пароль, соответствующий вашему имени пользователя."
+
+#: modules/user/user.module:1295
+msgid "The username %name has not been activated or is blocked."
+msgstr "Имя пользователя %name ещё не активировано или заблокировано."
+
+#: modules/user/user.module:1299
+msgid "The name %name is a reserved username."
+msgstr "Имя %name является зарезервированным именем пользователя."
+
+#: modules/user/user.module:1319
+msgid ""
+"Sorry, unrecognized username or password. <a href=\"@password\">Have you "
+"forgotten your password?</a>"
+msgstr ""
+"Извините, это имя пользователя или пароль неверны. <a href=\"@password"
+"\">Забыли пароль?</a>"
+
+#: modules/user/user.module:1320
+msgid "Login attempt failed for %user."
+msgstr "Ошибка входа в систему для пользователя %user."
+
+#: modules/user/user.module:1366
+msgid "Session opened for %name."
+msgstr "Сессия для %name открыта."
+
+#: modules/user/user.pages.inc:147
+msgid "Session closed for %name."
+msgstr "Для %name сессия закрыта."
+
+#: modules/user/user.pages.inc:34
+msgid "Username or e-mail address"
+msgstr "Имя пользователя или адрес электронной почты"
+
+#: modules/user/user.pages.inc:39
+msgid "E-mail new password"
+msgstr "Новый пароль по почте"
+
+#: modules/user/user.pages.inc:73
+msgid "Password reset instructions mailed to %name at %email."
+msgstr ""
+"Инструкции по смене пароля были отправлены пользователю %name по адресу %"
+"email."
+
+#: modules/user/user.pages.inc:74
+msgid "Further instructions have been sent to your e-mail address."
+msgstr ""
+"Дальнейшие инструкции отправлены на адрес вашей адрес электронной почты."
+
+#: modules/user/user.pages.inc:88
+msgid ""
+"You have already used this one-time login link. It is not necessary to use "
+"this link to login anymore. You are already logged in."
+msgstr ""
+"Вы использовали ссылку для одноразового входа на сайт. Не нужно использовать "
+"ее повторно. Вы уже вошли на сайт."
+
+#: modules/user/user.pages.inc:105
+msgid ""
+"You have tried to use a one-time login link that has expired. Please request "
+"a new one using the form below."
+msgstr ""
+"Вы попытались использовать одноразовую ссылку, срок действия которой уже "
+"истек. Пожалуйста запросите новую ссылку, используя форму ниже."
+
+#: modules/user/user.pages.inc:111
+msgid "User %name used one-time login link at time %timestamp."
+msgstr ""
+"Пользователь %name использовал (%timestamp) одноразовую ссылку для входа на "
+"сайт."
+
+#: modules/user/user.pages.inc:117
+msgid ""
+"You have just used your one-time login link. It is no longer necessary to "
+"use this link to login. Please change your password."
+msgstr ""
+"Вы использовали одноразовую ссылку входа на сайт. В дальнейшем для входа "
+"пользоваться ей не нужно. Пожалуйста, измените свой пароль."
+
+#: modules/user/user.pages.inc:122
+msgid "This login can be used only once."
+msgstr "Этот логин может быть использован только один раз."
+
+#: modules/user/user.pages.inc:129
+msgid ""
+"You have tried to use a one-time login link which has either been used or is "
+"no longer valid. Please request a new one using the form below."
+msgstr ""
+"Вы попытались использовать одноразовую ссылку, которая уже была "
+"использована. Пожалуйста запросите новую ссылку, используя форму ниже."
+
+#: modules/user/user.module:2403
+msgid "Notify user of new account"
+msgstr "Уведомить пользователя о создании учетной записи"
+
+#: modules/user/user.module:2358
+msgid ""
+"Your password and further instructions have been sent to your e-mail address."
+msgstr ""
+"Ваш пароль и дальнейшие инструкции высланы на ваш адрес электронной почты."
+
+#: modules/user/user.module:1659
+msgid ""
+"!username has applied for an account.\n"
+"\n"
+"!edit_uri"
+msgstr ""
+"!username обратился за учетной записью.\n"
+"\n"
+"!edit_uri"
+
+#: modules/user/user.module:1439
+msgid "Account information"
+msgstr "Информация об учетной записи"
+
+#: modules/user/user.module:1456
+msgid ""
+"A valid e-mail address. All e-mails from the system will be sent to this "
+"address. The e-mail address is not made public and will only be used if you "
+"wish to receive a new password or wish to receive certain news or "
+"notifications by e-mail."
+msgstr ""
+"Существующий адрес электронной почты. Все почтовые сообщения с сайта будут "
+"отсылаться на этот адрес. Адрес электронной почты не будет публиковаться и "
+"будет использован только по вашему желанию: для восстановления пароля или "
+"для получения новостей и уведомлений по электронной почте."
+
+#: modules/user/user.module:1461
+msgid ""
+"To change the current user password, enter the new password in both fields."
+msgstr "Чтобы изменить текущий пароль, укажите новый пароль в обоих полях."
+
+#: modules/user/user.module:1468
+msgid "Provide a password for the new account in both fields."
+msgstr "Укажите пароль для новой учетной записи в обоих полях."
+
+#: modules/user/user.module:1478
+msgid "Blocked"
+msgstr "Заблокирован"
+
+#: modules/user/user.module:0
+msgid "authenticated user"
+msgstr "зарегистрированный пользователь"
+
+#: modules/user/user.module:1526
+msgid "Picture"
+msgstr "Изображение"
+
+#: modules/user/user.module:1530
+msgid "Delete picture"
+msgstr "Удалить изображение"
+
+#: modules/user/user.module:1530
+msgid "Check this box to delete your current picture."
+msgstr "Отметьте этот пункт для удаления вашего текущего изображения."
+
+#: modules/user/user.module:1535
+msgid "Upload picture"
+msgstr "Загрузить изображение"
+
+#: modules/user/user.module:1535
+msgid ""
+"Your virtual face or picture. Maximum dimensions are %dimensions and the "
+"maximum size is %size kB."
+msgstr ""
+"Ваше виртуальное лицо или картинка. Максимальные размеры %dimensions и объем "
+"%size Кб."
+
+#: modules/user/user.module:1551
+msgid "The name %name is already taken."
+msgstr "Имя %name уже используется."
+
+#: modules/user/user.module:1554
+msgid "The name %name has been denied access."
+msgstr "Доступ для имени %name запрещен."
+
+#: modules/user/user.module:1563
+msgid ""
+"The e-mail address %email is already registered. <a href=\"@password\">Have "
+"you forgotten your password?</a>"
+msgstr ""
+"Адрес электронной почты %email уже зарегистрирован. <a href=\"@password"
+"\">Забыли свой пароль?</a>"
+
+#: modules/user/user.module:1566
+msgid "The e-mail address %email has been denied access."
+msgstr "Адрес электронной почты %email недопустим."
+
+#: modules/user/user.pages.inc:321
+msgid "Are you sure you want to delete the account %name?"
+msgstr "Вы действительно хотите удалить учетную запись %name?"
+
+#: modules/user/user.pages.inc:323
+msgid ""
+"All submissions made by this user will be attributed to the anonymous "
+"account. This action cannot be undone."
+msgstr ""
+"Все сообщения этого пользователя будут считаться анонимными. Это действие "
+"нельзя отменить."
+
+#: modules/user/user.module:1598
+msgid "Deleted user: %name %email."
+msgstr "Удален пользователь: %name %email."
+
+#: modules/user/user.pages.inc:332
+msgid "%name has been deleted."
+msgstr "%name был удален"
+
+#: modules/user/user.module:1646
+msgid "Account details for !username at !site"
+msgstr "Учетные данные пользователя !username на сайте !site"
+
+#: modules/user/user.module:1648
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. You may now log in to !login_uri using "
+"the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Благодарим Вас за регистрацию на сайте !site. Вы можете сейчас войти на !"
+"login_uri используя следующие учетные данные:\n"
+"\n"
+"имя пользователя: !username\n"
+"пароль: !password\n"
+"\n"
+"Вы так же можете войти, нажав на следующую ссылку или скопировав её в "
+"адресную строку браузера:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Это одноразовый вход и воспользоваться им можно лишь однажды. После входа на "
+"сайт вы будете перенаправлены на страницу !edit_uri, где можете сменить свой "
+"пароль.\n"
+"\n"
+"\n"
+"-- !site team"
+
+#: modules/user/user.module:1650
+msgid "An administrator created an account for you at !site"
+msgstr "Администратор создал для Вас учетную запись на сайте !site"
+
+#: modules/user/user.module:1652
+msgid ""
+"!username,\n"
+"\n"
+"A site administrator at !site has created an account for you. You may now "
+"log in to !login_uri using the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Администратор сайта !site создал для Вас учётную запись. Вы можете войти на "
+"сайт !login_uri используя следующие имя пользователя и пароль:\n"
+"\n"
+"имя пользователя: !username\n"
+"пароль: !password\n"
+"\n"
+"Вы также можете войти на сайт, нажав на следующую ссылку или скопировав ее в "
+"адресную строку вашего браузера:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Это одноразовый вход и воспользоваться им можно лишь однажды. После входа на "
+"сайт вы будете перенаправлены на страницу !edit_uri, где можете сменить свой "
+"пароль.\n"
+"\n"
+"\n"
+"-- !site team"
+
+#: modules/user/user.module:1655
+msgid "Account details for !username at !site (pending admin approval)"
+msgstr ""
+"Учетные данные пользователя !username на сайте !site (ожидают решения админа)"
+
+#: modules/user/user.module:1661
+msgid "Replacement login information for !username at !site"
+msgstr "Изменение учетной записи пользователя !username на сайте !site"
+
+#: modules/user/user.admin.inc:791
+msgid "Enter a username to check if it will be denied or allowed."
+msgstr "Введите имя пользователя для проверки, разрешено оно или нет."
+
+#: modules/user/user.admin.inc:793
+msgid "Check username"
+msgstr "Проверить имя пользователя"
+
+#: modules/user/user.admin.inc:802
+msgid "Enter an e-mail address to check if it will be denied or allowed."
+msgstr "Введите адрес электронной почты для проверки, разрешён он или нет."
+
+#: modules/user/user.admin.inc:804
+msgid "Check e-mail"
+msgstr "Проверить e-mail"
+
+#: modules/user/user.admin.inc:813
+msgid ""
+"Enter a hostname or IP address to check if it will be denied or allowed."
+msgstr "Введите имя хоста или адрес IP для проверки, разрешены они или нет."
+
+#: modules/user/user.admin.inc:815
+msgid "Check hostname"
+msgstr "Проверить хост"
+
+#: modules/user/user.admin.inc:785
+msgid "No value entered. Please enter a test string and try again."
+msgstr "Значение не указано. Пожалуйста, введите тестовую строку ещё раз."
+
+#: modules/user/user.admin.inc:826
+msgid "The username %name is not allowed."
+msgstr "Логин %name не разрешён."
+
+#: modules/user/user.admin.inc:829
+msgid "The username %name is allowed."
+msgstr "Логин %name разрешён."
+
+#: modules/user/user.admin.inc:834
+msgid "The e-mail address %mail is not allowed."
+msgstr "Адрес электронной почты %mail не разрешён."
+
+#: modules/user/user.admin.inc:837
+msgid "The e-mail address %mail is allowed."
+msgstr "Адрес электронной почты %mail разрешён."
+
+#: modules/user/user.admin.inc:842
+msgid "The hostname %host is not allowed."
+msgstr "Хост %host не разрешён."
+
+#: modules/user/user.admin.inc:845
+msgid "The hostname %host is allowed."
+msgstr "Хост %host разрешён."
+
+#: modules/user/user.admin.inc:778
+msgid "The access rule has been added."
+msgstr "Добавлено правило доступа."
+
+#: modules/user/user.admin.inc:860,887
+msgid "host"
+msgstr "хост"
+
+#: modules/user/user.admin.inc:866
+msgid "Are you sure you want to delete the @type rule for %rule?"
+msgstr "Вы действительно хотите удалить правило \"@type\" %rule?"
+
+#: modules/user/user.admin.inc:876
+msgid "The access rule has been deleted."
+msgstr "Правило доступа удалено."
+
+#: modules/user/user.admin.inc:774
+msgid "The access rule has been saved."
+msgstr "Правило доступа сохранено."
+
+#: modules/user/user.admin.inc:725
+msgid "Save rule"
+msgstr "Сохранить правило"
+
+#: modules/user/user.admin.inc:741,885
+msgid "Access type"
+msgstr "Тип доступа"
+
+#: modules/user/user.admin.inc:743
+msgid "Allow"
+msgstr "Разрешить"
+
+#: modules/user/user.admin.inc:743
+msgid "Deny"
+msgstr "Запретить"
+
+#: modules/user/user.admin.inc:748,885
+msgid "Rule type"
+msgstr "Тип правила"
+
+#: modules/user/user.admin.inc:754,885
+msgid "Mask"
+msgstr "Маска"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches any number of characters, even zero characters"
+msgstr "Совпадение с любым количеством символов (даже ни одного)"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches exactly one character."
+msgstr "Совпадение одного символа."
+
+#: modules/user/user.admin.inc:893
+msgid "There are currently no access rules."
+msgstr "Сейчас правила доступа не определены."
+
+#: modules/user/user.admin.inc:543
+msgid "Save permissions"
+msgstr "Сохранить права доступа"
+
+#: modules/user/user.admin.inc:595
+msgid "Permission"
+msgstr "Право доступа"
+
+#: modules/user/user.admin.inc:624
+msgid "Role name"
+msgstr "Название роли"
+
+#: modules/user/user.admin.inc:629
+msgid ""
+"The name for this role. Example: \"moderator\", \"editorial board\", \"site "
+"architect\"."
+msgstr ""
+"Имя роли. Например: \"модератор\", \"редактор сайта\", \"администратор\"."
+
+#: modules/user/user.admin.inc:637,662,679
+msgid "Save role"
+msgstr "Сохранить роль"
+
+#: modules/user/user.admin.inc:641,683
+msgid "Delete role"
+msgstr "Удалить роль"
+
+#: modules/user/user.admin.inc:652,667,691
+msgid "Add role"
+msgstr "Добавить роль"
+
+#: modules/user/user.admin.inc:664,669
+msgid "The role name %name already exists. Please choose another role name."
+msgstr "Имя роли %name уже существует. Пожалуйста, выберите другое имя."
+
+#: modules/user/user.admin.inc:674
+msgid "You must specify a valid role name."
+msgstr "Вы должны указать правильное название роли."
+
+#: modules/user/user.admin.inc:681
+msgid "The role has been renamed."
+msgstr "Роль переименована."
+
+#: modules/user/user.admin.inc:689
+msgid "The role has been deleted."
+msgstr "Роль удалена."
+
+#: modules/user/user.admin.inc:693
+msgid "The role has been added."
+msgstr "Роль добавлена."
+
+#: modules/user/user.admin.inc:951
+msgid "edit permissions"
+msgstr "изменить права"
+
+#: modules/user/user.admin.inc:138,911
+msgid "Last access"
+msgstr "Последний доступ"
+
+#: modules/user/user.admin.inc:930
+msgid "No users available."
+msgstr "Нет пользователей."
+
+#: modules/user/user.admin.inc:221
+msgid "No users selected."
+msgstr "Пользователи не выбраны."
+
+#: modules/user/user.module:1735
+msgid "Unblock the selected users"
+msgstr "Разблокировать отмеченных пользователей"
+
+#: modules/user/user.module:1739
+msgid "Block the selected users"
+msgstr "Блокировать отмеченных пользователей"
+
+#: modules/user/user.module:1743
+msgid "Delete the selected users"
+msgstr "Удалить отмеченных пользователей"
+
+#: modules/user/user.module:1763
+msgid "Add a role to the selected users"
+msgstr "Добавление роли выбранным пользователям"
+
+#: modules/user/user.module:1766
+msgid "Remove a role from the selected users"
+msgstr "Удаление роли для выбранных пользователей"
+
+#: modules/user/user.module:1868
+msgid "Are you sure you want to delete these users?"
+msgstr "Вы действительно хотите удалить этих пользователей?"
+
+#: modules/user/user.module:1878
+msgid "The users have been deleted."
+msgstr "Пользователи удалены."
+
+#: modules/user/user.admin.inc:233
+msgid "User registration settings"
+msgstr "Настройки регистрации пользователей"
+
+#: modules/user/user.admin.inc:234
+msgid "Public registrations"
+msgstr "Регистрации"
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts and no administrator approval is required."
+msgstr ""
+"Посетители могут создавать учетные записи, разрешение администратора не "
+"требуется."
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts but administrator approval is required."
+msgstr ""
+"Посетители могут создавать учетные записи, но требуется разрешение "
+"администратора."
+
+#: modules/user/user.admin.inc:235
+msgid "Require e-mail verification when a visitor creates an account"
+msgstr ""
+"Требуется подтверждение по электронной почте, когда посетитель создает "
+"учетную запись"
+
+#: modules/user/user.admin.inc:236
+msgid "User registration guidelines"
+msgstr "Инструкции по регистрации пользователя"
+
+#: modules/user/user.admin.inc:241
+msgid "User e-mail settings"
+msgstr "Установки электронной почты пользователя"
+
+#: modules/user/user.admin.inc:246
+msgid "Available variables are:"
+msgstr "Допустимые переменные:"
+
+#: modules/user/user.admin.inc:423
+msgid "Pictures"
+msgstr "Изображения"
+
+#: modules/user/user.admin.inc:428
+msgid "Picture support"
+msgstr "Поддержка изображений"
+
+#: modules/user/user.admin.inc:448
+msgid "Picture image path"
+msgstr "Путь до файла с изображением"
+
+#: modules/user/user.admin.inc:452
+msgid "Subdirectory in the directory %dir where pictures will be stored."
+msgstr ""
+"Подпапка папки %dir, в которую будут сохраняться изображения пользователей."
+
+#: modules/user/user.admin.inc:456
+msgid "Default picture"
+msgstr "Изображение по умолчанию"
+
+#: modules/user/user.admin.inc:460
+msgid ""
+"URL of picture to display for users with no custom picture selected. Leave "
+"blank for none."
+msgstr ""
+"Адрес изображения, которое будет показываться для пользователей, не "
+"закачавших собственную картинку. Если этого не нужно, оставьте поле пустым."
+
+#: modules/user/user.admin.inc:464
+msgid "Picture maximum dimensions"
+msgstr "Максимальные размеры изображения"
+
+#: modules/user/user.admin.inc:468
+msgid "Maximum dimensions for pictures, in pixels."
+msgstr "Максимальные размеры изображения в пикселях."
+
+#: modules/user/user.admin.inc:472
+msgid "Picture maximum file size"
+msgstr "Максимальный размер файла изображения"
+
+#: modules/user/user.admin.inc:476
+msgid "Maximum file size for pictures, in kB."
+msgstr "Максимальный размер файла изображения, в кб."
+
+#: modules/user/user.admin.inc:480
+msgid "Picture guidelines"
+msgstr "Пояснения к отправке изображений"
+
+#: modules/user/user.admin.inc:482
+msgid ""
+"This text is displayed at the picture upload form in addition to the default "
+"guidelines. It's useful for helping or instructing your users."
+msgstr ""
+"Этот текст показывается в форме загрузки в дополнение к стандартным "
+"подсказкам. Можно использовать для помощи или инструкций пользователям."
+
+#: modules/user/user.module:1898
+msgid ""
+"Drupal allows users to register, login, log out, maintain user profiles, "
+"etc. Users of the site may not use their own names to post content until "
+"they have signed up for a user account."
+msgstr ""
+"Drupal позволяет посетителям регистрироваться, входить на сайт, выходить, "
+"настраивать профили пользователей и т.д. Посетители сайта не могут "
+"использовать свои собственные имена при размещении материалов на сайте до "
+"тех пор, пока не получат учетную запись."
+
+#: modules/user/user.module:1903
+msgid ""
+"Set up username and e-mail address access rules for new <em>and</em> "
+"existing accounts (currently logged in accounts will not be logged out). If "
+"a username or e-mail address for an account matches any deny rule, but not "
+"an allow rule, then the account will not be allowed to be created or to log "
+"in. A host rule is effective for every page view, not just registrations."
+msgstr ""
+"Установите правила для имени пользователя или адреса электронной почты для "
+"новой <em>и</em> существующей учетной записи (можно не выходить, если вы уже "
+"зашли под этой записью). Если имя или адрес электронной почты нового "
+"пользователя будут совпадать с любым запрещающим правилом, но не будут "
+"совпадать с разрешающим, то новая учетная запись не будет создана или не "
+"будет возможности войти на сайт. Правило действует не только для "
+"регистрации, но и для любого просмотра страниц."
+
+#: modules/user/user.module:1905
+msgid ""
+"Permissions let you control what users can do on your site. Each user role "
+"(defined on the <a href=\"@role\">user roles page</a>) has its own set of "
+"permissions. For example, you could give users classified as \"Administrators"
+"\" permission to \"administer nodes\" but deny this power to ordinary, "
+"\"authenticated\" users. You can use permissions to reveal new features to "
+"privileged users (those with subscriptions, for example). Permissions also "
+"allow trusted users to share the administrative burden of running a busy "
+"site."
+msgstr ""
+"Права позволяют вам контролировать действия пользователей на вашем сайте. "
+"Каждая пользовательская роль (определенная на <a href=\"@role\">странице "
+"пользовательских ролей</a>) имеет свой набор прав. Например, вы можете дать "
+"пользователям, определенным как \"Администраторы\" права доступа к "
+"\"администраторским материалам\", но запретить эту возможность обычным "
+"\"зарегистрированным\" пользователям. Вы можете использовать права для "
+"предоставления привилегированным пользователям  новых возможностей "
+"(подписка, например). Права позволяют также переложить на доверенных "
+"пользователей часть административной нагрузки на активно работающем сайте."
+
+#: modules/user/user.module:1907
+msgid ""
+"<p>Roles allow you to fine tune the security and administration of Drupal. A "
+"role defines a group of users that have certain privileges as defined in <a "
+"href=\"@permissions\">user permissions</a>. Examples of roles include: "
+"anonymous user, authenticated user, moderator, administrator and so on. In "
+"this area you will define the <em>role names</em> of the various roles. To "
+"delete a role choose \"edit\".</p><p>By default, Drupal comes with two user "
+"roles:</p>\n"
+"      <ul>\n"
+"      <li>Anonymous user: this role is used for users that don't have a user "
+"account or that are not authenticated.</li>\n"
+"      <li>Authenticated user: this role is automatically granted to all "
+"logged in users.</li>\n"
+"      </ul>"
+msgstr ""
+"<p>Роли позволяют вам настроить безопасность и администрирование Drupal. "
+"Роли определяют группы пользователей, которые имеют некоторые привилегии, "
+"определяемые <a href=\"@permissions\">правами доступа</a>. Примеры ролей: "
+"анонимный пользователь, зарегистрированный пользователь, модератор, "
+"администратор и т.д. На этой странице вы можете задать <em>имена ролей</em>. "
+"Для удаления роли, выберите \"изменить\".</p><p>По умолчанию Drupal включает "
+"две роли:</p>\r\n"
+"      <ul>\r\n"
+"      <li>Анонимный пользователь (anonymous user): эта роль используется для "
+"пользователей, которые не зарегистрированы или не вошли в систему.</li>\r\n"
+"      <li>Зарегистрированный пользователь (authenticated user): эта роль "
+"автоматически назначается всем пользователям, вошедшим на сайт со своим "
+"именем и паролем.</li>\r\n"
+"      </ul>"
+
+#: modules/user/user.module:1950
+msgid "role"
+msgstr "роль"
+
+#: modules/user/user.admin.inc:43
+msgid "Show only users where"
+msgstr "Показать тех пользователей, у которых"
+
+#: modules/user/user.admin.inc:52
+msgid ""
+"<em>and</em> where <strong>%property</strong> is <strong>%value</strong>"
+msgstr ""
+"<em>и</em> где <strong>%property</strong> равно <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:55
+msgid "<strong>%property</strong> is <strong>%value</strong>"
+msgstr "<strong>%property</strong> равно <strong>%value</strong>"
+
+#: modules/user/user.module:778,781
+msgid "1 guest"
+msgid_plural "@count guests"
+msgstr[0] "@count гость"
+msgstr[1] "@count гостя"
+msgstr[2] "@count гостей"
+
+#: modules/user/user.module:546
+msgid "administer users"
+msgstr "администрировать пользователей"
+
+#: modules/user/user.module:546
+msgid "access user profiles"
+msgstr "иметь доступ к профилям пользователей"
+
+#: modules/user/user.module:546
+msgid "change own username"
+msgstr "изменять свое имя пользователя"
+
+#: modules/user/user.module:979
+msgid "Permissions"
+msgstr "Разрешения"
+
+#: modules/user/user.admin.inc:250
+msgid "Welcome, new user created by administrator"
+msgstr "Приветственное письмо (новый пользователь создан администратором)"
+
+#: modules/user/user.admin.inc:270
+msgid "Welcome, no approval required"
+msgstr "Приветственное письмо (подтверждение администратора не требуется)"
+
+#: modules/user/user.admin.inc:290
+msgid "Welcome, awaiting administrator approval"
+msgstr "Приветственное письмо (необходимо подтверждение администратора)"
+
+#: modules/user/user.admin.inc:310
+msgid "Password recovery email"
+msgstr "Письмо-напоминание о забытом пароле"
+
+#: modules/user/user.admin.inc:330
+msgid "Account activation email"
+msgstr "Письмо об активации учетной записи"
+
+#: modules/user/user.admin.inc:337
+msgid "Notify user when account is activated."
+msgstr "Уведомить пользователя, когда учётная запись активирована."
+
+#: modules/user/user.admin.inc:355
+msgid "Account blocked email"
+msgstr "Письмо о блокировке учетной записи"
+
+#: modules/user/user.admin.inc:362
+msgid "Notify user when account is blocked."
+msgstr "Уведомить пользователя, когда учётная запись заблокирована."
+
+#: modules/user/user.admin.inc:380
+msgid "Account deleted email"
+msgstr "Письмо об удалении учетной записи"
+
+#: modules/user/user.admin.inc:387
+msgid "Notify user when account is deleted."
+msgstr "Уведомить пользователя, когда учётная запись удалена."
+
+#: modules/user/user.admin.inc:406
+msgid "Signatures"
+msgstr "Подписи"
+
+#: modules/user/user.admin.inc:410
+msgid "Signature support"
+msgstr "Показывать подписи"
+
+#: modules/user/user.pages.inc:63
+msgid "Sorry, %name is not recognized as a user name or an e-mail address."
+msgstr "Извините, %name не распознано как имя пользователя или e-mail адрес."
+
+#: modules/user/user.module:1513
+msgid "Signature settings"
+msgstr "Параметры подписи"
+
+#: modules/user/user.module:1657
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. Your application for an account is "
+"currently pending approval. Once it has been approved, you will receive "
+"another e-mail containing information about how to log in, set your "
+"password, and other details.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"Спасибо, за вашу регистрацию на сайте !site. Ваша просьба о регистрации в "
+"настоящее время ожидает одобрения. После одобрения на ваш e-mail будет "
+"выслана информация как войти, установленный пароли и другая информация.\r\n"
+"\r\n"
+"\r\n"
+"--  !site team"
+
+#: modules/user/user.module:1665
+msgid "Account details for !username at !site (approved)"
+msgstr "Детали учетной записи для !username для !site (одобрен)"
+
+#: modules/user/user.module:1669
+msgid "Account details for !username at !site (blocked)"
+msgstr "Детали учетной записи для !username для !site (заблокированы)"
+
+#: modules/user/user.module:1671
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been blocked."
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"Ваша учетная запись на !site была заблокирована."
+
+#: modules/user/user.module:1673
+msgid "Account details for !username at !site (deleted)"
+msgstr "Детали аккаунта для !username для !site (удалены)"
+
+#: modules/user/user.module:1675
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been deleted."
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"Ваша учетная запись на !site была удалёна."
+
+#: modules/user/user.module:1913
+msgid ""
+"Enter a simple pattern (\"*\" may be used as a wildcard match) to search for "
+"a username or e-mail address. For example, one may search for \"br\" and "
+"Drupal might return \"brian\", \"brad\", and \"brenda@example.com\"."
+msgstr ""
+"Введите простой шаблон (можно использовать \"* \" как символ подстановочных "
+"знаков) для поиска имени пользователя или адреса электронной почты. "
+"Например, можно искать \"br \", и Drupal может выдать результаты \"brian\", "
+"\"brad\" и \"brenda@example.com\"."
+
+#: modules/user/user.module:2170
+msgid "Password strength:"
+msgstr "Сила пароля:"
+
+#: modules/user/user.module:2174
+msgid ""
+"It is recommended to choose a password that contains at least six "
+"characters. It should include numbers, punctuation, and both upper and "
+"lowercase letters."
+msgstr ""
+"Рекомендуем выбрать пароль больше 6 символов. Он должен включать цифры, "
+"знаки пунктуации, символы в верхнем и нижнем регистре."
+
+#: modules/user/user.module:2175
+msgid "The password does not include enough variation to be secure. Try:"
+msgstr "Ваш пароль не удовлетворяет требованиям по безопасности. Попробуйте:"
+
+#: modules/user/user.module:2176
+msgid "Adding both upper and lowercase letters."
+msgstr "Добавляйте одновременно как заглавные так и прописные буквы."
+
+#: modules/user/user.module:2177
+msgid "Adding numbers."
+msgstr "Добавление чисел."
+
+#: modules/user/user.module:2178
+msgid "Adding punctuation."
+msgstr "Добавление пунктуации"
+
+#: modules/user/user.module:2179
+msgid "It is recommended to choose a password different from the username."
+msgstr "Рекомендуется выбрать пароль, отличный от имени пользователя."
+
+#: modules/user/user.module:2182
+msgid "Passwords match:"
+msgstr "Пароли совпадают:"
+
+#: modules/user/user.module:2197
+msgid "After a user account has been created"
+msgstr "После того как учетная запись пользователя будет создана"
+
+#: modules/user/user.module:2200
+msgid "After a user's profile has been updated"
+msgstr "После того, как профиль пользователя был обновлён"
+
+#: modules/user/user.module:2203
+msgid "After a user has been deleted"
+msgstr "После того, как пользователь был удалён"
+
+#: modules/user/user.module:2206
+msgid "After a user has logged in"
+msgstr "После входа пользователя"
+
+#: modules/user/user.module:2209
+msgid "After a user has logged out"
+msgstr "После выхода пользователя"
+
+#: modules/user/user.module:2212
+msgid "When a user's profile is being viewed"
+msgstr "Когда пользовательский профиль был просмотрен"
+
+#: modules/user/user.module:2225
+msgid "Block current user"
+msgstr "Блокировать текущего пользователя"
+
+#: modules/user/user.module:2231
+msgid "Ban IP address of current user"
+msgstr "Запретить IP адрес текущего пользователя"
+
+#: modules/user/user.module:2324
+msgid ""
+"Welcome to Drupal. You are now logged in as user #1, which gives you full "
+"control over your website."
+msgstr ""
+"Добро пожаловать в Drupal. Сейчас вы вошли как пользователь #1, что даёт вам "
+"полный контроль над вашим сайтом."
+
+#: modules/user/user.module:2326
+msgid ""
+"</p><p> Your password is <strong>%pass</strong>. You may change your "
+"password below.</p>"
+msgstr ""
+"</p><p> Ваш пароль <strong>%pass</strong>. Вы можете изменить ваш пароль "
+"ниже.</p>"
+
+#: modules/user/user.module:2338
+msgid ""
+"Created a new user account for <a href=\"@url\">%name</a>. No e-mail has "
+"been sent."
+msgstr ""
+"Создана новая учетная запись для <a href=\"@url\">%name</a>. Сообщение по e-"
+"mail не отправлялось."
+
+#: modules/user/user.module:2355
+msgid ""
+"Password and further instructions have been e-mailed to the new user <a href="
+"\"@url\">%name</a>."
+msgstr ""
+"Пароль и дальнейшие инструкции были отправлены по e-mail новому пользователю "
+"<a href=\"@url\">%name</a>."
+
+#: modules/user/user.module:1420
+msgid "New external user: %name using module %module."
+msgstr "Новый внешний пользователь: %name используя модуль %module."
+
+#: modules/user/user.module:2256
+msgid "Blocked user %name."
+msgstr "Пользователь %name заблокирован."
+
+#: modules/user/user.module:2266
+msgid "Banned IP address %ip"
+msgstr "Запрещенный IP адрес %ip"
+
+#: modules/user/user.module:2320
+msgid "New user: %name (%email)."
+msgstr "Новый пользователь: %name (%email)."
+
+#: modules/user/user.module:546
+msgid "administer permissions"
+msgstr "управлять правами доступа"
+
+#: modules/user/user.module:1091
+msgid "Account"
+msgstr "Учетная Запись"
+
+#: modules/user/user.admin.inc:890
+msgid "deny"
+msgstr "запрещено"
+
+#: modules/user/user.admin.inc:745
+msgid "Host"
+msgstr "Хост"
+
+#: modules/user/user.admin.inc:860,887
+msgid "username"
+msgstr "имя пользователя"
+
+#: modules/user/user.admin.inc:860,887
+msgid "e-mail"
+msgstr "адрес электронной почты"
+
+#: modules/user/user.admin.inc:890
+msgid "allow"
+msgstr "разрешено"
+
+#: modules/user/user.admin.inc:953
+msgid "edit role"
+msgstr "изменить роль"
+
+#: modules/user/user.module:1968
+msgid "permission"
+msgstr "разрешение"
+
+#: modules/user/user.module:2171
+msgid "Low"
+msgstr "Низкий"
+
+#: modules/user/user.module:2173
+msgid "High"
+msgstr "Высокий"
+
+#: modules/user/user.admin.inc:235
+msgid ""
+"If this box is checked, new users will be required to validate their e-mail "
+"address prior to logging into the site, and will be assigned a system-"
+"generated password. With it unchecked, users will be logged in immediately "
+"upon registering, and may select their own passwords during registration."
+msgstr ""
+"Если выбран этот пункт, новые пользователи будут обязаны подтверждать "
+"правильность указанного адреса электронной почты  перед тем, как получат "
+"возможность войти на сайт. Пароль для них генерируется сайтом. Когда пункт "
+"не выбран, пользователи смогут входить на сайт сразу же после регистрации, а "
+"также смогут установить себе пароль в процессе регистрации."
+
+#: modules/user/user.admin.inc:236
+msgid ""
+"This text is displayed at the top of the user registration form and is "
+"useful for helping or instructing your users."
+msgstr ""
+"Это сообщение отображается над формой регистрации пользователей. Может быть "
+"использовано как справка или инструкция для посетителей."
+
+#: modules/user/user.admin.inc:242
+msgid ""
+"Drupal sends emails whenever new users register on your site, and "
+"optionally, may also notify users after other account actions. Using a "
+"simple set of content templates, notification e-mails can be customized to "
+"fit the specific needs of your site."
+msgstr ""
+"Drupal отсылает письма при регистрации новых пользователей на сайте, а "
+"также, по выбору, может оповещать пользователей о других действиях над их "
+"учётными записями. Используя простой набор шаблонов, e-mail оповещения могут "
+"быть настроены под любые нужды."
+
+#: modules/user/user.admin.inc:253
+msgid ""
+"Customize welcome e-mail messages sent to new member accounts created by an "
+"administrator."
+msgstr ""
+"Настройка текста приветственного письма, которое высылается  новым "
+"пользователям, чьи записи создал администратор."
+
+#: modules/user/user.admin.inc:273
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"no administrator approval is required."
+msgstr ""
+"Настройка e-mail  приветствия, отправляемого новому пользователю при "
+"регистрации, если не требуется подтверждение администратора."
+
+#: modules/user/user.admin.inc:293
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"administrative approval is required."
+msgstr ""
+"Настройка e-mail  приветствия, отправляемого новому пользователю при "
+"регистрации, если требуется подтверждение администратора."
+
+#: modules/user/user.admin.inc:313
+msgid "Customize e-mail messages sent to users who request a new password."
+msgstr ""
+"Настройка e-mail сообщения, отправляемого пользователю при запросе нового "
+"пароля."
+
+#: modules/user/user.admin.inc:333
+msgid ""
+"Enable and customize e-mail messages sent to users upon account activation "
+"(when an administrator activates an account of a user who has already "
+"registered, on a site where administrative approval is required)."
+msgstr ""
+"Включение и настройка e-mail сообщения, отправляемого пользователям после "
+"активации учётной записи (когда администратор активирует учётную запись "
+"пользователя, который уже зарегистрирован на сайте, где требуется "
+"подтверждение администратора)."
+
+#: modules/user/user.admin.inc:358
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"blocked."
+msgstr ""
+"Включение и настройка e-mail сообщения, отправляемого пользователю при "
+"блокировке его учетной записи."
+
+#: modules/user/user.admin.inc:383
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"deleted."
+msgstr ""
+"Включение и настройка e-mail сообщения, отправляемого пользователю при "
+"удалении его учётной записи."
+
+#: modules/user/user.module:1667
+msgid ""
+"!username,\n"
+"\n"
+"Your account at !site has been activated.\n"
+"\n"
+"You may now log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"Once you have set your own password, you will be able to log in to !"
+"login_uri in the future using:\n"
+"\n"
+"username: !username\n"
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"Ваша учётная запись была активирована.\r\n"
+"\r\n"
+"Вы можите щёлкнуть по этой ссылки или скопировать её и вставить в окно "
+"броузера:\r\n"
+"\r\n"
+"!login_url\r\n"
+"\r\n"
+"Это одноразовый вход, вы можите использовать его только один раз.\r\n"
+"\r\n"
+"После входа, вы будете перенаправлены на !edit_uri для изменения вашего "
+"пароля.\r\n"
+"\r\n"
+"После установки вами нового пароля, вы будет иметь возможность входить на !"
+"login_uri в будущем используя:\r\n"
+"\r\n"
+"Имя пользователя: !username\r\n"
+
+#: modules/user/user.module:2345
+msgid "Registration successful. You are now logged in."
+msgstr "Регистрация успешна. Вы можите войти."
+
+#: modules/user/user.module:381
+msgid "You must enter a username."
+msgstr "Вы должны указать имя пользователя."
+
+#: modules/user/user.module:1892
+msgid ""
+"The user module allows users to register, login, and log out. Users benefit "
+"from being able to sign on because it associates content they create with "
+"their account and allows various permissions to be set for their roles. The "
+"user module supports user roles which establish fine grained permissions "
+"allowing each role to do only what the administrator wants them to. Each "
+"user is assigned to one or more roles. By default there are two roles "
+"<em>anonymous</em> - a user who has not logged in, and <em>authenticated</"
+"em> a user who has signed up and who has been authorized."
+msgstr ""
+"Пользовательский модуль позволяет посетителям регистрироваться, входить на "
+"сайт и выходить. Пользователям полезно зарегистрироваться, поскольку в этом "
+"случае все материалы, которые они создают на сайте, связываются с их "
+"учетными записями. Кроме того, зарегистрированные пользователи могут иметь "
+"различные права, которые установлены для их ролей. Модуль пользователя "
+"поддерживает роли пользователя, которые определяют для пользователя "
+"возможности делать только то, что разрешит ему администратор сайта. Каждому "
+"пользователю назначается одна или более ролей. По умолчанию есть две роли: "
+"<em>анонимный пользователь (гость)</em> - пользователь, который не "
+"зарегистрировался на сайте, и <em>авторизованный пользователь</em> - "
+"пользователь, который зашел на сайт и авторизовался."
+
+#: modules/user/user.module:1663
+msgid ""
+"!username,\n"
+"\n"
+"A request to reset the password for your account has been made at !site.\n"
+"\n"
+"You may now log in to !uri_brief by clicking on this link or copying and "
+"pasting it in your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once. It expires after one "
+"day and nothing will happen if it's not used.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password."
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"Вы послали запрос на восстановление пароля к вашей учетной записи на сайте !"
+"site.\r\n"
+"\r\n"
+"Вы также сможете войти на сайт !uri_brief, нажав на следующую ссылку или "
+"скопировав её в адресную строку вашего браузера: \r\n"
+"\r\n"
+" !login_url\r\n"
+"\r\n"
+"Это одноразовый вход и воспользоваться им можно лишь однажды. Срок его "
+"действия истекает через день (но ничего не случится, если вы им не "
+"воспользуетесь).\r\n"
+"\r\n"
+"После входа на сайт вы будете перенаправлены на страницу !edit_uri, где "
+"можете сменить свой пароль."
+
+#: modules/user/user.module:1893
+msgid ""
+"Users can use their own name or handle and can specify personal "
+"configuration settings through their individual <em>My account</em> page. "
+"Users must authenticate by supplying a local username and password or "
+"through their OpenID, an optional and secure method for logging into many "
+"websites with a single username and password. In some configurations, users "
+"may authenticate using a username and password from another Drupal site, or "
+"through some other site-specific mechanism."
+msgstr ""
+"Пользователи могут использовать своё собственное имя или настраивать "
+"различные параметры при помощи личной страницы <em>Мой профиль</em>. "
+"Пользователи должны войти на сайт, указывая своё локальное имя пользователя "
+"и пароль или используя OpenID, в качестве необязательного и надежного метода "
+"входа на множество сайтов с единым логином и паролем. В некоторых "
+"конфигурациях пользователи также могут авторизоваться при помощи логина и "
+"пароля с другого Drupal-сайта или используя другие механизмы."
+
+#: modules/user/user.module:1894
+msgid ""
+"A visitor accessing your website is assigned a unique ID, or session ID, "
+"which is stored in a cookie. The cookie does not contain personal "
+"information, but acts as a key to retrieve information from your site. Users "
+"should have cookies enabled in their web browser when using your site."
+msgstr ""
+"Каждому посетителю вашего сайта назначается уникальный ID (так называемый "
+"session ID), который храниться в cookie. Эта запись не содержит никакой "
+"личной информации, а используется как личный ключ для получения информации с "
+"ресурса. У пользователей должна быть включена поддержка cookies."
+
+#: modules/user/user.module:1895
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@user"
+"\">User module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью <a "
+"href=\"@user\">User module</a>."
+
+#: modules/user/user.module:1901
+msgid ""
+"This web page allows administrators to register new users. Users' e-mail "
+"addresses and usernames must be unique."
+msgstr ""
+"Эта страница позволяет администраторам регистрировать новых пользователей. "
+"Пользовательские e-mail адреса и имена должны быть уникальными."
+
+#: modules/user/user.module:2366
+msgid ""
+"Thank you for applying for an account. Your account is currently pending "
+"approval by the site administrator.<br />In the meantime, a welcome message "
+"with further instructions has been sent to your e-mail address."
+msgstr ""
+"Благодарим за желание создать учетную запись на нашем сайте. Ваша заявка "
+"сейчас отправлена на утверждение администратору сайта.<br /> Со временем, "
+"приветственное сообщение с дальнейшими инструкциями будет выслано на ваш "
+"электронный адрес."
+
+#: modules/user/user.pages.inc:121
+msgid ""
+"<p>This is a one-time login for %user_name and will expire on %"
+"expiration_date.</p><p>Click on this button to login to the site and change "
+"your password.</p>"
+msgstr ""
+"<p>Это одноразовый логин для %user_name , он будет недействителен после %"
+"expiration_date.</p><p>Нажмите на эту кнопку для того, чтобы войти на сайт и "
+"изменить свой пароль.</p>"
+
+#: modules/user/user.module:0
+msgid "anonymous user"
+msgstr "анонимный пользователь"
+
+#: modules/user/user.pages.inc:50
+msgid "%name is not allowed to request a new password."
+msgstr "%name  не разрешён запрос нового пароля."
+
+#: modules/user/user.pages.inc:99
+msgid ""
+"You have tried to use a one-time login for an account which has been blocked."
+msgstr ""
+"Вы попытались использовать одноразовый пароль для входа в учётную запись, "
+"которая была заблокирована."
+
+#: modules/user/user.module:1342
+msgid ""
+"The name %name is registered using a reserved e-mail address and therefore "
+"could not be logged in."
+msgstr ""
+"Имя %name зарегистрировано с использованием зарезервированного e-mail адреса "
+"и поэтому вход невозможен."

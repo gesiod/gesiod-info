@@ -1,0 +1,13 @@
+name = Fashionroom
+description = A blank base theme
+version = .02
+core = 6.x
+engine = phptemplate
+ 
+stylesheets[all][] = common.css
+stylesheets[all][] = shop_browse.css
+
+
+
+  
+

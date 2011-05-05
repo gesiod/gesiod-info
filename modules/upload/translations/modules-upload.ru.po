@@ -1,0 +1,253 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from files:
+#  upload.module,v 1.197.2.4 2009/01/12 15:30:23 goba
+#  upload.admin.inc,v 1.7 2008/01/10 20:22:57 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2008-10-17 06:12+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/upload/upload.module:21
+msgid ""
+"Users with the <a href=\"@permissions\">upload files permission</a> can "
+"upload attachments. Users with the <a href=\"@permissions\">view uploaded "
+"files permission</a> can view uploaded attachments. You can choose which "
+"post types can take attachments on the <a href=\"@types\">content types "
+"settings</a> page."
+msgstr ""
+"Пользователи с правами на <a href=\"@permissions\">закачивание файлов</a> "
+"могут закачивать прикрепляемые файлы. Пользователи с правами на <a href="
+"\"@permissions\">просмотр закаченных файлов</a> могу просматривать "
+"прикрепляемые файлы. Вы можете определять, к каким типам материалов можно "
+"прикреплять файлы. Это задается на странице <a href=\"@types\">установки "
+"типов материала</a>."
+
+#: modules/upload/upload.module:67
+msgid "Read full article to view attachments."
+msgstr "Прочитайте материал целиком, чтобы увидеть прикрепленные файлы."
+
+#: modules/upload/upload.module:86
+msgid "File uploads"
+msgstr "Загрузки файлов"
+
+#: modules/upload/upload.module:87
+msgid "Control how files may be attached to content."
+msgstr "Контроль за тем, какие файлы могут быть прикреплены к материалам."
+
+#: modules/upload/upload.admin.inc:10
+msgid ""
+"The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set "
+"to 0 for no restriction."
+msgstr ""
+"Максимальный размер изображения в виде ШИРИНАxВЫСОТА (например, 640x480). "
+"Значение 0 означает остутствие ограничений."
+
+#: modules/upload/upload.admin.inc:21,24,39,42
+msgid "The %role file size limit must be a number and greater than zero."
+msgstr "Масимальный размер файла %role должен быть числом больше нуля."
+
+#: modules/upload/upload.admin.inc:31,49
+msgid ""
+"The %role maximum file size per upload is greater than the total file size "
+"allowed per user"
+msgstr ""
+"Максимальный размер файла %role для загрузки больше общего размера файлов, "
+"разрешенного для пользователя"
+
+#: modules/upload/upload.admin.inc:64
+msgid "General settings"
+msgstr "Основные настройки"
+
+#: modules/upload/upload.admin.inc:69
+msgid "Maximum resolution for uploaded images"
+msgstr "Максимальное разрешение для загружаемых изображений"
+
+#: modules/upload/upload.admin.inc:74
+msgid "WIDTHxHEIGHT"
+msgstr "ШИРИНАxВЫСОТА"
+
+#: modules/upload/upload.admin.inc:78
+msgid "List files by default"
+msgstr "Список файлов по умолчанию"
+
+#: modules/upload/upload.module:213
+msgid "Attachments"
+msgstr "Прикрепленные файлы"
+
+#: modules/upload/upload.module:226
+msgid "File attachments"
+msgstr "Прикрепленные файлы"
+
+#: modules/upload/upload.module:229
+msgid ""
+"Changes made to the attachments are not permanent until you save this post. "
+"The first \"listed\" file will be included in RSS feeds."
+msgstr ""
+"Изменения в списке прикрепленных файлов не сохраняются пока вы не сохраните "
+"этот материал. Первый файл из перечисленных будет включен в ленты RSS."
+
+#: modules/upload/upload.module:247
+msgid ""
+"File attachments are disabled. The file directories have not been properly "
+"configured."
+msgstr ""
+"Прикрепление файлов отключено. Каталоги для размещения файлов неправильно "
+"настроены."
+
+#: modules/upload/upload.module:249
+msgid ""
+"Please visit the <a href=\"@admin-file-system\">file system configuration "
+"page</a>."
+msgstr ""
+"Пожалуйста, зайдите на страницу <a href=\"@admin-file-system\">настройки "
+"файловой системы</a>."
+
+#: modules/upload/upload.module:252
+msgid "Please contact the site administrator."
+msgstr "Пожалуйста, свяжитесь с администратором сайта."
+
+#: modules/upload/upload.module:344
+msgid "Attachment"
+msgstr "Прикрепленный файл"
+
+#: modules/upload/upload.module:344,517
+msgid "Size"
+msgstr "Размер"
+
+#: modules/upload/upload.module:491
+msgid "Attach new file"
+msgstr "Прикрепить новый файл"
+
+#: modules/upload/upload.module:497
+msgid "Attach"
+msgstr "Прикрепить"
+
+#: modules/upload/upload.module:65,309
+msgid "1 attachment"
+msgid_plural "@count attachments"
+msgstr[0] "@count файл"
+msgstr[1] "@count файла"
+msgstr[2] "@count[2] файлов"
+
+#: modules/upload/upload.module:46
+msgid "upload files"
+msgstr "загружать файлы"
+
+#: modules/upload/upload.module:46
+msgid "view uploaded files"
+msgstr "смотреть загруженные файлы"
+
+#: modules/upload/upload.admin.inc:73
+msgid ""
+"The maximum allowed image size (e.g. 640x480). Set to 0 for no restriction. "
+"If an <a href=\"!image-toolkit-link\">image toolkit</a> is installed, files "
+"exceeding this value will be scaled down to fit."
+msgstr ""
+"Максимальный разрешенный размер изображения (например, 640x480). Укажите 0 "
+"для снятия ограничений. Если установлено <a href=\"!image-toolkit-link"
+"\">средство обработки изображений</a>, то разрешение файлов, превышающих это "
+"значение, будет уменьшаться до заданного размера."
+
+#: modules/upload/upload.admin.inc:97
+msgid ""
+"The default maximum file size a user can upload. If an image is uploaded and "
+"a maximum resolution is set, the size will be checked after the file has "
+"been resized."
+msgstr ""
+"Текущий максимальный размер файла, который может загрузить пользователь. "
+"Если изображение загружено и установлено максимальное разрешение, то размер "
+"будет проверен после того, как файл был изменен."
+
+#: modules/upload/upload.admin.inc:135
+msgid ""
+"The maximum size of a file a user can upload. If an image is uploaded and a "
+"maximum resolution is set, the size will be checked after the file has been "
+"resized."
+msgstr ""
+"Максимальный размер файла, который может загрузить пользователь. Если "
+"изображение загружено и установлено максимальное разрешение, то размер будет "
+"проверен после того, как файл был изменен."
+
+#: modules/upload/upload.admin.inc:144
+msgid "The maximum size of all files a user can have on the site."
+msgstr ""
+"Максимальный размер всех файлов, которые пользователь может загружать на "
+"сайт."
+
+#: modules/upload/upload.module:493
+msgid "Images are larger than %resolution will be resized. "
+msgstr "Изображения больше чем %resolution должны быть уменьшены "
+
+#: modules/upload/upload.module:493
+msgid ""
+"The maximum upload size is %filesize. Only files with the following "
+"extensions may be uploaded: %extensions. "
+msgstr ""
+"Максимальный размер загружаемого файла %filesize. Можно загружать файлы "
+"только со следующими расширениями: %extensions. "
+
+#: modules/upload/upload.module:502
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: modules/upload/upload.admin.inc:21,24,31
+msgid "default"
+msgstr "по умолчанию"
+
+#: modules/upload/upload.admin.inc:81
+msgid "Display attached files when viewing a post."
+msgstr "Показывать вложение при просмотре сообщения."
+
+#: modules/upload/upload.module:16
+msgid ""
+"The upload module allows users to upload files to the site. The ability to "
+"upload files is important for members of a community who want to share work. "
+"It is also useful to administrators who want to keep uploaded files "
+"connected to posts."
+msgstr ""
+"Модуль загрузки позволяет пользователям загружать файлы в на сайт. Эта "
+"возможность полезна для членов сообщества, которые хотели бы организовать "
+"совместную работу. Это удобно также для администраторов, чтобы прикреплять "
+"загруженные файлы к странице или материалу."
+
+#: modules/upload/upload.module:17
+msgid ""
+"Users with the upload files permission can upload attachments to posts. "
+"Uploads may be enabled for specific content types on the content types "
+"settings page. Each user role can be customized to limit or control the file "
+"size of uploads, or the maximum dimension of image files."
+msgstr ""
+"Пользователи с разрешением закачки файлов могут закачивать вложения к "
+"сообщениям. Закачки могут быть разрешены для особых типов материалов на "
+"странице настройке типов материалов. Каждая роль пользователей может быть "
+"настроена индивидуально, чтобы ограничить или контролировать размер закачек, "
+"или максимальное разрешение изображений."
+
+#: modules/upload/upload.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@upload"
+"\">Upload module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью <a "
+"href=\"@upload\">Upload module</a>."
+
+#: modules/upload/upload.admin.inc:18
+msgid ""
+"Depending on your server environment, these settings may be changed in the "
+"system-wide php.ini file, a php.ini file in your Drupal root directory, in "
+"your Drupal site's settings.php file, or in the .htaccess file in your "
+"Drupal root directory."
+msgstr ""
+"В зависимости от настроек сервера эти установки могут быть изменены в общем "
+"для всего сервера файле php.ini, в файле php.ini, размещенном в корневой "
+"директории Drupal, в файле настроек Drupal сайта settings.php или в файле ."
+"htaccess в корневой директории Drupal."

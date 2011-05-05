@@ -1,0 +1,140 @@
+<?php
+// $Id: node_import_update.module,v 1.2 2010/05/31 13:32:18 ergonlogic Exp $
+
+/**
+ * @file
+ * Update current nodes at node import.
+ */
+
+/**
+* Implementation of hook_menu().
+*/
+function node_import_update_menu() {
+  $items = array();
+  $items['admin/settings/node_import_update'] = array(
+    'title' => t('Node Import Update'),
+    'description' => t('Update current nodes at import.'),
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('node_import_update_settings_form'),
+    'access arguments' => array('administer node import update'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+  return $items;
+}
+
+
+/**
+ * Implementation of hook_form_alter
+ */
+function node_import_update_form_alter(&$form, $form_state, $form_id) {
+
+  // Check if we are importing
+  if (arg(2) == 'node_import') {
+
+    /**
+     * Set custom data
+     * These should/could be defined in admin
+     *
+     */
+    // Node title as unique identifier
+    //$IMPORT_UNIQUE_ID_NAME   = 'title';               // Import field that holds the unique identifier
+    //$IMPORT_UNIQUE_ID_IS_CCK = FALSE;                 // Is the identifier a CCK field?
+
+    // CCK field as unique identifier
+    $IMPORT_UNIQUE_ID_NAME   = 'title';  // Import field that holds the unique identifier
+    $IMPORT_UNIQUE_ID_IS_CCK = FALSE;    // Is the identifier a CCK field?
+
+    $IMPORT_NTYPE            = 'product';   // Node type to be imported
+    $IMPORT_UPDATE_DATETIME  = TRUE;        // Settting: update date/time value?
+
+
+    // Alter node edit form
+    if ($form_id == $IMPORT_NTYPE .'_node_form') {
+
+      // Check if item already exists
+      if ($IMPORT_UNIQUE_ID_IS_CCK) {
+        // get unique id from cck fields
+        $unique_id_value = $form['#post']['cck:field_import_id:value'][0];
+        // build query
+        $query = 'SELECT c.nid, c.vid FROM {content_type_%s} c WHERE c.%s = "%s"';
+      }
+      else {
+        // get unique id for node values
+        $unique_id_value = $form['#post'][$IMPORT_UNIQUE_ID_NAME];
+        // build query
+        $query = 'SELECT n.nid, n.vid FROM {node} n WHERE n.type = "%s" AND n.%s = "%s"';
+      }
+
+      // Check if we have a unique id
+      if ($unique_id_value){
+
+        // execute query
+        $row = db_fetch_array(db_query($query, $IMPORT_NTYPE, $IMPORT_UNIQUE_ID_NAME, $unique_id_value));
+
+        // Destroy so we don't pass an array on next iteration
+        unset($query);
+
+        // If already exists (non empty result)
+        if (!empty($row['nid'])) {
+
+          //drupal_set_message('update in effect!');
+
+          // Set nid and vid to that node
+          $form['nid']['#value']= intval($row['nid']);
+          $form['vid']['#value']= intval($row['vid']);
+
+          // Set time to last updated
+          if ($IMPORT_UPDATE_DATETIME) {
+            $form['changed']['#value'] = time ();
+          }
+          else {
+
+            // create timestamp from string date
+            $timestamp = strtotime($form['#post']['changed']);
+
+            // set timestamp value for the below
+            $form['changed']['#default_value'] = $timestamp;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Admin
+ */
+function node_import_update_settings_form($form_state) {
+
+  $form = array();
+  $form['niu_settings']['general'] = array(
+    '#title'       => 'Node Import Update settings',
+    '#type'        => 'fieldset',
+    '#collapsible' => TRUE,
+    '#collapsed'   => FALSE,
+    '#description' => 'Settings page not implemented. You have to hack the module, sorry.',
+  );
+
+  return $form;
+}
+
+//module below ensures existing nodes are updated, to avoid duplication
+// kept for the time-being for leagacy sake. May borrow image field handling code, as this remains untested in new code above.
+/* function node_import_update_form_product_node_form_alter($data)
+{
+  $sku = $data['#post']['model'];
+  if (is_numeric($sku)){
+    $sku = intval($sku) ;
+    $row = db_fetch_array(db_query("SELECT uc_products.nid, uc_products.vid, content_field_image_cache.field_image_cache_fid, content_field_image_cache.field_image_cache_list, content_field_image_cache.field_image_cache_data FROM uc_products, content_field_image_cache WHERE uc_products.model = %d AND uc_products.nid = content_field_image_cache.nid LIMIT 1", $sku));
+    if (!empty($row)){
+      $data['nid']['#value']= intval($row['nid']);
+      $data['vid']['#value']= intval($row['vid']);
+      $data['#post']['field_image_cache'] = Array(Array('data' => $row['field_image_cache_data'], 'list' => $row['field_image_cache_list'], 'fid' => $row['field_image_cache_fid']));
+      $data['#post']['cck:field_image_cache:data'] = $row['field_image_cache_data'];
+      $data['#post']['cck:field_image_cache:fid'] = $row['field_image_cache_fid'];
+      $data['#post']['cck:field_image_cache:list'] = $row['field_image_cache_list'];
+      $data['changed']['#value']= time ();
+    }
+  }
+} */

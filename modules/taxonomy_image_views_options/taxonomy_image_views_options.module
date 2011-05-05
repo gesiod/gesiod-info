@@ -1,0 +1,220 @@
+<?php
+// $Id: taxonomy_image_views_options.module,v 1.1 2011/02/09 21:01:48 scyther Exp $
+
+/**
+ * @file
+ *  taxonomy_image_views_options.module
+ *  Adds additional options for Taxonomy Image in Views.
+ * @author Christoffer Johansson (Scyther), www.christofferjohansson.se
+ */
+
+/**
+ * Implementation of hook_views_api().
+ */
+function taxonomy_image_views_options_views_api() {
+  return array('api' => 2);
+}
+
+/**
+ * Implementation of hook_views_handlers().
+ */
+function taxonomy_image_views_options_views_handlers() {
+  return array(
+    'info' => array(
+      'path' => drupal_get_path('module', 'taxonomy_image_views_options'),
+    ),
+    'handlers' => array(
+      'views_handler_field_taxonomy_image_views_options' => array(
+        'parent' => 'views_handler_field',
+      ),
+    ),
+  );
+}
+
+
+/**
+ * Implementation of hook_theme().
+ */
+function taxonomy_image_views_options_theme() {
+  $themes = array(
+    'taxonomy_image_views_options_formatter_image_plain' => array(
+      'arguments' => array('tid' => NULL),
+    ),
+    'taxonomy_image_views_options_formatter_image_link_taxonomy' => array(
+      'arguments' => array('tid' => NULL),
+    ),
+    'taxonomy_image_views_options_formatter_image_link_image' => array(
+      'arguments' => array('tid' => NULL),
+    ),
+    'taxonomy_image_views_options_formatter_path_to_image' => array(
+      'arguments' => array('tid' => NULL),
+    ),
+    'taxonomy_image_views_options_formatter_url_to_image' => array(
+      'arguments' => array('tid' => NULL),
+    ),
+  );
+
+  if (module_exists('imagecache')) {
+    foreach (imagecache_presets() as $preset) {
+      $themes['taxonomy_image_views_options_formatter_imagecache_'. $preset['presetname'] .'_default'] = array(
+        'arguments' => array('tid' => NULL, 'preset' => NULL),
+        'function' => 'theme_taxonomy_image_views_options_formatter_imagecache_default',
+      );
+      $themes['taxonomy_image_views_options_formatter_imagecache_'. $preset['presetname'] .'_termlink'] = array(
+        'arguments' => array('tid' => NULL, 'preset' => NULL),
+        'function' => 'theme_taxonomy_image_views_options_formatter_imagecache_termlink',
+      );
+      $themes['taxonomy_image_views_options_formatter_imagecache_'. $preset['presetname'] .'_imagelink'] = array(
+        'arguments' => array('tid' => NULL, 'preset' => NULL),
+        'function' => 'theme_taxonomy_image_views_options_formatter_imagecache_imagelink',
+      );
+      $themes['taxonomy_image_views_options_formatter_imagecache_'. $preset['presetname'] .'_path'] = array(
+        'arguments' => array('tid' => NULL, 'preset' => NULL),
+        'function' => 'theme_taxonomy_image_views_options_formatter_imagecache_path',
+      );
+      $themes['taxonomy_image_views_options_formatter_imagecache_'. $preset['presetname'] .'_url'] = array(
+        'arguments' => array('tid' => NULL, 'preset' => NULL),
+        'function' => 'theme_taxonomy_image_views_options_formatter_imagecache_url',
+      );
+    }
+  }
+
+  return $themes;
+}
+
+/**
+ * Get the taxonomy image, that have been processed by imagechache.
+ * @param
+ *   $tid - the term id
+ * @param
+ *   $preset - the imagecache preset that will be called
+ * @return
+ *   Image in HTML.
+ */
+function theme_taxonomy_image_views_options_formatter_imagecache_default($tid, $preset) {
+  return theme('imagecache', $preset, taxonomy_image_views_options_get_path($tid));
+}
+
+/**
+ * Get the taxonomy image, that have been processed by imagechache, as a link to the taxonomy term.
+ * @param
+ *   $tid - the term id
+ * @param
+ *   $preset - the imagecache preset that will be called
+ * @return
+ *   HTML link.
+ */
+function theme_taxonomy_image_views_options_formatter_imagecache_termlink($tid, $preset) {
+  $image = taxonomy_image_get_object($tid);
+  return l(theme('imagecache', $preset, taxonomy_image_views_options_get_path($tid)), $image->term, $options = array('html' => TRUE));
+}
+
+/**
+ * Get the taxonomy image, that have been processed by imagechache, as a link to the image.
+ * @param
+ *   $tid - the term id
+ * @param
+ *   $preset - the imagecache preset that will be called
+ * @return
+ *   HTML link.
+ */
+function theme_taxonomy_image_views_options_formatter_imagecache_imagelink($tid, $preset) {
+  $image = taxonomy_image_get_object($tid);
+  return l(theme('imagecache', $preset, taxonomy_image_views_options_get_path($tid)), $image->url, $options = array('html' => TRUE));
+}
+
+/**
+ * Get the path to the taxonomy image that have been processed by imagechache.
+ * @param
+ *   $tid - the term id
+ * @param
+ *   $preset - the imagecache preset that will be called
+ * @return
+ *   The path string.
+ */
+function theme_taxonomy_image_views_options_formatter_imagecache_path($tid, $preset) {
+  return imagecache_create_path($preset, taxonomy_image_views_options_get_path($tid));
+}
+
+/**
+ * Get the URL to the taxonomy image that have been processed by imagechache.
+ * @param
+ *   $tid - the term id
+ * @param
+ *   $preset - the imagecache preset that will be called
+ * @return
+ *   The URL string.
+ */
+function theme_taxonomy_image_views_options_formatter_imagecache_url($tid, $preset) {
+  return imagecache_create_url($preset, taxonomy_image_views_options_get_path($tid));
+}
+
+/**
+ * Get the taxonomy image.
+ * @param
+ *   $tid - the term id
+ * @return
+ *   Image in HTML.
+ */
+function theme_taxonomy_image_views_options_formatter_image_plain($tid) {
+  $image = taxonomy_image_get_object($tid);
+  return $image->img;
+}
+
+/**
+ * Get the taxonomy image as a link to the taxonomy term.
+ * @param
+ *   $tid - the term id
+ * @return
+ *   HTML link.
+ */
+function theme_taxonomy_image_views_options_formatter_image_link_taxonomy($tid) {
+  $image = taxonomy_image_get_object($tid);
+  return l($image->img, $image->term, $options = array('html' => TRUE));
+}
+
+/**
+ * Get the taxonomy image as a link to the image.
+ * @param
+ *   $tid - the term id
+ * @return
+ *   HTML link.
+ */
+function theme_taxonomy_image_views_options_formatter_image_link_image($tid) {
+  $image = taxonomy_image_get_object($tid);
+  return l($image->img, $image->url, $options = array('html' => TRUE));
+}
+
+/**
+ * Get the path to the taxonomy image.
+ * @param
+ *   $tid - the term id
+ * @return
+ *   The path string.
+ */
+function theme_taxonomy_image_views_options_formatter_path_to_image($tid) {
+  return taxonomy_image_views_options_get_path($tid);
+}
+
+/**
+ * Get the URL to the taxonomy image.
+ * @param
+ *   $tid - the term id
+ * @return
+ *   The URL string.
+ */
+function theme_taxonomy_image_views_options_formatter_url_to_image($tid) {
+  return taxonomy_image_get_url($tid);
+}
+
+/**
+ * Function to get a path for an image, for use in css, html or other client-side code.
+ * @param
+ *   $tid - the term id
+ * @return
+ *   The path string.
+ */
+function taxonomy_image_views_options_get_path($tid) {
+  $image = taxonomy_image_get_object($tid);
+  return file_create_path(variable_get('taxonomy_image_path', 'category_pictures')) . '/' . $image->path;
+}

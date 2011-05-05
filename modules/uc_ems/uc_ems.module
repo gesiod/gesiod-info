@@ -1,0 +1,329 @@
+<?php
+// $Id: uc_ems.module,v 1.1.2.6 2011/02/11 14:02:49 troy Exp $
+/**
+ * @file
+ * EMS shipping module main file.
+ */
+
+/**
+ * Implementation of hook_menu().
+ */
+function uc_ems_menu() {
+  $items = array();
+
+  $items['admin/store/settings/quotes/methods/ems'] = array(
+    'title' => 'EMS quote',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('uc_ems_admin_settings'),
+    'access arguments' => array('configure quotes'),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'uc_ems.admin.inc',
+  );
+
+  return $items;
+}
+
+/**
+ * Implementation of hook_shipping_method().
+ */
+function uc_ems_shipping_method() {
+  $enabled = variable_get('uc_quote_enabled', array());
+  $methods = array(
+    'ems' => array(
+      'id' => 'ems',
+      'module' => 'uc_ems',
+      'title' => 'EMS',
+      'quote' => array(
+        'type' => 'small_package',
+        'callback' => 'uc_ems_quote',
+        'accessorials' => array(t('EMS Russian Post')),
+      ),
+      'enabled' => $enabled['ems'],
+      'weight' => 0,
+    ),
+  );
+
+  return $methods;
+}
+
+function _ems_get_points($type = 'regions') {
+  if ($type != 'regions' && $type != 'cities') return FALSE;
+
+  if ($c = cache_get('ems_' . $type)) {
+    return $c->data;
+  }
+
+   $r = drupal_http_request('http://emspost.ru/api/rest/?method=ems.get.locations&type='.$type.'&plain=true');
+    if ($r->code == 200) {
+      $o = json_decode($r->data);
+      $ems_russia = $o->rsp->locations;
+    }
+
+   $zones = array();
+
+   foreach ($ems_russia as $p) {
+      $zones[drupal_strtolower($p->name)] = $p->value;
+   }
+
+   cache_set('ems_' . $type, $zones);
+
+   return $zones;
+}
+
+
+function _ems_cleanup_city($city) {
+  $w = variable_get('uc_ems_city_cleanup', '');
+  if ($w) {
+    $w = explode('|', $w);
+    foreach ($w as $remove) {
+      $city = str_replace($remove, '', $city);
+    }
+  }
+  $city = trim($city);
+
+  return $city;
+}
+
+function _uc_ems_get_address($addr) {
+  // EMS and Ubercart .cif addresses contain different region names
+
+  $ems_unique_regions = array(
+    'SE' => 'Республика Сев.Осетия-Алания', // Республика Северная Осетия-Алания
+    'KAM' => 'Камчатский край', // Камчатская область
+    'CHI' => 'Забайкальский край', // Читинская область
+    'YEV' => 'Еврейская АО', // Еврейская автономная область
+    'AGB' => 'Забайкальский край', // Агинский Бурятский автономный округ
+    'KOR' => 'Камчатский край', // Корякский автономный округ
+    'NEN' => 'Ненецкий АО', // Ненецкий автономный округ
+    'UOB' => 'Иркутская область', // Усть-Ордынский Бурятский автономный округ
+    'KHM' => 'Ханты-Мансийский АО', //  Ханты-Мансийский автономный округ - Югра
+    'CHU' => 'Чукотский АО', // Чукотский автономный округ
+    'YAN' => 'Ямало-Ненецкий АО', // Ямало-Ненецкий автономный округ
+  );
+
+  if (!$addr['country']) return FALSE;
+
+  $addr['city'] = trim(drupal_strtolower($addr['city']));
+
+  // Russia
+  if ($addr['country'] == 643) {
+    $z = db_fetch_array(db_query("SELECT zone_name, zone_code FROM {uc_zones} WHERE zone_id = %d LIMIT 1", $addr['zone']));
+
+    if (!$ems_unique_regions[$z['zone_code']]) {
+      $zone_name = $z['zone_name'];
+    } else {
+      $zone_name = $ems_unique_regions[$z['zone_code']];
+    }
+    $zone_name = drupal_strtolower($zone_name);
+
+    // Moscow is (always) a special case!
+    // override city name to ensure that EMS can find the city in its db
+    if ($z['zone_code'] == 'MOW') {
+      $addr['city'] = 'москва';
+    }
+    // for Spb
+    if ($z['zone_code'] == 'SPE') {
+      $addr['city'] = 'санкт-петербург';
+    }
+
+    $ems_zones = _ems_get_points('regions');
+    $ems_cities = _ems_get_points('cities');
+
+    if($ems_cities[$addr['city']]) {
+      // direct city mapping was succesfull
+      $ret = $ems_cities[$addr['city']];
+    } else {
+
+      // try to cleanup city and map to EMS addresses again
+      $addr['city'] = _ems_cleanup_city($addr['city']);
+      if ($ems_cities[$addr['city']]) {
+        $ret = $ems_cities[$addr['city']];
+      } else {
+        // if fails, map to region
+        $ret = $ems_zones[$zone_name];
+      }
+    }
+
+  } else {
+    $ret = db_result(db_query("SELECT country_iso_code_2 FROM {uc_countries} WHERE country_id=%d LIMIT 1", $addr['country']));
+  }
+
+  return $ret;
+}
+
+function uc_ems_quote($products, $details, $method) {
+  $total_weight = 0;
+  $default_weight = variable_get('uc_ems_default_weight', 0);
+
+  foreach ($products as $product) {
+    $weight = ($product->weight * $product->qty * uc_weight_conversion($product->weight_units, 'kg'));
+    if (!$weight && $default_weight) {
+      $weight = $default_weight * $product->qty;
+    }
+    $total_weight += $weight;
+  }
+
+  $total_weight = round($total_weight, 2);
+  $store_default_addr = (array) variable_get('uc_quote_store_default_address', new stdClass());
+
+  $from = _uc_ems_get_address($store_default_addr);
+  if (!$from) {
+    watchdog('ems', 'No EMS pickup address specified', array(), WATCHDOG_ERROR);
+    return array();
+  }
+
+  if (!$details['country']) {
+    $details['country'] = $store_default_addr['country'];
+  }
+
+  $to = _uc_ems_get_address($details);
+
+  $reply = drupal_http_request('http://emspost.ru/api/rest?method=ems.calculate&from='. $from .'&to='. $to .'&weight=' . $total_weight . '&type=att');
+
+  if ($reply->code == 200) {
+    $ems_result = json_decode($reply->data);
+    $ems_result = $ems_result->rsp;
+  } else {
+    $ems_result = new StdClass();
+    $fixed = variable_get('uc_ems_fixed_price', 0);
+    if ($fixed) {
+      $ems_result->price = $fixed;
+    } else {
+      // return no quotes for EMS
+      drupal_set_message(t('EMS website is down, so we can\'t calculate the delivery price. Try to call us. Sorry for the inconvenience!'), 'error');
+      return array();
+    }
+  }
+
+  if ($ems_result->stat == 'fail') {
+    watchdog('ems', $ems_result->err->msg, array(), WATCHDOG_ERROR);
+    return array();
+  }
+
+
+  $img = '<img src="/'. drupal_get_path('module', 'uc_ems') . '/ems-icon.png' .'" />';
+  if ($reply->code == 200) {
+    $option_label = $img . t('EMS Russian Post');
+    $term_min = $ems_result->term->min + 1; // Adding 1 day to delivery time
+    $term_max = $ems_result->term->max + 1; // so shop can prepare and send order
+    $option_label .= '<span class="uc-ems-delivery-time"> (' . $term_min . '-' . format_plural($term_max, '1 day', '@count days') . ')</span>';
+
+  } else {
+    $option_label = $img . t('EMS Russian Post: <span style="color:red">no connection to EMS website</span>, fixed price');
+  }
+
+  $context = array(
+    'revision' => 'altered',
+    'type' => 'amount',
+  );
+
+  $extra_charge = (int) variable_get('uc_ems_extra_charge', 0);
+
+  // Extra charge not added if request failed, as in that case fixed price
+  // can be used
+  if ($extra_charge && ($reply->code == 200)) {
+    $charge_type = variable_get('uc_ems_extra_charge_type', 'percent');
+    if ($charge_type == 'percent') {
+      $ems_result->price += ($ems_result->price * 0.01 * $extra_charge);
+    } else {
+      // fixed amount
+      $ems_result->price += $extra_charge;
+    }
+  }
+
+  $insurance = variable_get('uc_ems_insurance', TRUE);
+
+  // Insurance is not added if request to EMS failed, too
+  if ($insurance && ($reply->code == 200)) {
+    $subtotal = 0;
+    foreach ($products as $item) {
+
+      $price_info = array(
+        'price' => $item->price,
+        'qty' => $item->qty,
+      );
+
+      $context['revision'] = 'altered';
+      $context['type'] = 'cart_item';
+      $context['subject'] = array(
+        'cart' => $contents,
+        'cart_item' => $item,
+        'node' => node_load($item->nid),
+      );
+
+
+      $subtotal += uc_price($price_info, $context);
+    }
+
+    $ems_result->price += $subtotal * 0.01;
+  }
+
+  $ems_result->price = ceil($ems_result->price);
+
+  $altered = uc_price($ems_result->price, $context);
+  $context['revision'] = 'formatted';
+  $formatted = uc_price($ems_result->price, $context);
+
+  $quotes[] = array(
+    'rate' => $ems_result->price,
+    'format' => $formatted,
+    'option_label' => $option_label,
+  );
+
+  return $quotes;
+}
+
+
+/**
+ * Implementation of hook_ca_predicate().
+ *
+ * Connect the UPS quote action and event.
+ */
+function uc_ems_ca_predicate() {
+  $enabled = variable_get('uc_quote_enabled', array());
+
+  $predicates = array(
+    'uc_ems_get_quote' => array(
+      '#title' => t('Shipping quote from EMS'),
+      '#trigger' => 'get_quote_from_ems',
+      '#class' => 'uc_ems',
+      '#status' => $enabled['ems'],
+      '#actions' => array(
+        array(
+          '#name' => 'uc_quote_action_get_quote',
+          '#title' => t('Fetch a shipping quote'),
+          '#argument_map' => array(
+            'order' => 'order',
+            'method' => 'method',
+          ),
+        ),
+      ),
+    ),
+  );
+
+  return $predicates;
+}
+
+// Legacy code to make module work with PHP versions < 5.2
+if (!function_exists('json_decode')){
+function json_decode($json)
+{
+  $comment = false;
+  $out = '$x=';
+
+  for ($i=0; $i<strlen($json); $i++)
+  {
+    if (!$comment)
+    {
+      if ($json[$i] == '{')        $out .= ' array(';
+      else if ($json[$i] == '}')    $out .= ')';
+      else if ($json[$i] == ':')    $out .= '=>';
+      else                         $out .= $json[$i];
+    }
+    else $out .= $json[$i];
+    if ($json[$i] == '"') $comment = !$comment;
+  }
+  eval($out . ';');
+  return $x;
+}
+}

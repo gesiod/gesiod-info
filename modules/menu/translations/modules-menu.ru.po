@@ -1,0 +1,390 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from files:
+#  menu.module,v 1.157.2.6 2009/04/27 12:50:13 goba
+#  menu.admin.inc,v 1.26.2.4 2009/02/25 13:15:40 goba
+#  menu.install,v 1.9.2.1 2009/01/06 15:46:37 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2008-06-27 13:39+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/menu/menu.module:28
+msgid ""
+"Enter the name for your new menu. Remember to enable the newly created block "
+"in the <a href=\"@blocks\">blocks administration page</a>."
+msgstr ""
+"Введите название вашего нового меню. Не забудьте потом включить новый блок "
+"на странице <a href=\"@blocks\">управление блоками</a>."
+
+#: modules/menu/menu.module:48
+msgid "Menus"
+msgstr "Меню"
+
+#: modules/menu/menu.module:49
+msgid ""
+"Control your site's navigation menu, primary links and secondary links. as "
+"well as rename and reorganize menu items."
+msgstr ""
+"Управление навигационным меню вашего сайта, основными и дополнительными "
+"ссылками. Например, переименование или упорядочивание пунктов меню."
+
+#: modules/menu/menu.module:120
+msgid "Edit menu item"
+msgstr "Изменить пункт меню"
+
+#: modules/menu/menu.module:128
+msgid "Reset menu item"
+msgstr "Сбросить пункт меню"
+
+#: modules/menu/menu.module:136
+msgid "Delete menu item"
+msgstr "Удалить пункт меню"
+
+#: modules/menu/menu.module:63
+msgid "Add menu"
+msgstr "Добавить меню"
+
+#: modules/menu/menu.module:104
+msgid "Edit menu"
+msgstr "Изменить меню"
+
+#: modules/menu/menu.module:112
+msgid "Delete menu"
+msgstr "Удалить меню"
+
+#: modules/menu/menu.admin.inc:289
+msgid "The description displayed when hovering over a menu item."
+msgstr "Описание, появляющееся при наведении курсора на пункт меню."
+
+#: modules/menu/menu.admin.inc:616
+msgid "No primary links"
+msgstr "Нет основных ссылок"
+
+#: modules/menu/menu.admin.inc:626
+msgid "No secondary links"
+msgstr "Нет дополнительных ссылок"
+
+#: modules/menu/menu.admin.inc:260
+msgid ""
+"The path this menu item links to. This can be an internal Drupal path such "
+"as %add-node or an external URL such as %drupal. Enter %front to link to the "
+"front page."
+msgstr ""
+"Путь на который ссылается этот пункт меню. Это может быть внутренний путь "
+"сайта, как %add-node или внешний адрес, как %drupal. Используйте %front для "
+"ссылки на главную страницу сайта."
+
+#: modules/menu/menu.admin.inc:177,299
+msgid "Expanded"
+msgstr "Развернутый"
+
+#: modules/menu/menu.admin.inc:301
+msgid ""
+"If selected and this menu item has children, the menu will always appear "
+"expanded."
+msgstr ""
+"Если отмечено и этот пункт меню имеет дочернее меню, то меню будет всегда "
+"развёрнуто."
+
+#: modules/menu/menu.admin.inc:564
+msgid "Are you sure you want to delete the custom menu item %item?"
+msgstr "Вы уверены, что хотите удалить установленный пункт меню %item?"
+
+#: modules/menu/menu.admin.inc:574
+msgid "The menu item %title has been deleted."
+msgstr "Пункт меню %title удален."
+
+#: modules/menu/menu.admin.inc:575
+msgid "Deleted menu item %title."
+msgstr "Удален пункт меню %title."
+
+#: modules/menu/menu.admin.inc:584
+msgid "Are you sure you want to reset the item %item to its default values?"
+msgstr "Вы действительно хотите сбросить пункт %item к значениям по умолчанию?"
+
+#: modules/menu/menu.admin.inc:584
+msgid "Any customizations will be lost. This action cannot be undone."
+msgstr "Все изменения будут потеряны. Это действие не может быть отменено."
+
+#: modules/menu/menu.admin.inc:593
+msgid "The menu item was reset to its default settings."
+msgstr "Пункт меню сброшен к настройкам по умолчанию."
+
+#: modules/menu/menu.admin.inc:175
+msgid "Menu item"
+msgstr "Пункт меню"
+
+#: modules/menu/menu.module:96
+msgid "Add item"
+msgstr "Добавьте пункт"
+
+#: modules/menu/menu.module:40
+msgid "administer menu"
+msgstr "управлять меню"
+
+#: modules/menu/menu.admin.inc:281
+msgid ""
+"The link text corresponding to this item that should appear in the menu."
+msgstr "Текст ссылки, соответствующий этому пункту в меню."
+
+#: modules/menu/menu.admin.inc:403
+msgid "Menu name"
+msgstr "Имя меню"
+
+#: modules/menu/menu.admin.inc:460
+msgid "Are you sure you want to delete the custom menu %title?"
+msgstr "Вы уверены, что хотите удалить пользовательское меню %title?"
+
+#: modules/menu/menu.admin.inc:492
+msgid "The custom menu %title has been deleted."
+msgstr "Пользовательское меню %title было удалено."
+
+#: modules/menu/menu.admin.inc:502
+msgid ""
+"The menu name may only consist of lowercase letters, numbers, and hyphens."
+msgstr "Имя меню может быть только из строчных букв, цифр и дефиса."
+
+#: modules/menu/menu.admin.inc:512
+msgid "The menu already exists."
+msgstr "Меню уже существует."
+
+#: modules/menu/menu.admin.inc:603
+msgid ""
+"The menu module allows on-the-fly creation of menu links in the content "
+"authoring forms. The following option sets the default menu in which a new "
+"link will be added."
+msgstr ""
+"Модуль Menu позволяет создавать пункты меню «на лету» прямо из формы "
+"добавления материала. Данные параметры устанавливают меню по умолчанию, в "
+"котором будут создаваться новые ссылки."
+
+#: modules/menu/menu.admin.inc:609
+msgid "Default menu for content"
+msgstr "Меню по умолчанию для содержимого"
+
+#: modules/menu/menu.admin.inc:612
+msgid ""
+"Choose the menu to be the default in the menu options in the content "
+"authoring form."
+msgstr ""
+"Выберите меню, которое будет показываться по умолчанию при выборе меню в "
+"форме редактирования контента."
+
+#: modules/menu/menu.admin.inc:629
+msgid "Source for the secondary links"
+msgstr "Источник для secondary links"
+
+#: modules/menu/menu.admin.inc:493
+msgid "Deleted custom menu %title and all its menu items."
+msgstr "Удалить пользовательское меню %title и все его пункты."
+
+#: modules/menu/menu.admin.inc:457
+msgid ""
+"<strong>Warning:</strong> There is currently 1 menu item in %title. It will "
+"be deleted (system-defined items will be reset)."
+msgid_plural ""
+"<strong>Warning:</strong> There are currently @count menu items in %title. "
+"They will be deleted (system-defined items will be reset)."
+msgstr[0] ""
+"<strong> Предупреждение:</strong>: В %title в настоящий момент имеется 1 "
+"пункт меню. Он будет удален (настройки системных элементов будут сброшены)."
+msgstr[1] ""
+"Предупреждение:</strong>: В %title в настоящий момент имеются @count пункта "
+"меню. Они будут удалены (настройки системных элементов будут сброшены)."
+msgstr[2] ""
+"Предупреждение:</strong>: В %title в настоящий момент имеются @count пунктов "
+"меню. Они будут удалены (настройки системных элементов будут сброшены)."
+
+#: modules/menu/menu.admin.inc:505
+msgid "The menu name can't be longer than 1 character."
+msgid_plural "The menu name can't be longer than @count characters."
+msgstr[0] "Пункт меню не может быть длиннее 1 символа."
+msgstr[1] "Пункт меню не может быть длиннее @count символов."
+msgstr[2] ""
+
+#: modules/menu/menu.module:381
+msgid "Delete this menu item."
+msgstr "Удалить этот пункт меню."
+
+#: modules/menu/menu.module:396
+msgid ""
+"The link text corresponding to this item that should appear in the menu. "
+"Leave blank if you do not wish to add this post to the menu."
+msgstr ""
+"Текст ссылки, соответствующий этому пункту в меню. Оставьте пустым если не "
+"хотите добавлять эту страницу в меню."
+
+#: modules/menu/menu.module:57
+msgid "List menus"
+msgstr "Список меню"
+
+#: modules/menu/menu.module:80
+msgid "Customize menu"
+msgstr "Настройка меню"
+
+#: modules/menu/menu.module:90
+msgid "List items"
+msgstr "Список пунктов"
+
+#: modules/menu/menu.admin.inc:104
+msgid "reset"
+msgstr "сбросить"
+
+#: modules/menu/menu.admin.inc:54
+msgid "There are no menu items yet."
+msgstr "Пока еще нет пунктов меню."
+
+#: modules/menu/menu.admin.inc:405
+msgid ""
+"The machine-readable name of this menu. This text will be used for "
+"constructing the URL of the <em>menu overview</em> page for this menu. This "
+"name must contain only lowercase letters, numbers, and hyphens, and must be "
+"unique."
+msgstr ""
+"Машинное имя этого меню. Эта строка будет использоваться при конструировании "
+"адреса страницы <em>обзор меню</em> для этого меню. Это имя может содержать "
+"лишь строчные буквы, цифры и дефис, а также должно быть уникальным."
+
+#: modules/menu/menu.admin.inc:295
+msgid "Menu items that are not enabled will not be listed in any menu."
+msgstr "Выключенные пункты не будут показаны ни в одном меню."
+
+#: modules/menu/menu.module:21
+msgid ""
+"The menu module provides an interface to control and customize Drupal's "
+"powerful menu system. Menus are a hierarchical collection of links, or menu "
+"items, used to navigate a website, and are positioned and displayed using "
+"Drupal's flexible block system. By default, three menus are created during "
+"installation: <em>Navigation</em>, <em>Primary links</em>, and <em>Secondary "
+"links</em>. The <em>Navigation</em> menu contains most links necessary for "
+"working with and navigating your site, and is often displayed in either the "
+"left or right sidebar. Most Drupal themes also provide support for "
+"<em>Primary links</em> and <em>Secondary links</em>, by displaying them in "
+"either the header or footer of each page. By default, <em>Primary links</em> "
+"and <em>Secondary links</em> contain no menu items but may be configured to "
+"contain custom menu items specific to your site."
+msgstr ""
+"Модуль меню предоставляет интерфейс для контроля и настройки мощной системы "
+"меню Drupal. Меню — это иерархические коллекции ссылок, или пунктов меню, "
+"используемые для навигации по сайту и отображаемые при помощи гибкой системы "
+"блоков. По умолчанию, во время установки создаётся три меню: <em>Навигация</"
+"em>, <em>Основные ссылки</em> и <em>Дополнительные ссылки</em>. Меню "
+"<em>Навигация</em> содержит большинство ссылок, необходимых для работы и "
+"навигации по сайту, и часто отображается в левой или правой колонке. "
+"Большинство тем оформления Drupal также поддерживают <em>Основные ссылки</"
+"em> и <em>Дополнительные ссылки</em>, показывая их в заголовке или в подвале "
+"каждой страницы. По умолчанию, меню <em>Основные ссылки</em> и "
+"<em>Дополнительные ссылки</em> не содержат никаких пунктов, но они могут "
+"быть настроены на содержание любых пунктов меню для вашего сайта."
+
+#: modules/menu/menu.module:22
+msgid ""
+"The <a href=\"@menu\">menus page</a> displays all menus currently available "
+"on your site. Select a menu from this list to add or edit a menu item, or to "
+"rearrange items within the menu. Create new menus using the <a href=\"@add-"
+"menu\">add menu page</a> (the block containing a new menu must also be "
+"enabled on the <a href=\"@blocks\">blocks administration page</a>)."
+msgstr ""
+"<a href=\"@menu\">Страница меню</a> показывает все меню вашего сайта. "
+"Выберите меню из этого списка для добавления или редактирования пунктов "
+"меню, или для смены порядка их следования внутри меню. Создайте новое меню, "
+"используя страницу <a href=\"@add-menu\">Добавить меню</a> (блок, содержащий "
+"новое меню, должен быть включён на странице <a href=\"@blocks\">Управления "
+"блоками</a>)."
+
+#: modules/menu/menu.module:23
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@menu"
+"\">Menu module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью <a "
+"href=\"@menu\">Menu module</a>."
+
+#: modules/menu/menu.module:26
+msgid ""
+"Menus are a collection of links (menu items) used to navigate a website. The "
+"menus currently available on your site are displayed below. Select a menu "
+"from this list to manage its menu items."
+msgstr ""
+"Меню — это набор ссылок (пунктов меню), используемых для навигации по сайту. "
+"Меню, которые сейчас доступны для вашего сайта, показаны ниже. Выберите меню "
+"из этого списка для управления его содержимым."
+
+#: modules/menu/menu.module:30
+msgid ""
+"To rearrange menu items, grab a drag-and-drop handle under the <em>Menu "
+"item</em> column and drag the items (or group of items) to a new location in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save configuration</em> button at the bottom of the page."
+msgstr ""
+"Для перераспределения пунктов меню, схватите мышкой указатель в колонке "
+"<em>Пункт меню</em> и перетащите пункт (или группу пунктов) в новое место "
+"списка. (Схватите указатель, кликнув на нём мышкой и, удерживая клавишу "
+"мышки зажатой, перетаскивайте указатель). Помните, что сделанные изменения "
+"не сохранятся до тех пор, пока вы не нажмете кнопку <em>Сохранить настройки</"
+"em> внизу страницы."
+
+#: modules/menu/menu.module:32
+msgid "Enter the title and path for your new menu item."
+msgstr "Введите название и путь вашего нового пункта меню."
+
+#: modules/menu/menu.install:12
+msgid ""
+"The navigation menu is provided by Drupal and is the main interactive menu "
+"for any site. It is usually the only menu that contains personalized links "
+"for authenticated users, and is often not even visible to anonymous users."
+msgstr ""
+"Навигационное меню автоматически создаётся Drupal и служит главным "
+"интерактивным меню для любого сайта. Обычно это единственное меню, которое "
+"содержит личные ссылки для авторизованных пользователей, оно часто скрыто от "
+"анонимных посетителей."
+
+#: modules/menu/menu.install:13
+msgid ""
+"Primary links are often used at the theme layer to show the major sections "
+"of a site. A typical representation for primary links would be tabs along "
+"the top."
+msgstr ""
+"Основные ссылки часто используются на уровне тем оформления для показа "
+"главных разделов сайта. Типичным вариантом таких ссылок может быть ряд "
+"вкладок сверху страницы."
+
+#: modules/menu/menu.install:14
+msgid ""
+"Secondary links are often used for pages like legal notices, contact "
+"details, and other secondary navigation items that play a lesser role than "
+"primary links"
+msgstr ""
+"Дополнительные ссылки часто используются для страниц наподобие контактной "
+"информации, условий пользования и других вторичных пунктов меню, которые не "
+"так важны как основные ссылки."
+
+#: modules/menu/menu.admin.inc:619
+msgid "Source for the primary links"
+msgstr "Источник для primary links"
+
+#: modules/menu/menu.admin.inc:623
+msgid "Select what should be displayed as the primary links."
+msgstr "Выберите, что отображать в качестве основных ссылок."
+
+#: modules/menu/menu.admin.inc:633
+msgid ""
+"Select what should be displayed as the secondary links. You can choose the "
+"same menu for secondary links as for primary links (currently %primary). If "
+"you do this, the children of the active primary menu link will be displayed "
+"as secondary links."
+msgstr ""
+"Выберите, что отображать в качестве дополнительных ссылок. Вы можете выбрать "
+"то же меню, что и для основных ссылок (сейчас это %primary). Тогда дочерние "
+"пункты основного меню будут показаны в качестве дополнительных ссылок (в "
+"этом меню)."

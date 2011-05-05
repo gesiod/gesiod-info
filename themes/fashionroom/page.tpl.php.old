@@ -1,0 +1,82 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>">
+
+<head>
+  <title><?php print $head_title; ?></title>
+  <?php print $head; ?>
+  <?php print $styles; ?>
+  <?php print $scripts; ?>
+
+<!--[if lte IE 6]>
+<style>
+.block, .whiteblock, .dialog {
+    position: absolute;
+}
+</style>
+<![endif]--></head>
+<body class="wk <?php print $classes; ?>">
+<div id="body" style="min-height: 300px; ">
+<div id="stripe"></div>
+<div id="header" class="has_search">
+    <table cellpadding="0" cellspacing="0" border="0" id="nav" width="99%">
+        <tbody><tr>
+            <td valign="top" width="315"><?php if ($logo): ?>
+        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
+      <?php endif; ?></td>
+            <td valign="top" style="white-space:nowrap">
+                <?php if ($primary_links): ?>
+    <div id="skip-link"><a href="#main-menu"><?php print t('Jump to Navigation'); ?></a></div>
+  <?php endif; ?>
+            </td>
+            <td align="right" width="1%" id="header_search">
+                <?php if ($search_box): ?>
+        <div id="search-box"><?php print $search_box; ?></div>
+      <?php endif; ?>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"><?php print $header; ?></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">      
+
+      <?php if ($left): ?>
+        <div id="sidebar-left" class="sidebar">
+          <?php if ($search_box): ?><div class="block block-theme"><?php print $search_box ?></div><?php endif; ?>
+          <?php print $left ?>
+        </div>
+      <?php endif; ?>
+
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <?php print $breadcrumb; ?>
+          <?php if ($mission): print '<div id="mission">'. $mission .'</div>'; endif; ?>
+          <?php if ($tabs): print '<div id="tabs-wrapper" class="clear-block">'; endif; ?>
+          <?php if ($title): print '<h2'. ($tabs ? ' class="with-tabs"' : '') .'>'. $title .'</h2>'; endif; ?>
+          <?php if ($tabs): print '<ul class="tabs primary">'. $tabs .'</ul></div>'; endif; ?>
+          <?php if ($tabs2): print '<ul class="tabs secondary">'. $tabs2 .'</ul>'; endif; ?>
+          <?php if ($show_messages && $messages): print $messages; endif; ?>
+          <?php print $help; ?>
+          <div class="clear-block">
+            <?php print $content ?>
+          </div>
+          <?php print $feed_icons ?>
+          <div id="footer"><?php print $footer_message . $footer ?></div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      <?php if ($right): ?>
+        <div id="sidebar-right" class="sidebar">
+          <?php if (!$left && $search_box): ?><div class="block block-theme"><?php print $search_box ?></div><?php endif; ?>
+          <?php print $right ?>
+        </div>
+      <?php endif; ?>
+
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+</div> <!-- /container -->
+  </div>
+  <?php print $closure; ?>
+</body></html>

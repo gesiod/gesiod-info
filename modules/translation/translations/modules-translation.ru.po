@@ -1,0 +1,243 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from files:
+#  translation.pages.inc,v 1.2.2.1 2008/09/30 10:50:43 goba
+#  translation.module,v 1.23.2.4 2009/01/14 23:34:07 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2008-08-30 17:55+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/translation/translation.pages.inc:52
+msgid "Not translated"
+msgstr "Не переведено"
+
+#: modules/translation/translation.pages.inc:41
+msgid "outdated"
+msgstr "устарелый"
+
+#: modules/translation/translation.pages.inc:50
+msgid "add translation"
+msgstr "добавить перевод"
+
+#: modules/translation/translation.pages.inc:57
+msgid "Translations of %title"
+msgstr "Перевод %title"
+
+#: modules/translation/translation.module:48
+msgid ""
+"Translations of a piece of content are managed with translation sets. Each "
+"translation set has one source post and any number of translations in any of "
+"the <a href=\"!languages\">enabled languages</a>. All translations are "
+"tracked to be up to date or outdated based on whether the source post was "
+"modified significantly."
+msgstr ""
+"Переводы части содержимого управляются наборами перевода. Каждый набор "
+"перевода имеет одно исходное сообщение и любое число переводов на любом из "
+"<a href=\"!languages\">допустимых языков</a>. Все переводы отслеживаются и "
+"рассматриваются как современные или устаревшие исходя из того, было ли "
+"исходное сообщение значительно изменено."
+
+#: modules/translation/translation.module:99
+msgid "Enabled, with translation"
+msgstr "Включено, с переводом"
+
+#: modules/translation/translation.module:101
+msgid ""
+"Enable multilingual support for this content type. If enabled, a language "
+"selection field will be added to the editing form, allowing you to select "
+"from one of the <a href=\"!languages\">enabled languages</a>. You can also "
+"turn on translation for this content type, which lets you have content "
+"translated to any of the enabled languages. If disabled, new posts are saved "
+"with the default language. Existing content will not be affected by changing "
+"this option."
+msgstr ""
+"Включает поддержку нескольких языков для этого типа материала. Если "
+"включено, к форме редактирования будет добавлено поле выбора языка, "
+"позволяющее выбрать один из <a href=\"!languages\">доступных языков</a>. Вы "
+"также можете включить опцию перевода для этого типа материала, что позволит "
+"вам иметь переведённое на любой из доступных языков содержимое. Если "
+"отключено, новые сообщения сохраняются с языком по умолчанию. На "
+"существующее содержимое эта опция не оказывает влияния."
+
+#: modules/translation/translation.module:124
+msgid "Translation settings"
+msgstr "Настройки перевода"
+
+#: modules/translation/translation.module:135
+msgid "Flag translations as outdated"
+msgstr "Отмечает переводы как устаревшие"
+
+#: modules/translation/translation.module:137
+msgid ""
+"If you made a significant change, which means translations should be "
+"updated, you can flag all translations of this post as outdated. This will "
+"not change any other property of those posts, like whether they are "
+"published or not."
+msgstr ""
+"Если Вы внесли существенное изменение, требующее обновления перевода, то Вы "
+"можете пометить все переводы этого сообщения как устаревшие. Это не изменит "
+"никакого другого свойства тех сообщений, как то, были ли они опубликованы "
+"или нет."
+
+#: modules/translation/translation.module:144
+msgid "This translation needs to be updated"
+msgstr "Данный перевод необходимо обновить."
+
+#: modules/translation/translation.module:146
+msgid ""
+"When this option is checked, this translation needs to be updated because "
+"the source post has changed. Uncheck when the translation is up to date "
+"again."
+msgstr ""
+"Если эта опция включена, то данный перевод должен быть обновлен, потому что "
+"исходное сообщение изменилось. Снимите отметку, если перевод стал "
+"современным."
+
+#: modules/translation/translation.module:86
+msgid "translate content"
+msgstr "переводить материалы"
+
+#: modules/translation/translation.module:59
+msgid "Translate"
+msgstr "Переводы"
+
+#: modules/translation/translation.module:35
+msgid "Configuring content translation and translation-enabled content types:"
+msgstr ""
+"Конфигурирование перевода содержимого и типы содержимого, поддерживающие "
+"перевод:"
+
+#: modules/translation/translation.module:36
+msgid ""
+"Assign the <em>translate content</em> permission to the appropriate user "
+"roles at the <a href=\"@permissions\">Permissions configuration page</a>."
+msgstr ""
+"Присвойте право доступа к <em>переводу содержимого</em> соответствующим "
+"ролям пользователей на <a href=\"@permissions\">Странице настройки "
+"разрешений доступа</a>."
+
+#: modules/translation/translation.module:37
+msgid ""
+"Add and enable desired languages at the <a href=\"@languages\">Languages "
+"configuration page</a>."
+msgstr ""
+"Добавьте и включите  желаемый язык на <a href=\"@languages\">Странице "
+"настройки языков</a>."
+
+#: modules/translation/translation.module:38
+msgid ""
+"Determine which <a href=\"@content-types\">content types</a> should support "
+"translation features. To enable translation support for a content type, edit "
+"the type and at the <em>Multilingual support</em> drop down, select "
+"<em>Enabled, with translation</em>. (<em>Multilingual support</em> is "
+"located within <em>Workflow settings</em>.) Be sure to save each content "
+"type after enabling multilingual support."
+msgstr ""
+"Определите, какие <a href=\"@content-types\">типы содержимого</a> будут "
+"поддерживать возможность перевода. Для разрешения поддержки перевода тому "
+"или иному типу содержимого, отредактируйте этот тип, и на раскрывающемся "
+"меню <em>Многоязычная поддержка</em> выберите <em>Разрешена, с переводом</"
+"em>. (меню <em>Многоязычная поддержка</em> расположено внутри <em>Настройка "
+"параметров выполняемых процессов</em>). Убедитесь, что после включения "
+"многоязычной поддержки сохранили все типы содержимого."
+
+#: modules/translation/translation.module:39
+msgid "Working with translation-enabled content types:"
+msgstr "Работа с поддерживающими перевод типами содержимого:"
+
+#: modules/translation/translation.module:40
+msgid ""
+"Use the <em>Language</em> drop down to select the appropriate language when "
+"creating or editing posts."
+msgstr ""
+"Используйте выпадающий список <em>Язык</em>, чтобы выбрать подходящий язык "
+"когда создаёте или редактируете материалы."
+
+#: modules/translation/translation.module:41
+msgid ""
+"Provide new or edit current translations for existing posts via the "
+"<em>Translation</em> tab. Only visible while viewing a post as a user with "
+"the <em>translate content</em> permission, this tab allows translations to "
+"be added or edited using a specialized editing form that also displays the "
+"content being translated."
+msgstr ""
+"Предоставляйте новый или отредактируйте текущий перевод для существующих "
+"сообщений через вкладку <em>Перевод</em>. Эта вкладка, видимая только при "
+"просмотре сообщения в качестве пользователя с правом доступа к функции "
+"<em>перевести содержимое</em>, позволяет добавить или отредактировать "
+"перевод, используя специальную форму для редактирования, в которой "
+"отражается также переводимое содержимое."
+
+#: modules/translation/translation.module:42
+msgid ""
+"Update translations as needed, so that they accurately reflect changes in "
+"the content of the original post. The translation status flag provides a "
+"simple method for tracking outdated translations. After editing a post, for "
+"example, select the <em>Flag translations as outdated</em> check box to mark "
+"all of its translations as outdated and in need of revision. Individual "
+"translations may be marked for revision by selecting the <em>This "
+"translation needs to be updated</em> check box on the translation editing "
+"form."
+msgstr ""
+"Обновляйте переводы при необходимости, так, чтобы они точно отражали "
+"изменения в содержимом оригинального сообщения. Флаг состояния перевода "
+"является простым методом проверки того, не устарел ли перевод. После "
+"редактирования сообщения, например, выберите опцию <em>Отметить переводы как "
+"устаревшие</em>, чтобы пометить все его переводы как устаревшие и требующие "
+"редактирования. Отдельные переводы могут быть отмечены для редактирования "
+"выбором опции <em>Этот перевод нуждается в обновлении</em> на форме "
+"редактирования переводов."
+
+#: modules/translation/translation.module:43
+msgid ""
+"The <a href=\"@content-node\">Content management administration page</a> "
+"displays the language of each post, and also allows filtering by language or "
+"translation status."
+msgstr ""
+"<a href=\"@content-node\">Страница регулирования управления содержимым</a> "
+"отображает язык каждого сообщения, а также позволяет фильтровать сообщения "
+"по языку или статусу перевода."
+
+#: modules/translation/translation.module:34
+msgid ""
+"The content translation module allows content to be translated into "
+"different languages. Working with the <a href=\"@locale\">locale module</a> "
+"(which manages enabled languages and provides translation for the site "
+"interface), the content translation module is key to creating and "
+"maintaining translated site content."
+msgstr ""
+"Модуль для перевода контента  на различные языки. Работая с модулем <A href="
+"\"@locale\">locale модуль</A> (который позволяет активировать языки, а также "
+"управляет переводом интерфейса сайта на низ) этот модуль является ключом для "
+"создания и поддержки перевода сайта на различные языки."
+
+#: modules/translation/translation.module:45
+msgid ""
+"For more information, see the online handbook entry for <a href="
+"\"@translation\">Translation module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью  <a "
+"href=\"@translation\">Translation module</a>."
+
+#: modules/translation/translation.module:44
+msgid ""
+"Use the <a href=\"@blocks\">language switcher block</a> provided by locale "
+"module to allow users to select a language. If available, both the site "
+"interface and site content are presented in the language selected."
+msgstr ""
+"Использование <a href=\"@blocks\">блока переключения языка</a> позволяет "
+"пользователям используя модуль locale выбирать язык. Если доступно, "
+"интерфейс сайта и содержимое может быть представлено на выбранном языке."
+
+#: modules/translation/translation.pages.inc:43
+msgid "<strong>@language_name</strong> (source)"
+msgstr "<strong>@language_name</strong> (источник)"

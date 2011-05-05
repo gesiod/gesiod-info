@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="uc_views.views.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views.views_default.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_cart_user.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_conditional_addtocart.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_conditional_buyitnow.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_country.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_money_amount.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_order_actions.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_order_balance.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_order_cc_data.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_order_cost.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_order_fullname.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_order_id.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_order_status.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_order_weight.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_field_zone.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_filter_cart_current.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_filter_country.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_filter_payment_method.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_handler_filter_zone.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="uc_views_plugin_row_invoice_view.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+<file name="views_handler_filter_order_status.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386830200000000" remote="129386830200000000" />
+</dwsync>

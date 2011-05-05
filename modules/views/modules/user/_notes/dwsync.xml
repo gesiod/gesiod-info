@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="views_handler_argument_user_uid.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_argument_users_roles_rid.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_user.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_user_language.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_user_link.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_user_link_delete.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_user_link_edit.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_user_mail.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_user_name.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_user_picture.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_field_user_roles.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_filter_user_current.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_filter_user_name.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_handler_filter_user_roles.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_plugin_argument_default_current_user.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_plugin_argument_default_user.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+<file name="views_plugin_argument_validate_user.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386832600000000" remote="129386832600000000" />
+</dwsync>

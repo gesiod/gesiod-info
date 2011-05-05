@@ -1,0 +1,390 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from files:
+#  book.module,v 1.454.2.6 2009/02/25 11:47:37 goba
+#  book.pages.inc,v 1.5.2.1 2008/08/13 23:59:13 drumm
+#  book-navigation.tpl.php,v 1.1 2007/11/04 14:29:09 goba
+#  book.admin.inc,v 1.8.2.3 2008/10/22 19:26:01 goba
+#  book.install,v 1.20.2.1 2009/01/06 15:46:36 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2009-05-04 17:12+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/book/book.module:64
+msgid "Printer-friendly version"
+msgstr "Страница для печати"
+
+#: modules/book/book.module:66
+msgid "Show a printer-friendly version of this book page and its sub-pages."
+msgstr ""
+"Показать версию этой подшивки со всеми дочерними страницами в виде, удобном "
+"для печати."
+
+#: modules/book/book.module:79,108
+msgid "Books"
+msgstr "Подшивки"
+
+#: modules/book/book.module:122
+msgid "Outline"
+msgstr "Оглавление"
+
+#: modules/book/book.module:180,189
+msgid "Book navigation"
+msgstr "Навигация по подшивке"
+
+#: modules/book/book.module:391
+msgid "Pages at a given level are ordered first by weight and then by title."
+msgstr ""
+"Страницы на каждом уровне сортируются сначала по весу, затем по заголовку."
+
+#: modules/book/book.pages.inc:126
+msgid "Update book outline"
+msgstr "Обновить оглавление подшивки"
+
+#: modules/book/book.pages.inc:132
+msgid "Remove from book outline"
+msgstr "Удалить из оглавления подшивки"
+
+#: modules/book/book.pages.inc:126
+msgid "Add to book outline"
+msgstr "Добавить в оглавление подшивки"
+
+#: modules/book/book.pages.inc:173
+msgid "The book outline has been updated."
+msgstr "Схема подшивки обновлена."
+
+#: modules/book/book.pages.inc:213
+msgid "The post has been removed from the book."
+msgstr "Материал удален из подшивки."
+
+#: modules/book/book-navigation.tpl.php:40
+msgid "‹ "
+msgstr "‹ "
+
+#: modules/book/book-navigation.tpl.php:43
+msgid "up"
+msgstr "Вверх"
+
+#: modules/book/book-navigation.tpl.php:43
+msgid "Go to parent page"
+msgstr "Перейти к родительской странице"
+
+#: modules/book/book-navigation.tpl.php:46
+msgid " ›"
+msgstr " ›"
+
+#: modules/book/book.pages.inc:52
+msgid "Unknown export format."
+msgstr "Неизвестный формат экспорта."
+
+#: modules/book/book.admin.inc:78
+msgid "Save book pages"
+msgstr "Сохранить страницы подшивки"
+
+#: modules/book/book.admin.inc:135
+msgid "Updated book %title."
+msgstr "Обновлена подшивка %title."
+
+#: modules/book/book.module:1008
+msgid ""
+"Users can select the <em>printer-friendly version</em> link visible at the "
+"bottom of a book page to generate a printer-friendly display of the page and "
+"all of its subsections. "
+msgstr ""
+"Пользователи могут выбирать ссылку на <em>версию для печати</em>, "
+"размещаемую внизу страницы подшивки, для того, чтобы просмотреть версию для "
+"печати самой страницы и всех ее частей. "
+
+#: modules/book/book.module:43
+msgid "create new books"
+msgstr "создавать новые подшивки"
+
+#: modules/book/book.pages.inc:199
+msgid "Remove"
+msgstr "Удалить"
+
+#: modules/book/book.admin.inc:33
+msgid "Allowed book outline types"
+msgstr "Разрешенные в подшивке типы материалов"
+
+#: modules/book/book.admin.inc:36
+msgid ""
+"Select content types which users with the %add-perm permission will be "
+"allowed to add to the book hierarchy. Users with the %outline-perm "
+"permission can add all content types."
+msgstr ""
+"Выберите типы материала, которые пользователи с правом %add-perm могут "
+"добавлять в подшивки. Пользователи с правом %outline-perm могут добавлять "
+"любые типы материалов."
+
+#: modules/book/book.admin.inc:41
+msgid "Default child page type"
+msgstr "Тип дочерней страницы по умолчанию"
+
+#: modules/book/book.admin.inc:44,60
+msgid ""
+"The content type for the %add-child link must be one of those selected as an "
+"allowed book outline type."
+msgstr ""
+"Тип материала для ссылки %add-child должен быть одним из выбранных в "
+"качестве разрешенных."
+
+#: modules/book/book.admin.inc:128
+msgid "Title changed from %original to %current."
+msgstr "Заголовок изменен с  %original на %current."
+
+#: modules/book/book.admin.inc:130
+msgid "book: updated %title."
+msgstr "книга: обновлена %title."
+
+#: modules/book/book.pages.inc:160
+msgid "No changes were made"
+msgstr "Изменений не было сделано"
+
+#: modules/book/book.pages.inc:169
+msgid ""
+"The post has been added to the selected book. You may now position it "
+"relative to other pages."
+msgstr ""
+"Ваш материал был добавлен в выбранную книгу. Вы можете теперь указать его "
+"позицию относительно других страниц."
+
+#: modules/book/book.pages.inc:177
+msgid "There was an error adding the post to the book."
+msgstr "Во время добавления вашего материалы в книгу была обнаружена ошибка."
+
+#: modules/book/book.pages.inc:193
+msgid ""
+"%title has associated child pages, which will be relocated automatically to "
+"maintain their connection to the book. To recreate the hierarchy (as it was "
+"before removing this page), %title may be added again using the Outline tab, "
+"and each of its former child pages will need to be relocated manually."
+msgstr ""
+"%title имеет связанные дочерние страницы, которые будут автоматически "
+"перемещены для сохранения их соединения с подшивкой. Для создания иерархии "
+"заново (в том виде, который она имела до удаления этой страницы), %title "
+"можно добавить вновь, используя вкладку Outline, а каждую из ее прежних "
+"дочерних страниц следует переместить вручную."
+
+#: modules/book/book.pages.inc:196
+msgid "%title may be added to hierarchy again using the Outline tab."
+msgstr "%title может быть вновь добавлен к иерархии на вкладке «Оглавление­»."
+
+#: modules/book/book.pages.inc:199
+msgid "Are you sure you want to remove %title from the book hierarchy?"
+msgstr "Вы уверены, что хотите удалить %title из иерархии книг?"
+
+#: modules/book/book.module:223
+msgid "Show block on all pages"
+msgstr "Отображать блок на всех страницах"
+
+#: modules/book/book.module:224
+msgid "Show block only on book pages"
+msgstr "Отображать блок только на страницах подшивок"
+
+#: modules/book/book.module:228
+msgid "Book navigation block display"
+msgstr "Показ блока навигации по книге"
+
+#: modules/book/book.module:302
+msgid "Change book (update list of parents)"
+msgstr "Изменить книгу (обновить список его родителей)"
+
+#: modules/book/book.module:337
+msgid "This is the top-level page in this book."
+msgstr "Это самая верхняя страница в этой книге."
+
+#: modules/book/book.module:340
+msgid "This will be the top-level page in this book."
+msgstr "Это будет самая верхняя страница в этой книге."
+
+#: modules/book/book.module:344
+msgid "No book selected."
+msgstr "Ни одна подшивка не выбрана."
+
+#: modules/book/book.module:369
+msgid "Book outline"
+msgstr "Оглавление подшивки"
+
+#: modules/book/book.module:408
+msgid "create a new book"
+msgstr "Создать новую подшивку"
+
+#: modules/book/book.module:422
+msgid "Your page will be a part of the selected book."
+msgstr "Ваша страница будет частью выбранной книги."
+
+#: modules/book/book.module:763
+msgid ""
+"%title is part of a book outline, and has associated child pages. If you "
+"proceed with deletion, the child pages will be relocated automatically."
+msgstr ""
+"%title является частью структуры \"подшивки\" и имеет дочерние связанные "
+"страницы.  Если вы удалите этот элемент, дочерние страницы будут "
+"автоматически перемещены."
+
+#: modules/book/book.module:1016
+msgid ""
+"The outline feature allows you to include posts in the <a href=\"@book"
+"\">book hierarchy</a>, as well as move them within the hierarchy or to <a "
+"href=\"@book-admin\">reorder an entire book</a>."
+msgstr ""
+"Эта способность схемы позволяет Вам включать сообщения в <a href=\"@book"
+"\">book hierarchy</a>, а также перемещать их в пределах иерархии или на <a "
+"href=\"@book-admin\">reorder an entire book</a>."
+
+#: modules/book/book.module:43
+msgid "access printer-friendly version"
+msgstr "смотреть версию для печати"
+
+#: modules/book/book.module:80
+msgid "Manage your site's book outlines."
+msgstr "Управление подшивками на сайте и потерянными страницами подшивок."
+
+#: modules/book/book.module:99
+msgid "Re-order book pages and change titles"
+msgstr "Восстановление порядка страниц книги и изменение названий"
+
+#: modules/book/book.module:132
+msgid "Remove from outline"
+msgstr "Убрать из огрлавления"
+
+#: modules/book/book.module:1014
+msgid ""
+"The book module offers a means to organize a collection of related posts, "
+"collectively known as a book. When viewed, these posts automatically display "
+"links to adjacent book pages, providing a simple navigation system for "
+"creating and reviewing structured content."
+msgstr ""
+"Модуль Book позволяет создавать коллекцию связанных сообщений, "
+"представленных в виде подшивки. При просмотре, эти сообщения автоматически "
+"отображают ссылки на соседние страницы подшивки, предоставляя простую "
+"навигационную систему для структурирования содержимого."
+
+#: modules/book/book.install:31
+msgid ""
+"A <em>book page</em> is a page of content, organized into a collection of "
+"related entries collectively known as a <em>book</em>. A <em>book page</em> "
+"automatically displays links to adjacent pages, providing a simple "
+"navigation system for organizing and reviewing structured content."
+msgstr ""
+"<em>Страница подшивки</em> — это страница, содержащая организованные в "
+"коллекции взаимосвязанные записи, называемые <em>подшивкой</em>. "
+"<em>Страница подшивки</em> автоматичеси отображает ссылки на связанные "
+"страницы, создавая тем самым простую навигационную систему для организации и "
+"просмотра структурированного содержания."
+
+#: modules/book/book.install:29
+msgid "Book page"
+msgstr "Страница подшивки"
+
+#: modules/book/book.admin.inc:15
+msgid "edit order and titles"
+msgstr "изменить порядок и наименования"
+
+#: modules/book/book.module:231
+msgid ""
+"If <em>Show block on all pages</em> is selected, the block will contain the "
+"automatically generated menus for all of the site's books. If <em>Show block "
+"only on book pages</em> is selected, the block will contain only the one "
+"menu corresponding to the current page's book. In this case, if the current "
+"page is not in a book, no block will be displayed. The <em>Page specific "
+"visibility settings</em> or other visibility settings can be used in "
+"addition to selectively display this block."
+msgstr ""
+"Если будет выбрана опция <em>Показывать блок на всех страницах</em>, то блок "
+"будет содержать автоматически сгенерированные меню для всех подшивок этого "
+"сайта. Если будет выбрана опция <em>Показывать блок только на страницах "
+"подшивки</em>, то блок будет содержать только одно меню, соответствующее "
+"подшивке текущей страницы. В этом случае, если текущая страница не будет в "
+"подшивке, то блок отражаться не будет. Дополнительно можно использовать "
+"<em>Специфичные для страницы настройки видимости</em> или другие параметры "
+"настройки видимости для выборочного отображения данного блока."
+
+#: modules/book/book.module:351
+msgid ""
+"The parent page in the book. The maximum depth for a book and all child "
+"pages is !maxdepth. Some pages in the selected book may not be available as "
+"parents if selecting them would exceed this limit."
+msgstr ""
+"Родительская страница в книге. Максимальная глубина для книги и всех "
+"дочерних страниц равна !maxdepth. Некоторые страницы выбранной книги могут "
+"быть недоступны в качестве родительских, если их выбор превысит этот предел."
+
+#: modules/book/book.module:1006
+msgid ""
+"The book module is suited for creating structured, multi-page hypertexts "
+"such as site resource guides, manuals, and Frequently Asked Questions "
+"(FAQs). It permits a document to have chapters, sections, subsections, etc. "
+"Authors with suitable permissions can add pages to a collaborative book, "
+"placing them into the existing document by adding them to a table of "
+"contents menu."
+msgstr ""
+"Модуль подшивка предназначен для создания структурированных многостраничных "
+"гипертекстов, таких как справочники по сайтам, руководства и ЧАстые ВОпросы "
+"(FAQ). Подшивки допускают наличие в документе глав, секций, подразделов и т."
+"д. Авторы с соответствующими полномочиями могут добавлять страницы к общей "
+"подшивке, помещать их в существующий документ, добавляя в меню оглавления."
+
+#: modules/book/book.module:1007
+msgid ""
+"Pages in the book hierarchy have navigation elements at the bottom of the "
+"page for moving through the text. These links lead to the previous and next "
+"pages in the book, and to the level above the current page in the book's "
+"structure. More comprehensive navigation may be provided by enabling the "
+"<em>book navigation block</em> on the <a href=\"@admin-block\">blocks "
+"administration page</a>."
+msgstr ""
+"У страниц в иерархии подшивок имеются элементы навигации внизу страницы для "
+"того, чтобы перемещаться по тексту. Эти ссылки ведут к предыдущим и "
+"последующим страницам подшивки и на уровень выше текущей страницы в "
+"структуре подшивки. Можно добиться более эффективной навигации, включив the "
+"<em>блок навигации по подшивке</em> на <a href=\"@admin-block\">странице "
+"управления блоками</a>."
+
+#: modules/book/book.module:1009
+msgid ""
+"Users with the <em>administer book outlines</em> permission can add a post "
+"of any content type to a book, by selecting the appropriate book while "
+"editing the post or by using the interface available on the post's "
+"<em>outline</em> tab."
+msgstr ""
+"Пользователи с доступом к <em>администрированию структуры \"подшивки\"</em> "
+"могут добавлять сообщения любого типа содержимого в \"подшивку\" выбирая "
+"подходящую книгу во время редактирования сообщения либо используя интерфейс "
+"доступный на закладке <em>структуры</em> сообщения."
+
+#: modules/book/book.module:1010
+msgid ""
+"Administrators can view a list of all books on the <a href=\"@admin-node-book"
+"\">book administration page</a>. The <em>Outline</em> page for each book "
+"allows section titles to be edited or rearranged."
+msgstr ""
+"Администраторы могут видеть список всех книг на <a href=\"@admin-node-book"
+"\">странице администрирования \"подшивки\"</a>. <em>Структура</em> страницы "
+"каждой книги предоставляет набор заголовков для редактирования или "
+"перегруппировки."
+
+#: modules/book/book.module:1011
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@book"
+"\">Book module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью <a "
+"href=\"@book\">Book module</a>."
+
+#: modules/book/book.admin.inc:90
+msgid ""
+"This book has been modified by another user, the changes could not be saved."
+msgstr ""
+"Эта подшивка была изменена другим пользователем, ваши изменения не могут "
+"быть сохранены."

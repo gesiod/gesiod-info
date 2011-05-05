@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="actions.inc" server="ftp.gesiod-info.1gb.ua/http/" local="79563878340163208" remote="129386817000000000" />
+<file name="batch.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="bootstrap.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129399800400000000" remote="129399800400000000" />
+<file name="bootstrap.inc.old" server="ftp.gesiod-info.1gb.ua/http/" local="129398998800000000" remote="129398998800000000" />
+<file name="cache-install.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="cache.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="common.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="database.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="database.mysql-common.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="database.mysql.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="database.mysqli.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="database.pgsql.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="file.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="form.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="image.gd.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="image.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="install.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="install.mysql.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="install.mysqli.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="install.pgsql.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="language.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="locale.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="lock.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="mail.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="menu.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="module.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="pager.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="path.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="session.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="tablesort.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="theme.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="theme.maintenance.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="unicode.entities.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="unicode.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129400188600000000" remote="129400188600000000" />
+<file name="xmlrpc.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+<file name="xmlrpcs.inc" server="ftp.gesiod-info.1gb.ua/http/" local="129386817000000000" remote="129386817000000000" />
+</dwsync>

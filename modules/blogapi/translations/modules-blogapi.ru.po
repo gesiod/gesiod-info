@@ -1,0 +1,291 @@
+# Russian translation of drupal (6.11)
+# Copyright (c) 2009 by the Russian translation team
+# Generated from file: blogapi.module,v 1.115.2.5 2008/10/08 20:12:17 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.11)\n"
+"POT-Creation-Date: 2009-05-04 18:03+0400\n"
+"PO-Revision-Date: 2008-08-30 18:01+0400\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: modules/blogapi/blogapi.module:44
+msgid "Returns information about an author in the system."
+msgstr "Возвращает информацию об авторе в системе."
+
+#: modules/blogapi/blogapi.module:49,74
+msgid "Creates a new post, and optionally publishes it."
+msgstr "Создает новую публикацию и, если необходимо, публикует."
+
+#: modules/blogapi/blogapi.module:54
+msgid "Updates the information about an existing post."
+msgstr "Обновляет информацию о существующей публикации."
+
+#: modules/blogapi/blogapi.module:59,84
+msgid "Returns information about a specific post."
+msgstr "Возвращает информацию о конкретной публикации."
+
+#: modules/blogapi/blogapi.module:64
+msgid "Deletes a post."
+msgstr "Удаляет материал."
+
+#: modules/blogapi/blogapi.module:69,99
+msgid "Returns a list of the most recent posts in the system."
+msgstr "Возвращает список последних публикаций в системе."
+
+#: modules/blogapi/blogapi.module:79
+msgid "Updates information about an existing post."
+msgstr "Обновляет информацию о существующей публикации."
+
+#: modules/blogapi/blogapi.module:89
+msgid "Uploads a file to your webserver."
+msgstr "Закачивает файлы на ваш сервер."
+
+#: modules/blogapi/blogapi.module:94,114
+msgid "Returns a list of all categories to which the post is assigned."
+msgstr "Возвращает список всех категорий, в которые входит эта публикация."
+
+#: modules/blogapi/blogapi.module:104
+msgid ""
+"Returns a bandwidth-friendly list of the most recent posts in the system."
+msgstr "Возвращает компактный список последних публикаций в системе."
+
+#: modules/blogapi/blogapi.module:119
+msgid "Sets the categories for a post."
+msgstr "Назначает категории для публикации."
+
+#: modules/blogapi/blogapi.module:124
+msgid "Retrieve information about the XML-RPC methods supported by the server."
+msgstr "Получить информацию о методах XML-RPC, поддерживаемых сервером."
+
+#: modules/blogapi/blogapi.module:129
+msgid ""
+"Retrieve information about the text formatting plugins supported by the "
+"server."
+msgstr ""
+"Получить информацию о плагинах форматирования текста, поддерживаемых "
+"сервером."
+
+#: modules/blogapi/blogapi.module:238
+msgid "@type: added %title using blog API."
+msgstr "@type: добавлен %title с использованием API блогов."
+
+#: modules/blogapi/blogapi.module:243,304
+msgid "Error storing post."
+msgstr "Ошибка сохранения материала."
+
+#: modules/blogapi/blogapi.module:265,644
+msgid "You do not have permission to update this post."
+msgstr "Вы не имеете прав доступа к обновлению этого материала."
+
+#: modules/blogapi/blogapi.module:456
+msgid "No file sent."
+msgstr "Файл не отправлен."
+
+#: modules/blogapi/blogapi.module:460
+msgid "Error storing file."
+msgstr "Ошибка сохранения файла."
+
+#: modules/blogapi/blogapi.module:635
+msgid "Invalid post."
+msgstr "Неверный материал."
+
+#: modules/blogapi/blogapi.module:684
+msgid "Wrong username or password."
+msgstr "Неверное имя пользователя или пароль."
+
+#: modules/blogapi/blogapi.module:815,794
+msgid "RSD"
+msgstr "RSD"
+
+#: modules/blogapi/blogapi.module:738
+msgid "The default maximum file size a user can upload."
+msgstr "Максимальный размер загружаемого файла по умолчанию."
+
+#: modules/blogapi/blogapi.module:777
+msgid "The maximum size of a file a user can upload (in megabytes)."
+msgstr ""
+"Максимальный размер загружаемого файла, который может загрузить пользователь "
+"(в мегабайтах)."
+
+#: modules/blogapi/blogapi.module:785
+msgid ""
+"The maximum size of all files a user can have on the site (in megabytes)."
+msgstr ""
+"Максимальный размер всех файлов, которые пользователь может разместить на "
+"сайте (в MB)."
+
+#: modules/blogapi/blogapi.module:720
+msgid "File settings"
+msgstr "Настройки файла"
+
+#: modules/blogapi/blogapi.module:16
+msgid ""
+"<a href=\"@ecto-link\">Ecto</a>, a blogging client available for both Mac OS "
+"X and Microsoft Windows, can be used with Blog API. Blog API also supports "
+"<a href=\"@blogger-api\">Blogger API</a>, <a href=\"@metaweblog-api"
+"\">MetaWeblog API</a>, and most of the <a href=\"@movabletype-api\">Movable "
+"Type API</a>. Blogging clients and other services (e.g. <a href=\"@flickr"
+"\">Flickr's</a> \"post to blog\") that support these APIs may also be "
+"compatible."
+msgstr ""
+"<a href=\"@ecto-link\">Ecto</a>, блоггинг-клиент, доступный как для Mac OS "
+"X, так и для Microsoft Windows, может использоваться с Blog API. Blog API "
+"поддерживает также <a href=\"@blogger-api\">Blogger API</a>, <a href="
+"\"@metaweblog-api\">MetaWeblog API</a> и большую часть <a href="
+"\"@movabletype-api\">Movable Type API</a>. Также Blog API может быть "
+"совместим и с некоторыми другими блоггинг-клиентами и службами (например, "
+"служба \"post to blog\" <a href=\"@flickr\">Flickr'а</a>), поддерживающими "
+"эти API."
+
+#: modules/blogapi/blogapi.module:17
+msgid ""
+"Select the content types available to external clients on the <a href="
+"\"@blogapi-settings\">Blog API settings page</a>. If supported and "
+"available, each content type will be displayed as a separate \"blog\" by the "
+"external client."
+msgstr ""
+"Выберите типы содержимого доступные через внешние клиенты на <a href="
+"\"@blogapi-settings\">странице настроек Blog API</a>. Если поддерживается и "
+"доступнен, каждый тип содержимого будет показан в виде отдельного \"блога\" "
+"во внешнем клиенте."
+
+#: modules/blogapi/blogapi.module:39
+msgid "Returns a list of blogs to which an author has posting privileges."
+msgstr "Отображает список блогов, которые автор имеет право редактировать."
+
+#: modules/blogapi/blogapi.module:109
+msgid "Returns a list of all categories defined in the blog."
+msgstr "Вернуть список всех категорий, определенных в блоге."
+
+#: modules/blogapi/blogapi.module:134
+msgid ""
+"Publish (rebuild) all of the static files related to an entry from your "
+"blog. Equivalent to saving an entry in the system (but without the ping)."
+msgstr ""
+"Публикует (перестраивает) все статические файлы, связанные с записью с "
+"Вашего блога. Эквивалентно сохранению записи в системе (но без ping)."
+
+#: modules/blogapi/blogapi.module:216
+msgid "You do not have permission to create this type of post."
+msgstr "У вас нет разрешения для создания этого типа сообщения."
+
+#: modules/blogapi/blogapi.module:680
+msgid "You do not have permission to edit this blog."
+msgstr "У вас нет разрешения для редактирования этого блога."
+
+#: modules/blogapi/blogapi.module:707
+msgid "Enable for external blogging clients"
+msgstr "Разрешить внешние блоггинг клиенты"
+
+#: modules/blogapi/blogapi.module:711
+msgid ""
+"Select the content types available to external blogging clients via Blog "
+"API. If supported, each enabled content type will be displayed as a separate "
+"\"blog\" by the external client."
+msgstr ""
+"Выберите типы содержимого доступные для внешних блоговых клиентов через Blog "
+"API. Если поддерживается, каждый включенный тип содержимого будет показан в "
+"виде отдельного \"блога\" во внешнем клиенте."
+
+#: modules/blogapi/blogapi.module:300
+msgid "@type: updated %title using Blog API."
+msgstr "@type: %title обновлено, используя Blog API"
+
+#: modules/blogapi/blogapi.module:801
+msgid "Configure the content types available to external blogging clients."
+msgstr "Настройка типов содержимого доступных для внешних блоговых клиентов."
+
+#: modules/blogapi/blogapi.module:15
+msgid ""
+"The Blog API module allows your site's users to access and post to their "
+"blogs from external blogging clients. External blogging clients are "
+"available for a wide range of desktop operating systems, and generally "
+"provide a feature-rich graphical environment for creating and editing posts."
+msgstr ""
+"Модуль Blog API позволяет пользователям Вашего сайта получать доступ и "
+"размещать сообщения на своих блогах с внешних клиентов блоггинга. Внешние "
+"клиенты блоггинга имеются во многих операционных системах, и обычно "
+"предоставляют графическую среду с богатым набором средств для создания и "
+"редактирования сообщений."
+
+#: modules/blogapi/blogapi.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@blogapi"
+"\">Blog API module</a>."
+msgstr ""
+"Для дополнительной информации, смотрите в онлайновом руководстве статью <a "
+"href=\"@blogapi\">Blog API module</a>."
+
+#: modules/blogapi/blogapi.module:27
+msgid "administer content with blog api"
+msgstr "управлять содержимым через API для блогов"
+
+#: modules/blogapi/blogapi.module:933
+msgid ""
+"Blog API module is not configured to support the %type content type, or you "
+"don't have sufficient permissions to post this type of content."
+msgstr ""
+"Модуль Blog API не настроен для поддержки типа содержимого %type либо у вас "
+"нет достаточных полномочий опубликовывать содержимое данного типа."
+
+#: modules/blogapi/blogapi.module:426
+msgid ""
+"It is not possible to upload the file, because it exceeded the maximum "
+"filesize of @maxsize."
+msgstr ""
+"Файл не может быть прикреплен к материалу, потому что размер файла "
+"превышает  <strong>@maxsize</strong>."
+
+#: modules/blogapi/blogapi.module:430
+msgid ""
+"The file can not be attached to this post, because the disk quota of @quota "
+"has been reached."
+msgstr ""
+"Файл не может быть прикреплен к материалу, потому что дисковая квота "
+"<strong>@quota</strong> достигнута."
+
+#: modules/blogapi/blogapi.module:446
+msgid ""
+"It is not possible to upload the file, because it is only possible to upload "
+"files with the following extensions: @extensions"
+msgstr ""
+"Невозможно выгрузить файл, так как разрешена выгрузка файлов только со "
+"следующими расширениями: <strong>@extensions</strong>"
+
+#: modules/blogapi/blogapi.module:338
+msgid ""
+"You do not have permission to publish this type of post. Please save it as a "
+"draft instead."
+msgstr ""
+"У вас нет разрешения на публикацию этого типа сообщения. Пожалуйста, "
+"сохраните его как черновик."
+
+#: modules/blogapi/blogapi.module:341
+msgid ""
+"You do not have permission to save this post as a draft. Please publish it "
+"instead."
+msgstr ""
+"Вы не имеете разрешения не сохранения сообщения как черновик, Пожалуйста, "
+"опубликуйте его."
+
+#: modules/blogapi/blogapi.module:584
+msgid "Invalid categories submitted."
+msgstr "Отправлены не верные категории."
+
+#: modules/blogapi/blogapi.module:593
+msgid "A category from the @vocabulary_name vocabulary is required."
+msgstr "Категория из словаря @vocabulary_name обязательна."
+
+#: modules/blogapi/blogapi.module:597
+msgid "You may only choose one category from the @vocabulary_name vocabulary."
+msgstr "Вы можите выбрать одну категорию для словаря @vocabulary_name."
+
+#: modules/blogapi/blogapi.module:602
+msgid "Error saving categories. This feature is not available."
+msgstr "Ошибка при сохранении категорий. Эта функция не доступна."
